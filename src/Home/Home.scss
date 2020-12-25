@@ -1,0 +1,17 @@
+.profile-img-section {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile-img {
+    height: 50vh;
+    border: solid white 20px;
+    box-shadow: 5px 6px 16px black;
+    cursor: pointer;
+}
+
+.profile-img:active {
+    transform: scale(1.05);
+}

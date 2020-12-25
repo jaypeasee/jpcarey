@@ -4,8 +4,6 @@
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
-    width: 70%;
-    width: 100vw;
     padding: 2%;
     display: flex;
     justify-content: space-around;
@@ -14,6 +12,7 @@
     width: 80vw;
     border-radius: 8px;
     font-family: 'Signika Negative', sans-serif;
+    margin: 3% 0;
 }
 
 .nav-intro {
@@ -46,6 +45,7 @@
 .nav-logo {
     height: 125px;
     align-self: center;
+    cursor: pointer;
 }
 
 .nav-btn {
