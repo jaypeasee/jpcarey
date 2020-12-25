@@ -1,6 +1,9 @@
 import React, {Component} from 'react'
 import logo from '../images/logo.png'
 import './NavBar.scss'
+import UIfx from 'uifx'
+import btnClick from '../Sounds/btnClick.mp3'
+import btnTick from '../Sounds/btnTick.mp3'
 
 class NavBar extends Component {
     constructor() {
@@ -26,6 +29,12 @@ class NavBar extends Component {
             ],
             currentDescription: "he/him/his"
         }
+        this.tick = new UIfx(btnTick, {
+            volume: .1
+        })
+        this.click = new UIfx(btnClick, {
+            volume: .1
+        })
     }
 
     componentDidMount() {
@@ -53,14 +62,29 @@ class NavBar extends Component {
                     src={logo}
                     alt="Jp's Logo and Initials"
                     className="nav-logo"
+                    onMouseOver={() => this.tick.play()}
+                    onClick={() => this.click.play()}
                 />
                 <div className="nav-btn-container">
-                    <button className="nav-btn">Contact</button>
-                    <button className="nav-btn"
+                    <button 
+                        className="nav-btn"
+                        onMouseOver={() => this.tick.play()}
+                        onClick={() => this.click.play()}
+                    >Contact</button>
+                    <button 
+                        className="nav-btn"
+                        onMouseOver={() => this.tick.play()}
+                        onClick={() => this.click.play()}
                     >Resume</button>
-                    <button className="nav-btn"
+                    <button 
+                        className="nav-btn"
+                        onMouseOver={() => this.tick.play()}
+                        onClick={() => this.click.play()}
                     >Photos</button>
-                    <button className="nav-btn"
+                    <button 
+                        className="nav-btn"
+                        onMouseOver={() => this.tick.play()}
+                        onClick={() => this.click.play()}
                     >Music</button>
                 </div>
             </nav>

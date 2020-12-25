@@ -14,6 +14,9 @@ import severnRiver from '../images/severnRiver.jpg'
 import westKelly from '../images/westKelly.jpg'
 import bigKahuna from '../images/bigKahuna.JPG'
 import ftowStradle from '../images/ftowStradle.jpg'
+import UIfx from 'uifx'
+import btnClick from '../Sounds/btnClick.mp3'
+
 
 class Home extends Component {
     constructor() {
@@ -37,6 +40,9 @@ class Home extends Component {
             ],
             currentProfilePic: "",
         }
+        this.click = new UIfx(btnClick, {
+            volume: .1
+        })
     }
 
     componentDidMount() {
@@ -44,6 +50,9 @@ class Home extends Component {
     }
 
     updateRandomProfileImg = () => {
+        if (this.state.currentProfilePic) {
+            this.click.play();
+        }
         if (!this.state.allProfilePics.length) {
             this.resetImgList()
         } else {
