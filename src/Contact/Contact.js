@@ -7,6 +7,7 @@ import gmail from '../images/gmail.png'
 import UIfx from 'uifx'
 import btnClick from '../Sounds/btnClick.mp3'
 import btnTick from '../Sounds/btnTick.mp3'
+import thumbTack from '../images/thumbTack.png'
 
 
 const Contact = () => {
@@ -21,6 +22,16 @@ const Contact = () => {
         <section className="contact-section">
             <div className="contact-board">
                 <section className="contact-card">
+                    <div className="board-pins-top">
+                        <img 
+                            src={thumbTack}
+                            className={"board-pin"}
+                        />
+                        <img 
+                            src={thumbTack}
+                            className={"board-pin"}
+                        />
+                    </div>
                     <h2>Reach Out!</h2>
                         <a
                             href="mailto:jpcarey4@gmail.com"
@@ -86,6 +97,16 @@ const Contact = () => {
                             />
                             <p className="contact-link-txt">Instagram</p>
                         </a>
+                        <div className="board-pins-top">
+                        <img 
+                            src={thumbTack}
+                            className={"board-pin"}
+                        />
+                        <img 
+                            src={thumbTack}
+                            className={"board-pin"}
+                        />
+                    </div>
                 </section> 
             </div>
         </section>

@@ -11,9 +11,14 @@ import yurtSkinning from '../images/yurtSkinning.jpeg'
 import tetonsBackside from '../images/tetonsBackside.jpeg'
 import frontPage from '../images/frontPage.jpeg'
 import severnRiver from '../images/severnRiver.jpg'
-import westKelly from '../images/westKelly.jpg'
 import bigKahuna from '../images/bigKahuna.JPG'
 import ftowStradle from '../images/ftowStradle.jpg'
+import feelGood from '../images/feelGood.jpg'
+import severnMars from '../images/severnMars.jpg'
+import windigoCar from '../images/windigoCar.jpg'
+import japanVan from '../images/japanVan.jpeg'
+import furanoSkin from '../images/furanoSkin.JPG'
+import topoDuo from '../images/topoDuo.JPG'
 import UIfx from 'uifx'
 import btnClick from '../Sounds/btnClick.mp3'
 
@@ -34,9 +39,14 @@ class Home extends Component {
                 tetonsBackside,
                 frontPage,
                 severnRiver,
-                westKelly,
                 bigKahuna,
-                ftowStradle
+                ftowStradle,
+                feelGood,
+                severnMars,
+                windigoCar,
+                topoDuo,
+                furanoSkin,
+                japanVan
             ],
             currentProfilePic: "",
         }
@@ -81,9 +91,14 @@ class Home extends Component {
                 tetonsBackside,
                 frontPage,
                 severnRiver,
-                westKelly,
                 bigKahuna,
-                ftowStradle
+                ftowStradle,
+                feelGood,
+                severnMars,
+                windigoCar,
+                topoDuo,
+                furanoSkin,
+                japanVan
             ],
         })
     }

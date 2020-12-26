@@ -65,11 +65,15 @@ class NavBar extends Component {
                     <h2>{this.state.currentDescription}</h2>
                     <h3>currently living in Jackson, Wyoming</h3>
                 </div>
-                    <img 
-                        src={logo}
-                        alt="Jp's Logo and Initials"
-                        className="nav-logo"
-                    />
+                    <NavLink to="/">
+                        <img 
+                            src={logo}
+                            alt="Jp's Logo and Initials"
+                            className="nav-logo"
+                            onMouseOver={() => this.tick.play()}
+                            onClick={() => this.handleNavClick("home")}
+                        />
+                    </NavLink>
                 <div className="nav-btn-container">
                     {!home && <NavLink
                         to="/"

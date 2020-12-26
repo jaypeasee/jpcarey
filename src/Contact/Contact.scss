@@ -31,6 +31,7 @@
 .contact-card h2 {
     text-align: center;
     text-decoration: underline wavy;
+    margin-top: 0;
 }
 
 .contact-rows {
@@ -51,7 +52,21 @@
     flex-basis: 100px;
 }
 
+.icon-anchor-combo:hover{
+    transform: scale(1.02)
+}
+
 .contact-link-txt {
     color: #0E1760;
     text-decoration: underline #0E1760;
+}
+
+.board-pin {
+    height: 50px;
+}
+
+.board-pins-top {
+    display: flex;
+    justify-content: space-between;
+    margin: 1% 2% 0 0;
 }

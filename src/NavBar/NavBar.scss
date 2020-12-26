@@ -47,6 +47,10 @@
     align-self: center;
 }
 
+.nav-logo:hover {
+    transform: scale(1.1);
+}
+
 .nav-btn {
     border-radius: 10px;
     border: #0E1760 solid .5px;
