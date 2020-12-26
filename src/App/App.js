@@ -2,6 +2,7 @@ import React, {Component} from 'react'
 import './App.scss';
 import NavBar from '../NavBar/NavBar'
 import Home from '../Home/Home'
+import Contact from '../Contact/Contact'
 import { Route, Switch } from 'react-router-dom'
 
 class App extends Component {
@@ -48,6 +49,15 @@ class App extends Component {
                     <Home/>
                 )
               }}
+          />
+          <Route 
+            exact
+            path="/contact"
+            render={() => {
+              return (
+                <Contact />
+              )
+            }}
           />
         </Switch>
       </React.Fragment>
