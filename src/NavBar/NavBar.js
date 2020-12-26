@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import logo from '../images/logo.png'
+import logo from './logo.png'
 import './NavBar.scss'
 import UIfx from 'uifx'
 import btnClick from '../Sounds/btnClick.mp3'
@@ -25,8 +25,6 @@ class NavBar extends Component {
                 "Harry Potter nerd",
                 "cooking enthusiast",
                 "canoe tripper",
-                "rollerblader",
-                "software developer"
             ],
             currentDescription: "he/him/his"
         }

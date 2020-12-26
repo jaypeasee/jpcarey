@@ -3,6 +3,7 @@ import './App.scss';
 import NavBar from '../NavBar/NavBar'
 import Home from '../Home/Home'
 import Contact from '../Contact/Contact'
+import Resume from '../Resume/Resume'
 import { Route, Switch } from 'react-router-dom'
 
 class App extends Component {
@@ -56,6 +57,15 @@ class App extends Component {
             render={() => {
               return (
                 <Contact />
+              )
+            }}
+          />
+          <Route 
+            exact
+            path="/resume"
+            render={() => {
+              return (
+                <Resume />
               )
             }}
           />

@@ -1,0 +1,28 @@
+.resume-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Signika Negative',sans-serif;
+    color: #fffdd0;
+}
+
+.resume-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #0E1760;
+    width: 70%;
+    padding-bottom: 5%;
+    box-shadow: 11px 12px 13px black;
+    border-radius: 10px;
+    margin-top: 3%;
+}
+
+.resume-pdf {
+    height: 100vh;
+    width: 80%;
+}
+
+.resume-section h2 {
+    font-size: 2em;
+}
