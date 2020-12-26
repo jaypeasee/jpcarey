@@ -45,24 +45,26 @@
 .nav-logo {
     height: 125px;
     align-self: center;
-    cursor: pointer;
-}
-
-.nav-logo:hover {
-    transform: scale(1.1);
 }
 
 .nav-btn {
-    width: 40%;
-    margin: 2%;
-    padding: 3%;
-    cursor: pointer;
     border-radius: 10px;
     border: #0E1760 solid .5px;
     color: #0E1760;
     background-color: #fffdd0;
     box-shadow: .5px .5px .5px black;
+    width: 100%;
+    padding: 3%;
+    cursor: pointer;
+    font-family: 'Signika Negative', sans-serif;
+    font-weight: 600;
     outline: none;
+}
+
+.nav-btn-anchor {
+    width: 40%;
+    margin: 2%;
+    cursor: pointer;
 }
 
 .nav-btn:hover {

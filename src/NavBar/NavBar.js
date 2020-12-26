@@ -4,10 +4,11 @@ import './NavBar.scss'
 import UIfx from 'uifx'
 import btnClick from '../Sounds/btnClick.mp3'
 import btnTick from '../Sounds/btnTick.mp3'
+import { NavLink } from 'react-router-dom'
 
 class NavBar extends Component {
-    constructor() {
-        super()
+    constructor(props) {
+        super(props)
         this.state = {
             descriptions: [
                 "software developer",
@@ -49,8 +50,14 @@ class NavBar extends Component {
             }
         }, 2000)
     }
+
+    handleNavClick = (view) => {
+        this.click.play()
+        this.props.toggleNav(view)
+    }
     
     render() {
+        const { home, contact, resume, photos, music } = this.props
         return (
             <nav className="nav-bar">
                 <div className="nav-intro">
@@ -58,34 +65,62 @@ class NavBar extends Component {
                     <h2>{this.state.currentDescription}</h2>
                     <h3>currently living in Jackson, Wyoming</h3>
                 </div>
-                <img 
-                    src={logo}
-                    alt="Jp's Logo and Initials"
-                    className="nav-logo"
-                    onMouseOver={() => this.tick.play()}
-                    onClick={() => this.click.play()}
-                />
+                    <img 
+                        src={logo}
+                        alt="Jp's Logo and Initials"
+                        className="nav-logo"
+                    />
                 <div className="nav-btn-container">
-                    <button 
-                        className="nav-btn"
-                        onMouseOver={() => this.tick.play()}
-                        onClick={() => this.click.play()}
-                    >Contact</button>
-                    <button 
-                        className="nav-btn"
-                        onMouseOver={() => this.tick.play()}
-                        onClick={() => this.click.play()}
-                    >Resume</button>
-                    <button 
-                        className="nav-btn"
-                        onMouseOver={() => this.tick.play()}
-                        onClick={() => this.click.play()}
-                    >Photos</button>
-                    <button 
-                        className="nav-btn"
-                        onMouseOver={() => this.tick.play()}
-                        onClick={() => this.click.play()}
-                    >Music</button>
+                    {!home && <NavLink
+                        to="/"
+                        className="nav-btn-anchor"
+                    >
+                        <button 
+                            className="nav-btn"
+                            onMouseOver={() => this.tick.play()}
+                            onClick={() => this.handleNavClick("home")}
+                        >Home</button>
+                    </NavLink>}
+                    {!contact && <NavLink 
+                        to="/contact"
+                        className="nav-btn-anchor"
+                    >
+                        <button 
+                            className="nav-btn"
+                            onMouseOver={() => this.tick.play()}
+                            onClick={() => this.handleNavClick("contact")}
+                        >Contact</button>
+                    </NavLink>}
+                    {!resume && <NavLink 
+                        to="/resume"
+                        className="nav-btn-anchor"
+                    >
+                        <button 
+                            className="nav-btn"
+                            onMouseOver={() => this.tick.play()}
+                            onClick={() => this.handleNavClick("resume")}
+                        >Resume</button>
+                    </NavLink>}
+                    {!photos && <NavLink 
+                        to="/photos"
+                        className="nav-btn-anchor"
+                    >
+                        <button 
+                            className="nav-btn"
+                            onMouseOver={() => this.tick.play()}
+                            onClick={() => this.handleNavClick("photos")}
+                        >Photos</button>
+                    </NavLink>}
+                    {!music && <NavLink 
+                        to="/music"
+                        className="nav-btn-anchor"
+                    >
+                        <button 
+                            className="nav-btn"
+                            onMouseOver={() => this.tick.play()}
+                            onClick={() => this.handleNavClick("music")}
+                        >Music</button>
+                    </NavLink>}
                 </div>
             </nav>
         )
