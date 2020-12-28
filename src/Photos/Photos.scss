@@ -1,0 +1,56 @@
+.photos-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Signika Negative', sans-serif;
+    width: 100%;
+}
+
+.adventure-library {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.library-title-bar {
+    //  background: url(../images/dirtyPaper.jpg) no-repeat center center;
+    //  -webkit-background-size: cover;
+    //  -moz-background-size: cover;
+    //  -o-background-size: cover;
+    //  background-size: cover;
+    background-color: #0E1760;
+     padding: 0 1%;
+     border-radius: 20px;
+     color: #fffdd0;
+     box-shadow: 2px 3px 10px black;
+     margin: 3%;
+}
+
+.adventure-cover {
+    width: 25%;
+    margin: 2%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #0E1760;
+    padding: 1%;
+    box-shadow: 4px 5px 20px black;
+    cursor: pointer;
+}
+
+.adventure-cover:hover {
+    transform: scale(1.02);
+}
+
+.adventure-img-cover {
+    width: 100%;
+}
+
+.adventure-img-cover:hover {
+    opacity: .8;
+}
+
+.adventure-cover h4 {
+    margin: 1%;
+}

@@ -57,74 +57,76 @@ class NavBar extends Component {
     render() {
         const { home, contact, resume, photos, music } = this.props
         return (
-            <nav className="nav-bar">
-                <div className="nav-intro">
-                    <h1>Jp Carey</h1>
-                    <h2>{this.state.currentDescription}</h2>
-                    <h3>currently living in Jackson, Wyoming</h3>
-                </div>
-                    <NavLink to="/">
-                        <img 
-                            src={logo}
-                            alt="Jp's Logo and Initials"
-                            className="nav-logo"
-                            onMouseOver={() => this.tick.play()}
-                            onClick={() => this.handleNavClick("home")}
-                        />
-                    </NavLink>
-                <div className="nav-btn-container">
-                    {!home && <NavLink
-                        to="/"
-                        className="nav-btn-anchor"
-                    >
-                        <button 
-                            className="nav-btn"
-                            onMouseOver={() => this.tick.play()}
-                            onClick={() => this.handleNavClick("home")}
-                        >Home</button>
-                    </NavLink>}
-                    {!contact && <NavLink 
-                        to="/contact"
-                        className="nav-btn-anchor"
-                    >
-                        <button 
-                            className="nav-btn"
-                            onMouseOver={() => this.tick.play()}
-                            onClick={() => this.handleNavClick("contact")}
-                        >Contact</button>
-                    </NavLink>}
-                    {!resume && <NavLink 
-                        to="/resume"
-                        className="nav-btn-anchor"
-                    >
-                        <button 
-                            className="nav-btn"
-                            onMouseOver={() => this.tick.play()}
-                            onClick={() => this.handleNavClick("resume")}
-                        >Resume</button>
-                    </NavLink>}
-                    {!photos && <NavLink 
-                        to="/photos"
-                        className="nav-btn-anchor"
-                    >
-                        <button 
-                            className="nav-btn"
-                            onMouseOver={() => this.tick.play()}
-                            onClick={() => this.handleNavClick("photos")}
-                        >Photos</button>
-                    </NavLink>}
-                    {!music && <NavLink 
-                        to="/music"
-                        className="nav-btn-anchor"
-                    >
-                        <button 
-                            className="nav-btn"
-                            onMouseOver={() => this.tick.play()}
-                            onClick={() => this.handleNavClick("music")}
-                        >Music</button>
-                    </NavLink>}
-                </div>
-            </nav>
+           <div className="nav-background">
+                <nav className="nav-bar">
+                    <div className="nav-intro">
+                        <h1>Jp Carey</h1>
+                        <h2>{this.state.currentDescription}</h2>
+                        <h3>currently living in Jackson, Wyoming</h3>
+                    </div>
+                        <NavLink to="/">
+                            <img 
+                                src={logo}
+                                alt="Jp's Logo and Initials"
+                                className="nav-logo"
+                                onMouseOver={() => this.tick.play()}
+                                onClick={() => this.handleNavClick("home")}
+                            />
+                        </NavLink>
+                    <div className="nav-btn-container">
+                        {!home && <NavLink
+                            to="/"
+                            className="nav-btn-anchor"
+                        >
+                            <button 
+                                className="nav-btn"
+                                onMouseOver={() => this.tick.play()}
+                                onClick={() => this.handleNavClick("home")}
+                            >Home</button>
+                        </NavLink>}
+                        {!contact && <NavLink 
+                            to="/contact"
+                            className="nav-btn-anchor"
+                        >
+                            <button 
+                                className="nav-btn"
+                                onMouseOver={() => this.tick.play()}
+                                onClick={() => this.handleNavClick("contact")}
+                            >Contact</button>
+                        </NavLink>}
+                        {!resume && <NavLink 
+                            to="/resume"
+                            className="nav-btn-anchor"
+                        >
+                            <button 
+                                className="nav-btn"
+                                onMouseOver={() => this.tick.play()}
+                                onClick={() => this.handleNavClick("resume")}
+                            >Resume</button>
+                        </NavLink>}
+                        {!photos && <NavLink 
+                            to="/photos"
+                            className="nav-btn-anchor"
+                        >
+                            <button 
+                                className="nav-btn"
+                                onMouseOver={() => this.tick.play()}
+                                onClick={() => this.handleNavClick("photos")}
+                            >Photos</button>
+                        </NavLink>}
+                        {!music && <NavLink 
+                            to="/music"
+                            className="nav-btn-anchor"
+                        >
+                            <button 
+                                className="nav-btn"
+                                onMouseOver={() => this.tick.play()}
+                                onClick={() => this.handleNavClick("music")}
+                            >Music</button>
+                        </NavLink>}
+                    </div>
+                </nav>
+            </div>
         )
     }
 }
