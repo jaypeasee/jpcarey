@@ -4,7 +4,7 @@ import NavBar from '../NavBar/NavBar'
 import Home from '../Home/Home'
 import Contact from '../Contact/Contact'
 import Resume from '../Resume/Resume'
-import Photos from '../Photos/Photos'
+import Adventures from '../Adventures/Adventures'
 import { Route, Switch } from 'react-router-dom'
 
 class App extends Component {
@@ -14,8 +14,9 @@ class App extends Component {
       home: true,
       contact: false,
       resume: false,
-      photos: false,
-      music: false
+      adventures: false,
+      music: false,
+      title: "home"
     }
   }
 
@@ -25,9 +26,10 @@ class App extends Component {
       home: false,
       contact: false,
       resume: false,
-      photos: false,
+      adventures: false,
       music: false,
-      [view]: true
+      [view]: true,
+      title: view
     })
   }
 
@@ -38,9 +40,10 @@ class App extends Component {
           home={this.state.home}
           contact={this.state.contact}
           resume={this.state.resume}
-          photos={this.state.photos}
+          adventures={this.state.adventures}
           music={this.state.music}
           toggleNav={this.toggleNav}
+          title={this.state.title}
         />
         <Switch>
           <Route 
@@ -72,10 +75,10 @@ class App extends Component {
           />
           <Route 
             exact
-            path="/photos"
+            path="/adventures"
             render={() => {
               return (
-                <Photos />
+                <Adventures />
               )
             }}
           />

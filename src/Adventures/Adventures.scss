@@ -1,0 +1,13 @@
+.photos-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: 'Signika Negative', sans-serif;
+    width: 100%;
+}
+
+.adventure-library {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}

@@ -1,0 +1,30 @@
+.adventure-cover {
+    width: 25%;
+    margin: 2%;
+    background-color: #EFECE7;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #0E1760;
+    padding: 1%;
+    box-shadow: 4px 5px 20px black;
+    cursor: pointer;
+}
+
+.adventure-cover:hover {
+    transform: scale(1.02);
+}
+
+.adventure-cover:hover .adventure-img-cover {
+    opacity: 1;
+}
+
+.adventure-img-cover {
+    width: 100%;
+    opacity: .8;
+    height: 60%;
+}
+
+.adventure-cover h4 {
+    margin: 1%;
+}

@@ -55,10 +55,11 @@ class NavBar extends Component {
     }
     
     render() {
-        const { home, contact, resume, photos, music } = this.props
+        const { home, contact, resume, adventures, music } = this.props
         return (
            <div className="nav-background">
                 <nav className="nav-bar">
+                    <div className="nav-content">
                     <div className="nav-intro">
                         <h1>Jp Carey</h1>
                         <h2>{this.state.currentDescription}</h2>
@@ -104,15 +105,15 @@ class NavBar extends Component {
                                 onClick={() => this.handleNavClick("resume")}
                             >Resume</button>
                         </NavLink>}
-                        {!photos && <NavLink 
-                            to="/photos"
+                        {!adventures && <NavLink 
+                            to="/adventures"
                             className="nav-btn-anchor"
                         >
                             <button 
                                 className="nav-btn"
                                 onMouseOver={() => this.tick.play()}
-                                onClick={() => this.handleNavClick("photos")}
-                            >Photos</button>
+                                onClick={() => this.handleNavClick("adventures")}
+                            >Adventures</button>
                         </NavLink>}
                         {!music && <NavLink 
                             to="/music"
@@ -125,6 +126,10 @@ class NavBar extends Component {
                             >Music</button>
                         </NavLink>}
                     </div>
+                    </div>
+                    <h2
+                        className="section-title"
+                    >{this.props.title.toUpperCase()}</h2>
                 </nav>
             </div>
         )
