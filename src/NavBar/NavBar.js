@@ -1,5 +1,5 @@
 import React, {Component} from 'react'
-import logo from './logo.png'
+import logo from './images/logo.png'
 import './NavBar.scss'
 import UIfx from 'uifx'
 import btnClick from '../Sounds/btnClick.mp3'

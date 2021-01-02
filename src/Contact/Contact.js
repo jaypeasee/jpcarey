@@ -7,7 +7,6 @@ import gmail from './images/gmail.png'
 import UIfx from 'uifx'
 import btnClick from '../Sounds/btnClick.mp3'
 import btnTick from '../Sounds/btnTick.mp3'
-import thumbTack from '../images/thumbTack.png'
 
 
 const Contact = () => {
