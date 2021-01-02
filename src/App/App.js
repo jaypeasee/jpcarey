@@ -5,6 +5,7 @@ import Home from '../Home/Home'
 import Contact from '../Contact/Contact'
 import Resume from '../Resume/Resume'
 import Adventures from '../Adventures/Adventures'
+import Music from '../Music/Music'
 import { Route, Switch } from 'react-router-dom'
 
 class App extends Component {
@@ -79,6 +80,15 @@ class App extends Component {
             render={() => {
               return (
                 <Adventures />
+              )
+            }}
+          />
+          <Route 
+            exact
+            path="/music"
+            render={() => {
+              return (
+                <Music />
               )
             }}
           />
