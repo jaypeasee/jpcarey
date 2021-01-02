@@ -20,95 +20,73 @@ const Contact = () => {
 
     return (
         <section className="contact-section">
-            <div className="contact-board">
                 <section className="contact-card">
-                    <div className="board-pins-top">
-                        <img 
-                            src={thumbTack}
-                            className={"board-pin"}
-                        />
-                        <img 
-                            src={thumbTack}
-                            className={"board-pin"}
-                        />
-                    </div>
                     <h2>Reach Out!</h2>
-                        <a
-                            href="mailto:jpcarey4@gmail.com"
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="icon-anchor-combo"
-                            onClick={() => click.play()}
-                        >
-                            <img 
-                                src={gmail}
-                                alt="Gmail logo"
-                                role="button"
-                                className="contact-logo"
-                                onMouseOver={() => tick.play()}
-                            />
-                            <p className="contact-link-txt">jpcarey4@gmail.com</p>
-                        </a>
-                        <a 
-                            href="https://github.com/jaypeasee"
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="icon-anchor-combo"
-                            onClick={() => click.play()}
-                        >
-                            <img 
-                                src={github}
-                                alt="Github logo"
-                                role="button"
-                                className="contact-logo"
-                                onMouseOver={() => tick.play()}
-                            />
-                            <p className="contact-link-txt">Github</p>
-                        </a>  
-                        <a
-                            href="https://www.linkedin.com/in/jpcareyiv/"
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="icon-anchor-combo"
-                            onClick={() => click.play()}
-                        >
-                            <img 
-                                src={linkedin}
-                                alt="LinkedIn logo"
-                                role="button"
-                                className="contact-logo"
-                                onMouseOver={() => tick.play()}
-                            />
-                            <p className="contact-link-txt">LinkedIn</p>
-                        </a>                 
-                        <a 
-                            href="https://www.instagram.com/jaypeasee4/"
-                            target="_blank" 
-                            rel="noopener noreferrer"
-                            className="icon-anchor-combo"
-                            onClick={() => click.play()}
-                        >
-                            <img 
-                                src={instagram}
-                                alt="Instagram Logo"
-                                role="button"
-                                className="contact-logo"
-                                onMouseOver={() => tick.play()}
-                            />
-                            <p className="contact-link-txt">Instagram</p>
-                        </a>
-                        <div className="board-pins-top">
+                    <a
+                        href="mailto:jpcarey4@gmail.com"
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="icon-anchor-combo"
+                        onClick={() => click.play()}
+                    >
                         <img 
-                            src={thumbTack}
-                            className={"board-pin"}
+                            src={gmail}
+                            alt="Gmail logo"
+                            role="button"
+                            className="contact-logo"
+                            onMouseOver={() => tick.play()}
                         />
+                        <p className="contact-link-txt">jpcarey4@gmail.com</p>
+                    </a>
+                    <a 
+                        href="https://github.com/jaypeasee"
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="icon-anchor-combo"
+                        onClick={() => click.play()}
+                    >
                         <img 
-                            src={thumbTack}
-                            className={"board-pin"}
+                            src={github}
+                            alt="Github logo"
+                            role="button"
+                            className="contact-logo"
+                            onMouseOver={() => tick.play()}
                         />
-                    </div>
-                </section> 
-            </div>
+                        <p className="contact-link-txt">Github</p>
+                    </a>  
+                    <a
+                        href="https://www.linkedin.com/in/jpcareyiv/"
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="icon-anchor-combo"
+                        onClick={() => click.play()}
+                    >
+                        <img 
+                            src={linkedin}
+                            alt="LinkedIn logo"
+                            role="button"
+                            className="contact-logo"
+                            onMouseOver={() => tick.play()}
+                        />
+                        <p className="contact-link-txt">LinkedIn</p>
+                    </a>                 
+                    <a 
+                        href="https://www.instagram.com/jaypeasee4/"
+                        target="_blank" 
+                        rel="noopener noreferrer"
+                        className="icon-anchor-combo"
+                        onClick={() => click.play()}
+                    >
+                        <img 
+                            src={instagram}
+                            alt="Instagram Logo"
+                            role="button"
+                            className="contact-logo"
+                            onMouseOver={() => tick.play()}
+                        />
+                        <p className="contact-link-txt">Instagram</p>
+                    </a>
+            </section> 
         </section>
     )
 }
