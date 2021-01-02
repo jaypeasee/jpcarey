@@ -1,8 +1,10 @@
+@import '../variables.scss';
+
 .photos-section {
     display: flex;
     flex-direction: column;
     align-items: center;
-    font-family: 'Signika Negative', sans-serif;
+    font-family: $signika;
     width: 100vw;
 }
 
@@ -13,7 +15,7 @@
 }
 
 .error-message {
-    color: #0E1760;
+    color: $navy;
     font-size: 2em;
     text-decoration: underline wavy;
 }

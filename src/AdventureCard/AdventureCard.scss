@@ -1,11 +1,13 @@
+@import '../variables.scss';
+
 .adventure-cover {
     width: 25%;
     margin: 2%;
-    background-color: #EFECE7;
+    background-color: $base;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #0E1760;
+    color: $navy;
     padding: 1%;
     box-shadow: 4px 5px 20px black;
     cursor: pointer;
@@ -27,4 +29,40 @@
 
 .adventure-cover h4 {
     margin: 1%;
+}
+
+@media only screen and (max-width: 1200px) {
+    .adventure-cover {
+        width: 40%;
+        margin: 2%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .adventure-img-cover {
+        opacity: 1;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .adventure-cover {
+        width: 80%;
+        margin: 5%;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .adventure-cover {
+        padding-bottom: 10%;
+    }
+}
+
+@media only screen and (max-width: 400px) {
+    .adventure-cover {
+        width: 90%;
+    }
+
+    .adventure-cover h4 {
+        font-size: .8em;
+    }
 }

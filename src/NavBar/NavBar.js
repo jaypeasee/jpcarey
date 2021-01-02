@@ -62,8 +62,13 @@ class NavBar extends Component {
                     <div className="nav-content">
                     <div className="nav-intro">
                         <h1>Jp Carey</h1>
-                        <h2>{this.state.currentDescription}</h2>
+                        <h2 
+                            className="current-description"
+                        >{this.state.currentDescription}</h2>
                         <h3>currently living in Jackson, Wyoming</h3>
+                        <h2
+                        className="mobile-section-title"
+                    >{this.props.title.toUpperCase()}</h2>
                     </div>
                         <NavLink to="/">
                             <img 
@@ -75,6 +80,15 @@ class NavBar extends Component {
                             />
                         </NavLink>
                     <div className="nav-btn-container">
+                        <NavLink to="/">
+                            <img 
+                                src={logo}
+                                alt="Jp's Logo and Initials"
+                                className="mobile-nav-logo"
+                                onMouseOver={() => this.tick.play()}
+                                onClick={() => this.handleNavClick("home")}
+                            />
+                        </NavLink>
                         {!home && <NavLink
                             to="/"
                             className="nav-btn-anchor"

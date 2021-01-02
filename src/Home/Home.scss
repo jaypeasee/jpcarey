@@ -5,13 +5,31 @@
     align-items: center;
 }
 
+.profile-img:hover {
+    transform: scale(1.01)
+}
+
 .profile-img {
-    height: 50vh;
+    max-width: 70vw;
+    max-height: 50vh;
     border: solid white 20px;
     box-shadow: 5px 6px 16px black;
     cursor: pointer;
+    margin: 1%;
 }
 
 .profile-img:active {
     transform: scale(1.05);
+}
+
+@media only screen and (max-width: 1100px) {
+    .profile-img {
+        margin: 3%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .profile-img {
+        margin: 5%;
+    }
 }

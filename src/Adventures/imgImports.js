@@ -228,9 +228,9 @@ const missinaibiPics = [
 ]
 
 const mistassibiPics = [
+    hecklauJack,
     beachLanding,
     henryMountains,
-    hecklauJack,
     riverMountains,
     andrewPaxton,
     lastMistassibi

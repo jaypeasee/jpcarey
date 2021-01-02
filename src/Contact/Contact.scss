@@ -1,11 +1,13 @@
+@import '../variables.scss';
+
 .contact-section {
     width: 100vw;
     margin-top: 5%;
     display: flex;
     flex-direction: column;
     align-items: center;
-    color: #0E1760;
-    font-family: 'Signika Negative', sans-serif;
+    color: $navy;
+    font-family: $signika;
 }
 
 .contact-board {
@@ -23,7 +25,7 @@
 }
 
 .contact-card {
-    background-color: #EFECE7;
+    background-color: $base;
     width: 100%;
     box-shadow: 0px 0px 10px black;
 }
@@ -32,10 +34,7 @@
     text-align: center;
     text-decoration: underline wavy;
     margin-top: 0;
-}
-
-.contact-rows {
-    // width: 50%;
+    font-size: 2em;
 }
 
 .contact-logo {
@@ -45,7 +44,7 @@
 }
 
 .icon-anchor-combo {
-    margin: 5% 10%;
+    margin: 2% 10%;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -57,8 +56,9 @@
 }
 
 .contact-link-txt {
-    color: #0E1760;
-    text-decoration: underline #0E1760;
+    color: $navy;
+    text-decoration: underline $navy;
+    font-size: 1.5em;
 }
 
 .board-pin {
@@ -69,4 +69,39 @@
     display: flex;
     justify-content: space-between;
     margin: 1% 2% 0 0;
+}
+
+@media only screen and (max-width: 1000px) {
+    .contact-board {
+        width: 70%;
+    }
+}
+
+@media only screen and (max-width: 800px) {
+    .contact-logo {
+        height: 30px;
+    }
+
+    .contact-link-txt {
+        font-size: 1.25em;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-board {
+        width: 80%;
+        margin-top: 5%;
+    }
+
+    .contact-card h2 {
+        font-size: 1.25em;
+    }
+
+    .board-pin {
+        height: 25px;
+    }
+
+    .contact-link-txt {
+        font-size: 1em;
+    }
 }

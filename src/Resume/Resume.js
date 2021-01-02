@@ -8,6 +8,9 @@ const Resume = () => {
             <div className="resume-frame">
                 <object
                     data={resume}
+                    type='application/pdf'
+                    width="100%"
+                    height="100%"
                     className="resume-pdf"
                 >
                 </object>
