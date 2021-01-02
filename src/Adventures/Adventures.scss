@@ -3,11 +3,17 @@
     flex-direction: column;
     align-items: center;
     font-family: 'Signika Negative', sans-serif;
-    width: 100%;
+    width: 100vw;
 }
 
 .adventure-library {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.error-message {
+    color: #0E1760;
+    font-size: 2em;
+    text-decoration: underline wavy;
 }

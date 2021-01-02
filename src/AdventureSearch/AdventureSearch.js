@@ -33,6 +33,15 @@ class AdventureSearch extends Component {
         })
     }
 
+    startLibraryReset = (event) => {
+        event.preventDefault()
+        this.click.play()
+        this.setState({
+            searchTerm: ""
+        })
+        this.props.resetAdventureLibrary()
+    }
+
     render() {
         return (
             <form 
@@ -59,7 +68,7 @@ class AdventureSearch extends Component {
                     <button 
                         className="search-btn"
                         onMouseOver={() => this.tick.play()}
-                        onClick={this.resetAdventureLibrary}
+                        onClick={this.startLibraryReset}
                     >See All</button>
                 </div>
             </form>

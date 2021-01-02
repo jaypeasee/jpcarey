@@ -60,10 +60,13 @@ class Adventures extends Component {
             <section className="photos-section">
                 <AdventureSearch 
                     filterAdventures={this.filterAdventures}
+                    resetAdventureLibrary={this.resetAdventureLibrary}
                 />
                 <section className="adventure-library">
                     {this.state.displayedAdventures}
                 </section>
+                {this.state.displayedAdventures.length === 0 &&
+                <h1 className="error-message">Oops! No Adventures Found</h1>}
             </section>
         )
     }

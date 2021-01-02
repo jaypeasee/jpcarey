@@ -32,7 +32,7 @@ class Music extends Component {
            <section className="music-section">
                {this.state.toggled &&
                <section className="all-playlists">
-                    <div className="music-btn-container">
+                    <div className="playlist-btn-container">
                         <button className="toggled-btn">Playlists</button>
                         <button 
                             className="untoggled-btn"
@@ -73,7 +73,7 @@ class Music extends Component {
                </section>} 
                {!this.state.toggled &&
                <section className="all-podcasts">
-                   <div className="music-btn-container">
+                   <div className="podcast-btn-container">
                         <button 
                             className="untoggled-btn"
                             onClick={this.toggleMusic}
