@@ -1,56 +1,22 @@
 import React, {Component} from 'react'
 import './Home.scss'
-import billsGame from './images/billsGame.jpeg'
-import familyPhoto from './images/familyPhoto.jpeg'
-import japanIcicle from './images/japanIcicle.jpeg'
-import mexicoPelican from './images/mexicoPelican.jpeg'
-import nileSpecial from './images/nileSpecial.jpeg'
-import pathfinderCanoe from './images/pathdinderCanoe.jpeg'
-import wendyTetons from './images/wendyTetons.jpeg'
-import yurtSkinning from './images/yurtSkinning.jpeg'
-import tetonsBackside from './images/tetonsBackside.jpeg'
-import frontPage from './images/frontPage.jpeg'
-import severnRiver from './images/severnRiver.jpg'
-import bigKahuna from './images/bigKahuna.JPG'
-import ftowStradle from './images/ftowStradle.jpg'
-import feelGood from './images/feelGood.jpg'
-import severnMars from './images/severnMars.jpg'
-import windigoCar from './images/windigoCar.jpg'
-import japanVan from './images/japanVan.jpeg'
-import furanoSkin from './images/furanoSkin.JPG'
-import topoDuo from './images/topoDuo.JPG'
+import { photosOfMe } from './imgImports';
 import UIfx from 'uifx'
 import btnClick from '../Sounds/btnClick.mp3'
+import btnTick from '../Sounds/btnTick.mp3'
 
 
 class Home extends Component {
     constructor() {
         super()
         this.state = {
-            allProfilePics: [
-                billsGame,
-                familyPhoto,
-                japanIcicle,
-                mexicoPelican,
-                nileSpecial,
-                pathfinderCanoe,
-                wendyTetons,
-                yurtSkinning,
-                tetonsBackside,
-                frontPage,
-                severnRiver,
-                bigKahuna,
-                ftowStradle,
-                feelGood,
-                severnMars,
-                windigoCar,
-                topoDuo,
-                furanoSkin,
-                japanVan
-            ],
+            allProfilePics: photosOfMe,
             currentProfilePic: "",
         }
         this.click = new UIfx(btnClick, {
+            volume: .1
+        })
+        this.tick = new UIfx(btnTick, {
             volume: .1
         })
     }
@@ -60,9 +26,7 @@ class Home extends Component {
     }
 
     updateRandomProfileImg = () => {
-        if (this.state.currentProfilePic) {
-            this.click.play();
-        }
+        this.click.play();
         if (!this.state.allProfilePics.length) {
             this.resetImgList()
         } else {
@@ -79,27 +43,7 @@ class Home extends Component {
 
     resetImgList = () => {
         this.setState({
-            allProfilePics: [
-                billsGame,
-                familyPhoto,
-                japanIcicle,
-                mexicoPelican,
-                nileSpecial,
-                pathfinderCanoe,
-                wendyTetons,
-                yurtSkinning,
-                tetonsBackside,
-                frontPage,
-                severnRiver,
-                bigKahuna,
-                ftowStradle,
-                feelGood,
-                severnMars,
-                windigoCar,
-                topoDuo,
-                furanoSkin,
-                japanVan
-            ],
+            allProfilePics: photosOfMe,
         })
     }
 
@@ -111,6 +55,7 @@ class Home extends Component {
                     alt="profile image of me"
                     className="profile-img"
                     onClick={this.updateRandomProfileImg}
+                    onMouseOver={() => this.tick.play()}
                 />
             </section>
         )

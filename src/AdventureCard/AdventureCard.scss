@@ -1,13 +1,11 @@
 @import '../variables.scss';
+@import '../mixins.scss';
 
 .adventure-cover {
+    @include column-center;
+    @include blue-on-white;
     width: 25%;
     margin: 2%;
-    background-color: $base;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    color: $navy;
     padding: 1%;
     box-shadow: 4px 5px 20px black;
     cursor: pointer;

@@ -1,0 +1,35 @@
+@import './variables.scss';
+
+@mixin column-center {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+@mixin row-wrap-center {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+@mixin column {
+    display: flex;
+    flex-direction: column;
+}
+
+@mixin blue-on-white {
+    background-color: $base;
+    color: $navy;
+}
+
+@mixin yellow-button {
+    border-radius: 20px;
+    font-family: $signika;
+    cursor: pointer;
+    outline: none;
+    background-color: $cream;
+    color: $navy;
+    border: $navy 1px solid;
+    box-shadow: 4px 4px 8px black;
+}
+

@@ -1,21 +1,19 @@
 @import '../variables.scss';
+@import '../mixins.scss';
 
 .nav-background {
+    @include column-center;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 .nav-bar {
+    @include column;
     background: url(../images/dirtyPaper.jpg) no-repeat center center;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
     background-size: cover;
     padding: 2%;
-    display: flex;
-    flex-direction: column;
     box-shadow: 0px 2px 20px black;
     color: $navy;
     width: 80vw;
@@ -25,8 +23,7 @@
 }
 
 .nav-intro {
-    display: flex;
-    flex-direction: column;
+    @include column;
 }
 
 .nav-intro h1 {
@@ -66,17 +63,9 @@
 }
 
 .nav-btn {
-    border-radius: 10px;
-    border: $navy solid .5px;
-    color: $navy;
-    background-color: $cream;
-    box-shadow: .5px .5px .5px black;
+    @include yellow-button;
     width: 100%;
     padding: 3%;
-    cursor: pointer;
-    font-family: $signika;
-    font-weight: 600;
-    outline: none;
 }
 
 .nav-btn-anchor {
@@ -164,9 +153,8 @@
 
 @media only screen and (max-width: 600px) {
     .nav-btn-container {
+        @include column-center;
         align-self: flex-start;
-        flex-direction: column;
-        align-items: center;
         margin-left: 20px;
     }
 
@@ -190,6 +178,3 @@
         width: 80px;
     }
 }
-
-
-

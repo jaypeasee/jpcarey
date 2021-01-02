@@ -1,8 +1,8 @@
 @import '../variables.scss';
+@import '../mixins.scss';
 
 .adventure-search-form {
-    display: flex;
-    flex-direction: column;
+    @include column;
     align-self: flex-start;
     margin: 3% 6%;
     padding: 1% 2%;
@@ -18,17 +18,10 @@
 }
 
 .search-btn {
+    @include yellow-button;
     margin: 5% 5% 0 0;
     padding: 2%;
     width: 30%;
-    border-radius: 20px;
-    font-family: $signika;
-    cursor: pointer;
-    background-color: $cream;
-    color: $navy;
-    border: $navy 1px solid;
-    box-shadow: 4px 4px 8px black;
-    outline: none;
 }
 
 .search-btn:hover {

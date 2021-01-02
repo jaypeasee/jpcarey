@@ -1,18 +1,14 @@
 @import '../variables.scss';
+@import '../mixins.scss';
 
 .resume-section {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include column-center;
     font-family: $signika;
-    color: $cream;
     width: 100vw;
 }
 
 .resume-frame {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    @include column-center;
     background-color: $navy;
     width: 70%;
     padding: 5% 1%;
