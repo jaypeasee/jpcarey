@@ -45,12 +45,14 @@
 .all-podcasts {
     @include column-center;
     width: 100vw;
+    align-self: center;;
 }
 
 @media only screen and (max-width: 690px) {
     .playlist-btn-container, .podcast-btn-container {
         justify-content: center;
         margin: 5%;
+        align-self: center;
     }
 
     .all-playlists, .all-podcasts {
