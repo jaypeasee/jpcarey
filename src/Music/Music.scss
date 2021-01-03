@@ -8,9 +8,10 @@
 }
 
 .playlist-btn-container, .podcast-btn-container {
-    width: 100%;
+    width: 80%;
     margin: 2% 8%;
     display: flex;
+    align-self: center;
 }
 
 .podcast-btn-container {

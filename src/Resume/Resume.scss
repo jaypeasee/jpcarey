@@ -14,24 +14,19 @@
     padding: 5% 1%;
     box-shadow: 11px 12px 13px black;
     border-radius: 10px;
-    margin-top: 3%;
+    margin: 3% 0;
     height: 70vh;
 }
 
 @media only screen and (max-width: 1500px) {
     .resume-frame {
-        width: 80%;
+        width: 75%;
     }
 }
 
 @media only screen and (max-width: 1100px) {
     .resume-frame {
-        width: 90%;
-    }
-}
-
-@media only screen and (max-width: 800px) {
-    .resume-frame {
-        width: 95%;
+        width: 80%;
+        margin-top: 10%;
     }
 }
