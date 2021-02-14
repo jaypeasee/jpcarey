@@ -1,6 +1,6 @@
 import React from 'react'
 import './Resume.scss'
-import resume from './jpc-general-dev-resume.pdf'
+import resume from './JPC_Dev_Resume.pdf'
 
 const Resume = () => {
     return (
