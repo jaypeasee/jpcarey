@@ -100,7 +100,7 @@ class Music extends Component {
                         link="https://open.spotify.com/embed-podcast/show/6YRZlXwzJed2ruOq9TCk7n"
                     />
                     <Podcast 
-                        link="https://open.spotify.com/embed-podcast/show/1ed7Yi6LUprrMNboCb5WV8"
+                        link="https://open.spotify.com/embed-podcast/show/7j9CZOPTcoVUVslvqKBu9x"
                     />
                     <Podcast 
                         link="https://open.spotify.com/embed-podcast/show/4LKZNYgHWlQe7jOIbgkVMz"
