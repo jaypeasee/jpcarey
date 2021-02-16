@@ -50,15 +50,6 @@ class Music extends Component {
                     link="https://open.spotify.com/embed/playlist/6ULhDxmYGulvJqgJrWdB8U"
                 />
                 <Playlist 
-                    link="https://open.spotify.com/embed/playlist/1MgKLuKOtHCj1CPs1a3rDT"
-                />
-                <Playlist 
-                    link="https://open.spotify.com/embed/playlist/4LZyeDzikIkwji2EEysS6D"
-                />
-                <Playlist 
-                    link="https://open.spotify.com/embed/playlist/39YNlcHQsJHNBwJkLJpcgv"
-                />
-                <Playlist 
                     link="https://open.spotify.com/embed/playlist/5UlzGYoxvBnorh5uAFtD9z"
                 />
                 <Playlist 
@@ -91,19 +82,10 @@ class Music extends Component {
                         link="https://open.spotify.com/embed-podcast/show/3IM0lmZxpFAY7CwMuv9H4g"
                     />
                     <Podcast 
-                        link="https://open.spotify.com/embed-podcast/show/2PnWnDNwU3wKesCHCpy252"
-                    />
-                    <Podcast 
-                        link="https://open.spotify.com/embed-podcast/show/2mTUnDkuKUkhiueKcVWoP0"
-                    />
-                    <Podcast 
                         link="https://open.spotify.com/embed-podcast/show/6YRZlXwzJed2ruOq9TCk7n"
                     />
                     <Podcast 
                         link="https://open.spotify.com/embed-podcast/show/7j9CZOPTcoVUVslvqKBu9x"
-                    />
-                    <Podcast 
-                        link="https://open.spotify.com/embed-podcast/show/4LKZNYgHWlQe7jOIbgkVMz"
                     />
                </section>}
             </section>
