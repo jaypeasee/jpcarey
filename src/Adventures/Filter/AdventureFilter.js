@@ -1,16 +1,8 @@
 import "./AdventureFilyer.scss"
 import { adventureSearchTerms } from '../adventureData'
-import UIfx from 'uifx'
-import btnClick from '../../sounds/btnClick.mp3'
-import btnTick from '../../sounds/btnTick.mp3'
+import { click, tick } from '../../sounds/sounds'
 
 const AdventureFilter = (props) => {
-  const click = new UIfx(btnClick, {
-    volume: .1
-  })
-  const tick = new UIfx(btnTick, {
-    volume: .1
-  })
 
   const chooseOption = (event) => {
     click.play()

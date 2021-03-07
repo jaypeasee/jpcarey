@@ -2,179 +2,177 @@
 @import '../mixins.scss';
 
 .nav-background {
-    @include column-center;
-    width: 100%;
+  @include column-center;
+  width: 100%;
 }
 
 .nav-bar {
-    @include column;
-    background: url(./images/dirtyPaper.jpg) no-repeat center center;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
-    padding: 2% 0;
-    box-shadow: 0px 2px 20px black;
-    color: $navy;
-    width: 80vw;
-    border-radius: 8px;
-    font-family: $signika;
-    margin: 3% 0;
+  @include column;
+  background: url(./images/dirtyPaper.jpg) no-repeat center center;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  padding: 2% 0;
+  box-shadow: 0px 2px 20px black;
+  color: $navy;
+  width: 80vw;
+  border-radius: 8px;
+  font-family: $signika;
+  margin: 3% 0;
 }
 
 .nav-intro {
-    @include column;
+  @include column;
 }
 
 .nav-intro h1 {
-    font-size: 2.5em;
-    margin: 0
+  font-size: 2.5em;
+  margin: 0
 }
 
 .current-description {
-    border-bottom: .5px $navy dotted;
-    padding-bottom: 2px;
+  border-bottom: .5px $navy dotted;
+  padding-bottom: 2px;
 }
 
 .nav-intro h3 {
-    margin-top: 0;
+  margin-top: 0;
 }
 
 .nav-btn-container {
-    display: flex;
-    flex-wrap: wrap;
-    width: 25%;
-    height: 50%;
-    align-self: center;
-    justify-content: flex-end;
+  display: flex;
+  flex-wrap: wrap;
+  width: 25%;
+  height: 50%;
+  align-self: center;
+  justify-content: flex-end;
 }
 
 .nav-logo {
-    height: 125px;
-    align-self: center;
+  height: 125px;
+  align-self: center;
 }
 
 .mobile-nav-logo {
-    display: none;
+  display: none;
 }
 
 .nav-logo:hover {
-    transform: scale(1.1);
+  transform: scale(1.1);
 }
 
 .nav-btn {
-    @include yellow-button;
-    width: 100%;
-    padding: 3%;
-}
-
-.nav-btn-anchor {
-    width: 100px;
-    margin: 2%;
-    cursor: pointer;
+  width: 100px;
+  margin: 2%;
+  cursor: pointer;
+  @include yellow-button;
+  padding: 3%;
+  text-align: center;
+  text-decoration: none;
 }
 
 .nav-btn:hover {
-    transform: scale(1.03)
+  transform: scale(1.03)
 }
 
 .nav-content {
-    display: flex;
-    justify-content: space-around;
+  display: flex;
+  justify-content: space-around;
 }
 
 .section-title {
-    align-self: flex-end;
-    margin: 0 10%;
-    text-decoration: underline wavy;
+  align-self: flex-end;
+  margin: 0 10%;
+  text-decoration: underline wavy;
 }
 
 .mobile-section-title {
-    display: none;
+  display: none;
 }
 
 @media only screen and (max-width: 1100px) {
-    .nav-bar {
-        width: 90vw;
-    }
+  .nav-bar {
+    width: 90vw;
+  }
 }
 
 @media only screen and (max-width: 1000px) {
-    .nav-btn-container {
-        width: 30%;
-    }
+  .nav-btn-container {
+    width: 30%;
+  }
 }
 
 @media only screen and (max-width: 900px) {
-    .nav-logo {
-        display: none;
-    }
-    .mobile-nav-logo {
-        display: flex;
-        height: 100px;
-        align-self: center;
-        margin: 0 50px 10px 50px;
-    }
-    .nav-btn-container {
-        justify-content: center;
-        width: 35%;
-    }
+  .nav-logo {
+    display: none;
+  }
+  .mobile-nav-logo {
+    display: flex;
+    height: 100px;
+    align-self: center;
+    margin: 0 50px 10px 50px;
+  }
+  .nav-btn-container {
+    justify-content: center;
+    width: 35%;
+  }
 
-    .section-title {
-        display: none;
-    }
+  .section-title {
+    display: none;
+  }
 
-    .mobile-section-title {
-        display: flex;
-        margin: 20px 0 0 0;
-        text-decoration: underline wavy;
-    }
+  .mobile-section-title {
+    display: flex;
+    margin: 20px 0 0 0;
+    text-decoration: underline wavy;
+  }
 }
 
 @media only screen and (max-width: 700px) {
-    .nav-bar {
-        width: 100vw;
-        margin-top: 0;
-        border-radius: 0;
-    }
+  .nav-bar {
+    width: 100vw;
+    margin-top: 0;
+    border-radius: 0;
+  }
 
-    .mobile-nav-logo {
-        height: 80px;
-    }
+  .mobile-nav-logo {
+    height: 80px;
+  }
 
-    .nav-btn-container {
-        width: 40%;
-    }
-    
-    .nav-intro {
-        margin-left: 3%;
-    }
+  .nav-btn-container {
+    width: 40%;
+  }
+  
+  .nav-intro {
+    margin-left: 3%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    .nav-btn-container {
-        @include column-center;
-        align-self: flex-start;
-        margin-left: 20px;
-    }
+  .nav-btn-container {
+    @include column-center;
+    align-self: flex-start;
+    margin-left: 20px;
+  }
 
-    .mobile-nav-logo {
-        margin: 0 0 10px 0;
-    }
+  .mobile-nav-logo {
+    margin: 0 0 10px 0;
+  }
 
-    .nav-intro h3, .nav-intro h2 {
-        font-size: 1em;
-    }
+  .nav-intro h3, .nav-intro h2 {
+    font-size: 1em;
+  }
 
-    .nav-intro h1 {
-        font-size: 1.75em;
-    }
+  .nav-intro h1 {
+    font-size: 1.75em;
+  }
 
-    .mobile-nav-logo {
-        height: 50px;
-    }
+  .mobile-nav-logo {
+    height: 50px;
+  }
 
-    .nav-btn-anchor {
-        width: 80px;
-    }
+  .nav-btn {
+    width: 80px;
+  }
 }

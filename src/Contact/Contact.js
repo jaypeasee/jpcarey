@@ -1,17 +1,9 @@
 import React from 'react'
 import './Contact.scss'
-import UIfx from 'uifx'
-import btnClick from '../sounds/btnClick.mp3'
-import btnTick from '../sounds/btnTick.mp3'
+import { tick, click } from '../sounds/sounds'
 import { contactTypes } from './contactData' 
 
 const Contact = () => {
-  const click = new UIfx(btnClick, {
-      volume: .1
-  })
-  const tick = new UIfx(btnTick, {
-      volume: .1
-  })
 
   const renderContactButtons = () => {
     return (

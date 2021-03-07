@@ -2,8 +2,7 @@ import React, { Component } from 'react'
 import './AdventureCard.scss'
 import moment from 'moment';
 import { comma } from 'number-magic'
-import UIfx from 'uifx'
-import btnClick from '../../sounds/btnClick.mp3'
+import { click } from '../../sounds/sounds';
 
 class AdventureCard extends Component {
   constructor(props) {
@@ -11,9 +10,6 @@ class AdventureCard extends Component {
     this.state = {
       photos: this.props.photos
     }
-    this.click = new UIfx(btnClick, {
-      volume: .1
-    }) 
   }
 
   calculateTimeDiff = (date) => {
@@ -21,7 +17,7 @@ class AdventureCard extends Component {
   }
 
   rotatePhoto = () => {
-    this.click.play()
+    click.play()
     if (this.state.photos.length === 1) {
       this.setState({
         photos: this.props.photos
