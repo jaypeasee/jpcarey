@@ -3,50 +3,52 @@ import logo from './images/logo.png'
 import './NavBar.scss'
 import { NavLink } from 'react-router-dom'
 import { click, tick } from '../sounds/sounds'
+import { selfDescriptions, navigationOptions } from './navBarData'
 class NavBar extends Component {
   constructor(props) {
-  super(props)
-  this.state = {
-    descriptions: [
-      "software developer",
-      "digital strategist",
-      "dog dad",
-      "public lands lover",
-      "skier",
-      "whitewater boater",
-      "dreadful swimmer",
-      "Bills fan",
-      "news junkie",
-      "mountain biker",
-      "Catan sheep farmer",
-      "Harry Potter nerd",
-      "cooking enthusiast",
-      "canoe tripper",
-    ],
-    currentDescription: "he/him/his"
-  }
-}
-
-componentDidMount() {
-  let i = 0
-  setInterval(() => {
-    this.setState({
-      currentDescription: this.state.descriptions[i]
-    })
-    i++
-    if (i === this.state.descriptions.length) {
-      i = 0
+    super(props)
+    this.state = {
+      descriptions: selfDescriptions,
+      currentDescription: "he/him/his"
     }
-  }, 2000)
-}
+  }
+
+  componentDidMount() {
+    let i = 0
+    setInterval(() => {
+      this.setState({
+        currentDescription: this.state.descriptions[i]
+      })
+      i++
+      if (i === this.state.descriptions.length) {
+        i = 0
+      }
+    }, 2000)
+  }
 
 handleNavClick = (view) => {
   click.play()
   this.props.toggleNav(view)
 }
 
+renderNavButtons = () => {
+  const filteredOptions = navigationOptions.filter(option => {
+    return !this.props[option.toLowerCase()]
+  })
+  return filteredOptions.map(option => {
+    return (
+      <NavLink 
+        to="/" 
+        className="nav-btn-anchor"
+        onClick={() => this.handleNavClick("home")}
+        className="nav-btn"
+        onMouseOver={() => tick.play()}
+      >{option}</NavLink>
+    )
+  })
+}
+
 render() {
-  const { home, contact, resume, adventures, music } = this.props
     return (
       <div className="nav-background">
         <nav className="nav-bar">
@@ -75,37 +77,11 @@ render() {
                   onMouseOver={() => tick.play()}
                   onClick={() => this.handleNavClick("home")}
                 />
-                </NavLink>
-                  {!home && <NavLink 
-                  to="/" 
-                  className="nav-btn-anchor"
-                  onClick={() => this.handleNavClick("home")}
-                  className="nav-btn"
-                  onMouseOver={() => tick.play()}
-                >Home</NavLink>}
-                  {!contact && <NavLink 
-                    to="/contact" 
-                    className="nav-btn"
-                    onMouseOver={() => tick.play()}
-                    onClick={() => this.handleNavClick("contact")}
-                  >Contact</NavLink>}
-                  {!resume && <NavLink 
-                    to="/resume" 
-                    className="nav-btn"
-                    onMouseOver={() => tick.play()}
-                    onClick={() => this.handleNavClick("resume")}
-                  >Resume</NavLink>}
-                  {!adventures && <NavLink 
-                    to="/adventures" 
-                    className="nav-btn"
-                    onMouseOver={() => tick.play()}
-                    onClick={() => this.handleNavClick("adventures")}
-                    >Adventures</NavLink>}
-                </div>
+              </NavLink>
+              {this.renderNavButtons()}
             </div>
-            <h2
-                className="section-title"
-            >{this.props.title.toUpperCase()}</h2>
+          </div>
+          <h2 className="section-title">{this.props.title.toUpperCase()}</h2>
         </nav>
       </div>
     )
