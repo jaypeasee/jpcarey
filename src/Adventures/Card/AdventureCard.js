@@ -1,54 +1,48 @@
-import React, { Component } from 'react'
+import React, { useState, useEffect } from 'react'
 import './AdventureCard.scss'
 import moment from 'moment';
 import { comma } from 'number-magic'
 import { click } from '../../sounds/sounds';
 
-class AdventureCard extends Component {
-  constructor(props) {
-    super(props)
-    this.state = {
-      photos: this.props.photos
-    }
-  }
+const AdventureCard = (props) => {
+  const { tripName, location, days, exactDate, roughDate, photos } = props
+  
+  const [adventurePhotos, setAdventurePhotos] = useState([])
 
-  calculateTimeDiff = (date) => {
+  useEffect(() => {
+    setAdventurePhotos(photos)
+  }, [])
+
+  const calculateTimeDiff = (date) => {
     return `${comma(moment().diff(date, "days"))} days ago`
   }
 
-  rotatePhoto = () => {
+  const rotatePhoto = () => {
     click.play()
-    if (this.state.photos.length === 1) {
-      this.setState({
-        photos: this.props.photos
-      })
+    if (adventurePhotos.length === 1) {
+      setAdventurePhotos(photos)
     } else {
-      this.setState({
-        photos: this.state.photos.slice(1)
-      })
+      setAdventurePhotos(adventurePhotos.slice(1))
     }
   }
-
-  render() {
-    const { tripName, location, days, exactDate, roughDate } = this.props
-    return (
-      <section 
-        className="adventure-cover"
-        role="button"
-        onClick={this.rotatePhoto}
-      >
-        <img 
-            src={this.state.photos[0]}
-            alt={`Photo from ${tripName}`}
-            className="adventure-img-cover"
-        />
-        <h3>{tripName}</h3>
-        <h4>{location}</h4>
-        <h4>{days} days</h4>
-        <h4>{`${roughDate} (${this.calculateTimeDiff(exactDate, "YYYYMMDD")})`}</h4>
-      </section>
-    )
-  }
+  // render() {
+  return (
+    <section 
+      className="adventure-cover"
+      role="button"
+      onClick={rotatePhoto}
+    >
+      <img 
+          src={adventurePhotos[0]}
+          alt={`Photo from ${tripName}`}
+          className="adventure-img-cover"
+      />
+      <h3>{tripName}</h3>
+      <h4>{location}</h4>
+      <h4>{days} days</h4>
+      <h4>{`${roughDate} (${calculateTimeDiff(exactDate, "YYYYMMDD")})`}</h4>
+    </section>
+  )
 }
 
 export default AdventureCard

@@ -38,6 +38,7 @@ renderNavButtons = () => {
   return filteredOptions.map(option => {
     return (
       <NavLink 
+        key={option.name}
         to={option.link} 
         className="nav-btn-anchor"
         onClick={() => this.handleNavClick(option.name.toLowerCase())}
