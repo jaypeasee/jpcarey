@@ -1,0 +1,43 @@
+.nav-logo {
+  height: 125px;
+  align-self: center;
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.mobile-nav-logo {
+  display: none;
+}
+
+@media only screen and (max-width: 900px) {
+  
+  .nav-logo {
+    display: none;
+  }
+
+  .mobile-nav-logo {
+    display: flex;
+    height: 100px;
+    align-self: center;
+    margin: 0 50px 10px 50px;
+  }
+
+}
+
+@media only screen and (max-width: 700px) {
+
+  .mobile-nav-logo {
+    height: 80px;
+  }
+
+}
+
+@media only screen and (max-width: 600px) {
+
+  .mobile-nav-logo {
+    margin: 0 0 10px 0;
+    height: 50px;
+  }
+
+}

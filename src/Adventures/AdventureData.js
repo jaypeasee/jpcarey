@@ -28,12 +28,12 @@ const adventureDetails = [
   {
     id: 12,
     tripName: "Commissary Ridge Yurt Trip",
-    location: "Bridger Teton National Forest, Wyoming",
+    location: "Bridger Teton National Forest, Wydaho",
     photos: commissaryPics,
     days: "3",
     exactDate: "20200110",
     roughDate: "January, 2020",
-    searchTerms: ["Ski Trip", "Wyoming"]
+    searchTerms: ["Ski Trip", "Wyoming", "Idaho"]
   },
   {
     id: 11,
@@ -43,7 +43,7 @@ const adventureDetails = [
     days: "14",
     exactDate: "20190121",
     roughDate: "January, 2019",
-    searchTerms: ["Ski Trip", "Japan"]
+    searchTerms: ["Ski Trip"]
   },
   {
     id: 10,
@@ -53,17 +53,17 @@ const adventureDetails = [
     days: "21",
     exactDate: "20180401",
     roughDate: "April, 2018",
-    searchTerms: ["Raft Trip", "National Park", "Arizona"]
+    searchTerms: ["Raft Trip", "National Park"]
   },
   {
     id: 9,
     tripName: "Baldy Knoll Yurt Trip",
-    location: "Bridger Teton National Forest, Wyoming",
+    location: "Bridger Teton National Forest, Wydaho",
     photos: baldyPics,
     days: "4",
     exactDate: "20180121",
     roughDate: "January, 2018",
-    searchTerms: ["Ski Trip", "Wyoming"]
+    searchTerms: ["Ski Trip", "Wyoming", "Idaho"]
   },
   {
     id: 8,
@@ -152,9 +152,7 @@ const adventureSearchTerms = [
   "National Park",
   "Wyoming",
   "Ski Trip",
-  "Japan",
   "Raft Trip",
-  "Arizona",
   "Idaho",
   "Ontario",
   "Quebec",
