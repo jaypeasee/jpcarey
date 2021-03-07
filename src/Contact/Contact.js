@@ -13,13 +13,13 @@ const Contact = () => {
             href={type.link}
             className="icon-anchor-combo"
             onClick={() => click.play()}
+            onMouseOver={() => tick.play()}
           >
             <img 
               src={type.image.src}
               alt={type.image.alt}
               role="button"
               className="contact-logo"
-              onMouseOver={() => tick.play()}
             />
             <p className="contact-link-txt">{type.text}</p>
           </a>
