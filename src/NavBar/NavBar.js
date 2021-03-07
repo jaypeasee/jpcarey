@@ -129,16 +129,6 @@ class NavBar extends Component {
                                 onClick={() => this.handleNavClick("adventures")}
                             >Adventures</button>
                         </NavLink>}
-                        {!music && <NavLink 
-                            to="/music"
-                            className="nav-btn-anchor"
-                        >
-                            <button 
-                                className="nav-btn"
-                                onMouseOver={() => this.tick.play()}
-                                onClick={() => this.handleNavClick("music")}
-                            >Music</button>
-                        </NavLink>}
                     </div>
                     </div>
                     <h2
