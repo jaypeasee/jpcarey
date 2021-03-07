@@ -3,7 +3,7 @@ import './AdventureCard.scss'
 import moment from 'moment';
 import { comma } from 'number-magic'
 import UIfx from 'uifx'
-import btnClick from '../../Sounds/btnClick.mp3'
+import btnClick from '../../sounds/btnClick.mp3'
 
 class AdventureCard extends Component {
   constructor(props) {

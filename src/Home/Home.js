@@ -2,9 +2,8 @@ import React, {Component} from 'react'
 import './Home.scss'
 import { photosOfMe } from './homeImages/imgImports';
 import UIfx from 'uifx'
-import btnClick from '../Sounds/btnClick.mp3'
-import btnTick from '../Sounds/btnTick.mp3'
-
+import btnClick from '../sounds/btnClick.mp3'
+import btnTick from '../sounds/btnTick.mp3'
 
 class Home extends Component {
   constructor() {

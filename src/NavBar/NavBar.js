@@ -2,8 +2,8 @@ import React, {Component} from 'react'
 import logo from './images/logo.png'
 import './NavBar.scss'
 import UIfx from 'uifx'
-import btnClick from '../Sounds/btnClick.mp3'
-import btnTick from '../Sounds/btnTick.mp3'
+import btnClick from '../sounds/btnClick.mp3'
+import btnTick from '../sounds/btnTick.mp3'
 import { NavLink } from 'react-router-dom'
 
 class NavBar extends Component {

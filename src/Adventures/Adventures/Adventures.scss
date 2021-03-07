@@ -2,17 +2,17 @@
 @import '../../mixins.scss';
 
 .photos-section {
-    @include column-center;
-    font-family: $signika;
-    width: 100vw;
+  @include column-center;
+  font-family: $signika;
+  width: 100vw;
 }
 
 .adventure-library {
-    @include row-wrap-center;
+  @include row-wrap-center;
 }
 
 .error-message {
-    color: $navy;
-    font-size: 2em;
-    text-decoration: underline wavy;
+  color: $navy;
+  font-size: 2em;
+  text-decoration: underline wavy;
 }

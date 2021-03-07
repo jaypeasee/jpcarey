@@ -2,7 +2,7 @@ import React, { Component } from 'react'
 import './Adventures.scss'
 import AdventureCard from '../Card/AdventureCard'
 import AdventureFilter from '../Filter/AdventureFilter'
-import { adventureDetails, adventureSearchTerms } from '../AdventureData'
+import { adventureDetails } from '../adventureData'
 
 class Adventures extends Component {
   constructor() {

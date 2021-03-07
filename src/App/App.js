@@ -5,7 +5,6 @@ import Home from '../Home/Home'
 import Contact from '../Contact/Contact'
 import Resume from '../Resume/Resume'
 import Adventures from '../Adventures/Adventures/Adventures'
-import Music from '../Music/Music'
 import { Route, Switch } from 'react-router-dom'
 
 class App extends Component {
@@ -16,7 +15,6 @@ class App extends Component {
       contact: false,
       resume: false,
       adventures: false,
-      music: false,
       title: "home"
     }
   }
@@ -27,7 +25,6 @@ class App extends Component {
       contact: false,
       resume: false,
       adventures: false,
-      music: false,
       [view]: true,
       title: view
     })
@@ -41,7 +38,6 @@ class App extends Component {
           contact={this.state.contact}
           resume={this.state.resume}
           adventures={this.state.adventures}
-          music={this.state.music}
           toggleNav={this.toggleNav}
           title={this.state.title}
         />
@@ -79,15 +75,6 @@ class App extends Component {
             render={() => {
               return (
                 <Adventures />
-              )
-            }}
-          />
-          <Route 
-            exact
-            path="/music"
-            render={() => {
-              return (
-                <Music />
               )
             }}
           />

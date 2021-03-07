@@ -2,62 +2,62 @@
 @import '../../mixins.scss';
 
 .adventure-cover {
-    @include column-center;
-    @include blue-on-white;
-    width: 25%;
-    margin: 2%;
-    padding: 1%;
-    box-shadow: 4px 5px 20px black;
-    cursor: pointer;
+  @include column-center;
+  @include blue-on-white;
+  width: 25%;
+  margin: 2%;
+  padding: 1%;
+  box-shadow: 4px 5px 20px black;
+  cursor: pointer;
 }
 
 .adventure-cover:hover {
-    transform: scale(1.02);
+  transform: scale(1.02);
 }
 
 .adventure-cover:hover .adventure-img-cover {
-    opacity: 1;
+  opacity: 1;
 }
 
 .adventure-img-cover {
-    width: 100%;
-    opacity: .8;
-    height: 60%;
+  width: 100%;
+  opacity: .8;
+  height: 60%;
 }
 
 .adventure-cover h4 {
-    margin: 1%;
+  margin: 1%;
 }
 
 @media only screen and (max-width: 1200px) {
-    .adventure-cover {
-        width: 40%;
-        margin: 2%;
-    }
+  .adventure-cover {
+    width: 40%;
+    margin: 2%;
+  }
 }
 
 @media only screen and (max-width: 900px) {
-    .adventure-img-cover {
-        opacity: 1;
-    }
+  .adventure-img-cover {
+    opacity: 1;
+  }
 }
 
 @media only screen and (max-width: 800px) {
-    .adventure-cover {
-        width: 80%;
-        margin: 5%;
-    }
+  .adventure-cover {
+    width: 80%;
+    margin: 5%;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    .adventure-cover {
-        padding-bottom: 10%;
-    }
+  .adventure-cover {
+    padding-bottom: 10%;
+  }
 }
 
 @media only screen and (max-width: 400px) {
 
-    .adventure-cover h4 {
-        font-size: .8em;
-    }
+  .adventure-cover h4 {
+    font-size: .8em;
+  }
 }

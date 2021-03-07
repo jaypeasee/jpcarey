@@ -1,8 +1,8 @@
 import "./AdventureFilyer.scss"
-import { adventureSearchTerms } from '../AdventureData'
+import { adventureSearchTerms } from '../adventureData'
 import UIfx from 'uifx'
-import btnClick from '../../Sounds/btnClick.mp3'
-import btnTick from '../../Sounds/btnTick.mp3'
+import btnClick from '../../sounds/btnClick.mp3'
+import btnTick from '../../sounds/btnTick.mp3'
 
 const AdventureFilter = (props) => {
   const click = new UIfx(btnClick, {

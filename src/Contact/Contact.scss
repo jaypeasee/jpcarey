@@ -2,81 +2,88 @@
 @import '../mixins.scss';
 
 .contact-section {
-    @include column-center;
-    width: 100vw;
-    margin-top: 3%;
-    font-family: $signika;
+  @include column-center;
+  width: 100vw;
+  margin-top: 3%;
+  font-family: $signika;
 }
 
 .contact-card {
-    @include blue-on-white;
-    width: 50%;
-    box-shadow: 4px 5px 20px black;
-    padding: 3% 0;
+  @include blue-on-white;
+  @include column-center;
+  width: 50%;
+  box-shadow: 4px 5px 20px black;
+  padding: 3% 0;
+  
 }
 
 .contact-card h2 {
-    text-align: center;
-    text-decoration: underline wavy;
-    margin-top: 0;
-    font-size: 2em;
+  text-align: center;
+  text-decoration: underline wavy;
+  margin-top: 0;
+  font-size: 2em;
 }
 
 .contact-logo {
-    height: 50px;
-    margin-right: 2%;
-    cursor: pointer;
+  height: 50px;
+  margin-right: 2%;
+  cursor: pointer;
 }
 
 .icon-anchor-combo {
-    margin: 2% 10%;
-    display: flex;
-    align-items: center;
-    flex-basis: 100px;
+  margin: 5%;
+  display: flex;
+  align-items: center;
+  flex-basis: 100px;
 }
 
 .icon-anchor-combo:hover{
-    transform: scale(1.02)
+  transform: scale(1.02)
 }
 
 .contact-link-txt {
-    color: $navy;
-    text-decoration: underline $navy;
-    font-size: 1.25em;
+  color: $navy;
+  text-decoration: underline $navy;
+  font-size: 1.25em;
+}
+
+.contact-options {
+  align-self: flex-start;
+  margin: 0 10%;
 }
 
 
 @media only screen and (max-width: 1000px) {
-    .contact-card {
-        width: 70%;
-    }
+  .contact-card {
+      width: 70%;
+  }
 }
 
 @media only screen and (max-width: 800px) {
-    .contact-logo {
-        height: 30px;
-    }
+  .contact-logo {
+      height: 30px;
+  }
 
-    .contact-link-txt {
-        font-size: 1.25em;
-    }
+  .contact-link-txt {
+      font-size: 1.25em;
+  }
 }
 
 @media only screen and (max-width: 600px) {
-    .contact-card {
-        width: 80%;
-        margin-top: 5%;
-    }
+  .contact-card {
+    width: 80%;
+    margin-top: 5%;
+  }
 
-    .contact-card h2 {
-        font-size: 1.25em;
-    }
+  .contact-card h2 {
+    font-size: 1.25em;
+  }
 
-    .board-pin {
-        height: 25px;
-    }
+  .board-pin {
+    height: 25px;
+  }
 
-    .contact-link-txt {
-        font-size: 1em;
-    }
+  .contact-link-txt {
+    font-size: 1em;
+  }
 }
