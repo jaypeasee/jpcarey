@@ -22,7 +22,6 @@ class App extends Component {
   }
 
   toggleNav = (view) => {
-    console.log(view)
     this.setState({
       home: false,
       contact: false,
