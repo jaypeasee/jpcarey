@@ -41,38 +41,22 @@ const App = () =>  {
         <Route 
           exact 
           path="/"
-          render={() => {
-              return (
-                  <Home/>
-              )
-            }}
+          render={() => <Home/>}
         />
         <Route 
           exact
           path="/contact"
-          render={() => {
-            return (
-              <Contact />
-            )
-          }}
+          render={() => <Contact/>}
         />
         <Route 
           exact
           path="/resume"
-          render={() => {
-            return (
-              <Resume />
-            )
-          }}
+          render={() => <Resume />}
         />
         <Route 
           exact
           path="/adventures"
-          render={() => {
-            return (
-              <Adventures />
-            )
-          }}
+          render={() => <Adventures />}
         />
       </Switch>
     </React.Fragment>
