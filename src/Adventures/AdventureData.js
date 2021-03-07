@@ -12,9 +12,9 @@ import {
   petPics,
   rupertPics,
   mainSalmonPics
-} from './imgImports.js'
+} from './adventureImages/imgImports.js'
 
-const adventureData = [
+const adventureDetails = [
   {
     id: 13,
     tripName: "Shoshone Canoe Trip",
@@ -83,7 +83,7 @@ const adventureData = [
     days: "37",
     exactDate: "20150705",
     roughDate: "July, 2015",
-    searchTerms: ["Canoe Trip", "Ontario"]
+    searchTerms: ["Canoe Trip", "Ontario", "Canada"]
   },
   {
     id: 6,
@@ -93,7 +93,7 @@ const adventureData = [
     days: "14",
     exactDate: "20140705",
     roughDate: "July, 2014",
-    searchTerms: ["Canoe Trip", "Quebec"]
+    searchTerms: ["Canoe Trip", "Quebec", "Canada"]
   },
   {
     id: 5,
@@ -103,17 +103,17 @@ const adventureData = [
     days: "32",
     exactDate: "20130709",
     roughDate: "July, 2013",
-    searchTerms: ["Canoe Trip", "Ontario"]
+    searchTerms: ["Canoe Trip", "Ontario", "Canada"]
   },
   {
     id: 4,
     tripName: "Mistassibi River Canoe Trip",
-    location: "Dolbeau-Mistassini, Quebec",
+    location: "Dolbeau-Mistassini, Quebec, Canada",
     photos: mistassibiPics,
     days: "6",
     exactDate: "20120520",
     roughDate: "May, 2012",
-    searchTerms: ["Canoe Trip", "Quebec"]
+    searchTerms: ["Canoe Trip", "Quebec", "Canada"]
   },
   {
     id: 3,
@@ -123,7 +123,7 @@ const adventureData = [
     days: "10",
     exactDate: "20110815",
     roughDate: "August, 2011",
-    searchTerms: ["Canoe Trip", "Ontario"]
+    searchTerms: ["Canoe Trip", "Ontario", "Canada"]
   },
   {
     id: 2,
@@ -133,7 +133,7 @@ const adventureData = [
     days: "19",
     exactDate: "20110703",
     roughDate: "July, 2011",
-    searchTerms: ["Canoe Trip", "Ontario"]
+    searchTerms: ["Canoe Trip", "Ontario", "Canada"]
   },
   {
     id: 1,
@@ -143,8 +143,22 @@ const adventureData = [
     days: "25",
     exactDate: "20080714",
     roughDate: "July, 2008",
-    searchTerms: ["Canoe Trip", "Quebec"]
+    searchTerms: ["Canoe Trip", "Quebec", "Canada"]
   },
 ]
 
-export { adventureData }
+const adventureSearchTerms = [
+  "Canoe Trip",
+  "National Park",
+  "Wyoming",
+  "Ski Trip",
+  "Japan",
+  "Raft Trip",
+  "Arizona",
+  "Idaho",
+  "Ontario",
+  "Quebec",
+  "Canada"
+].sort()
+
+export { adventureDetails, adventureSearchTerms }

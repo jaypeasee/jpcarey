@@ -1,0 +1,18 @@
+@import '../../variables.scss';
+
+.adventure-filter {
+  width: 30%;
+  align-self: flex-start;
+  margin: 5%;
+}
+
+.adventure-filter h2 {
+  color: $navy
+}
+
+.adventure-filter select {
+  width: 90%;
+  padding: 2% 5%;
+  font-size: 16px;
+  outline: none;
+}

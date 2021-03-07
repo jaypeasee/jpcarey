@@ -1,7 +1,8 @@
 import React, { Component } from 'react'
 import './Adventures.scss'
-import AdventureCard from '../AdventureCard/AdventureCard'
-import { adventureData } from './AdventureData'
+import AdventureCard from '../Card/AdventureCard'
+import AdventureFilter from '../Filter/AdventureFilter'
+import { adventureDetails, adventureSearchTerms } from '../AdventureData'
 
 class Adventures extends Component {
   constructor() {
@@ -13,8 +14,22 @@ class Adventures extends Component {
 
   componentDidMount() {
     this.setState({
-      currentAdventures: adventureData
+      currentAdventures: adventureDetails
     })
+  }
+
+  filterAdventures = (searchTerm) => {
+    if (!searchTerm) {
+      this.setState({
+        currentAdventures: adventureDetails
+      })
+    } else {
+      this.setState({
+      currentAdventures: adventureDetails.filter(adventure => {
+        return adventure.searchTerms.includes(searchTerm)
+      })
+    })
+    }
   }
 
   createAdventureCards = () => {
@@ -38,6 +53,9 @@ class Adventures extends Component {
   render() {
     return (
       <section className="photos-section">
+        <AdventureFilter 
+          filterAdventures={this.filterAdventures}
+        />
         <section className="adventure-library">
           {this.createAdventureCards()}
         </section>

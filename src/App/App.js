@@ -4,7 +4,7 @@ import NavBar from '../NavBar/NavBar'
 import Home from '../Home/Home'
 import Contact from '../Contact/Contact'
 import Resume from '../Resume/Resume'
-import Adventures from '../Adventures/Adventures'
+import Adventures from '../Adventures/Adventures/Adventures'
 import Music from '../Music/Music'
 import { Route, Switch } from 'react-router-dom'
 
