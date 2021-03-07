@@ -25,7 +25,7 @@ const AdventureCard = (props) => {
       setAdventurePhotos(adventurePhotos.slice(1))
     }
   }
-  // render() {
+  
   return (
     <section 
       className="adventure-cover"
@@ -33,9 +33,9 @@ const AdventureCard = (props) => {
       onClick={rotatePhoto}
     >
       <img 
-          src={adventurePhotos[0]}
-          alt={`Photo from ${tripName}`}
-          className="adventure-img-cover"
+        src={adventurePhotos[0]}
+        alt={`Photo from ${tripName}`}
+        className="adventure-img-cover"
       />
       <h3>{tripName}</h3>
       <h4>{location}</h4>

@@ -3,20 +3,19 @@ import './Resume.scss'
 import resume from './JPC_Dev_Resume.pdf'
 
 const Resume = () => {
-    return (
-        <section className="resume-section">
-            <div className="resume-frame">
-                <object
-                    data={resume}
-                    type='application/pdf'
-                    width="100%"
-                    height="100%"
-                    className="resume-pdf"
-                >
-                </object>
-            </div>
-        </section>
-    )
+  return (
+    <section className="resume-section">
+      <div className="resume-frame">
+        <object
+          data={resume}
+          type='application/pdf'
+          width="100%"
+          height="100%"
+          className="resume-pdf"
+        ></object>
+      </div>
+    </section>
+  )
 }
 
 export default Resume
