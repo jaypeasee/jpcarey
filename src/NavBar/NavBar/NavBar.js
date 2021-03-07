@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from 'react'
-import logo from './images/logo.png'
 import './NavBar.scss'
 import { NavLink } from 'react-router-dom'
-import { click, tick } from '../sounds/sounds'
-import { selfDescriptions, navigationOptions } from './navBarData'
+import { click, tick } from '../../sounds/sounds'
+import { selfDescriptions, navigationOptions } from '../navBarData'
+import NavLogo from '../Logo/NavLogo'
 
 const NavBar = (props) => {
 
@@ -53,25 +53,9 @@ const NavBar = (props) => {
             <h3>currently living in Jackson, Wyoming</h3>
             <h2 className="mobile-section-title">{props.title.toUpperCase()}</h2>
           </div>
-          <NavLink to="/">
-            <img 
-              src={logo}
-              alt="Jp's Logo and Initials"
-              className="nav-logo"
-              onMouseOver={() => tick.play()}
-              onClick={() => handleNavClick("home")}
-            />
-          </NavLink>
+          <NavLogo className="nav-logo" handleNavClick={handleNavClick}/>
           <div className="nav-btn-container">
-            <NavLink to="/">
-              <img 
-                src={logo}
-                alt="Jp's Logo and Initials"
-                className="mobile-nav-logo"
-                onMouseOver={() => tick.play()}
-                onClick={() => handleNavClick("home")}
-              />
-            </NavLink>
+            <NavLogo className="mobile-nav-logo" handleNavClick={handleNavClick}/>
             {renderNavButtons()}
           </div>
         </div>

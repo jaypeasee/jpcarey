@@ -1,6 +1,6 @@
 import React, { useState } from 'react'
 import './App.scss';
-import NavBar from '../NavBar/NavBar'
+import NavBar from '../NavBar/NavBar/NavBar'
 import Home from '../Home/Home'
 import Contact from '../Contact/Contact'
 import Resume from '../Resume/Resume'

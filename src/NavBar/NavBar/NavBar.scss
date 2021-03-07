@@ -1,5 +1,5 @@
-@import '../variables.scss';
-@import '../mixins.scss';
+@import '../../variables.scss';
+@import '../../mixins.scss';
 
 .nav-background {
   @include column-center;
@@ -8,7 +8,7 @@
 
 .nav-bar {
   @include column;
-  background: url(./images/dirtyPaper.jpg) no-repeat center center;
+  background: url(../images/dirtyPaper.jpg) no-repeat center center;
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
