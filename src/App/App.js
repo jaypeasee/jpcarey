@@ -1,4 +1,4 @@
-import React, {Component} from 'react'
+import React, { useState } from 'react'
 import './App.scss';
 import NavBar from '../NavBar/NavBar'
 import Home from '../Home/Home'
@@ -7,20 +7,17 @@ import Resume from '../Resume/Resume'
 import Adventures from '../Adventures/Adventures/Adventures'
 import { Route, Switch } from 'react-router-dom'
 
-class App extends Component {
-  constructor() {
-    super()
-    this.state = {
-      home: true,
-      contact: false,
-      resume: false,
-      adventures: false,
-      title: "home"
-    }
-  }
+const App = () =>  {
+  const [pageView, setPageView] = useState({
+    home: true,
+    contact: false,
+    resume: false,
+    adventures: false,
+    title: "home"
+  })
 
-  toggleNav = (view) => {
-    this.setState({
+  const toggleNav = (view) => {
+    setPageView({
       home: false,
       contact: false,
       resume: false,
@@ -30,58 +27,56 @@ class App extends Component {
     })
   }
 
-  render() {
-    return (
-      <React.Fragment>
-        <NavBar 
-          home={this.state.home}
-          contact={this.state.contact}
-          resume={this.state.resume}
-          adventures={this.state.adventures}
-          toggleNav={this.toggleNav}
-          title={this.state.title}
+  return (
+    <React.Fragment>
+      <NavBar 
+        home={pageView.home}
+        contact={pageView.contact}
+        resume={pageView.resume}
+        adventures={pageView.adventures}
+        toggleNav={toggleNav}
+        title={pageView.title}
+      />
+      <Switch>
+        <Route 
+          exact 
+          path="/"
+          render={() => {
+              return (
+                  <Home/>
+              )
+            }}
         />
-        <Switch>
-          <Route 
-            exact 
-            path="/"
-            render={() => {
-                return (
-                    <Home/>
-                )
-              }}
-          />
-          <Route 
-            exact
-            path="/contact"
-            render={() => {
-              return (
-                <Contact />
-              )
-            }}
-          />
-          <Route 
-            exact
-            path="/resume"
-            render={() => {
-              return (
-                <Resume />
-              )
-            }}
-          />
-          <Route 
-            exact
-            path="/adventures"
-            render={() => {
-              return (
-                <Adventures />
-              )
-            }}
-          />
-        </Switch>
-      </React.Fragment>
-    )
-  }
+        <Route 
+          exact
+          path="/contact"
+          render={() => {
+            return (
+              <Contact />
+            )
+          }}
+        />
+        <Route 
+          exact
+          path="/resume"
+          render={() => {
+            return (
+              <Resume />
+            )
+          }}
+        />
+        <Route 
+          exact
+          path="/adventures"
+          render={() => {
+            return (
+              <Adventures />
+            )
+          }}
+        />
+      </Switch>
+    </React.Fragment>
+  )
 }
 
 export default App;
