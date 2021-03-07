@@ -1,39 +1,28 @@
-import React, { Component } from 'react'
+import React, { useState, useEffect } from 'react'
 import './Adventures.scss'
 import AdventureCard from '../Card/AdventureCard'
 import AdventureFilter from '../Filter/AdventureFilter'
 import { adventureDetails } from '../adventureData'
 
-class Adventures extends Component {
-  constructor() {
-    super()
-    this.state = {
-      currentAdventures: []
-    }
-  }
+const Adventures = () => {
+  const [currentAdventures, setCurrentAdventures] = useState([])
 
-  componentDidMount() {
-    this.setState({
-      currentAdventures: adventureDetails
-    })
-  }
+  useEffect(() =>{
+    setCurrentAdventures(adventureDetails)
+  }, [])
 
-  filterAdventures = (searchTerm) => {
+  const filterAdventures = (searchTerm) => {
     if (!searchTerm) {
-      this.setState({
-        currentAdventures: adventureDetails
-      })
+      setCurrentAdventures(adventureDetails)
     } else {
-      this.setState({
-      currentAdventures: adventureDetails.filter(adventure => {
+      setCurrentAdventures(adventureDetails.filter(adventure => {
         return adventure.searchTerms.includes(searchTerm)
-      })
-    })
+      }))
     }
   }
 
-  createAdventureCards = () => {
-    return this.state.currentAdventures.map(adventure => {
+  const createAdventureCards = () => {
+    return currentAdventures.map(adventure => {
       const {id, tripName, location, photos, days, exactDate, roughDate, searchTerms} = adventure
       return (
         <AdventureCard 
@@ -50,20 +39,16 @@ class Adventures extends Component {
     })
   }
 
-  render() {
     return (
       <section className="photos-section">
         <AdventureFilter 
-          filterAdventures={this.filterAdventures}
+          filterAdventures={filterAdventures}
         />
         <section className="adventure-library">
-          {this.createAdventureCards()}
+          {createAdventureCards()}
         </section>
-          {this.state.currentAdventures.length === 0 &&
-          <h1 className="error-message">Oops! No Adventures Found</h1>}
       </section>
     )
-  }
 }
 
 export default Adventures;
