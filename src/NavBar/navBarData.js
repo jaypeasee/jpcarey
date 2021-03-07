@@ -16,10 +16,22 @@ const selfDescriptions = [
 ]
 
 const navigationOptions = [
-  "Home",
-  "Contact",
-  "Resume",
-  "Adventures"
+  {
+    name: "Home",
+    link: "/"
+  },
+  {
+    name: "Contact",
+    link: "/contact"
+  },
+  {
+    name: "Resume",
+    link: "/resume"
+  },
+  {
+    name: "Adventures",
+    link: "/adventures"
+  }
 ]
 
 export { selfDescriptions, navigationOptions }

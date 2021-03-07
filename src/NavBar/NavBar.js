@@ -33,17 +33,17 @@ handleNavClick = (view) => {
 
 renderNavButtons = () => {
   const filteredOptions = navigationOptions.filter(option => {
-    return !this.props[option.toLowerCase()]
+    return !this.props[option.name.toLowerCase()]
   })
   return filteredOptions.map(option => {
     return (
       <NavLink 
-        to="/" 
+        to={option.link} 
         className="nav-btn-anchor"
-        onClick={() => this.handleNavClick("home")}
+        onClick={() => this.handleNavClick(option.name.toLowerCase())}
         className="nav-btn"
         onMouseOver={() => tick.play()}
-      >{option}</NavLink>
+      >{option.name}</NavLink>
     )
   })
 }
