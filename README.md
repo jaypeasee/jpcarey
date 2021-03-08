@@ -12,8 +12,7 @@
 * Hooks
 * Router
 * SCSS
-* Github Pages
-* Deployed Through Go Daddy CNAME
+* Deployed Through Go Daddy CNAME and Github Pages
 
 ## Fun Things About This App
 * Timed, rotating self descriptions in the nav bar
