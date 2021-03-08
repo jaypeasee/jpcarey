@@ -3,7 +3,7 @@
 ## Setup Instructions
 * Clone down this repo and change into it.
 * Run `npm i` to install dependencies
-* Run `npm start` to run localhost:3000
+* Run `npm start` to run `localhost:3000`
 * Deployed Site: https://jpcarey.com/
 
 ## Tools and Technologies
