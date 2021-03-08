@@ -1,5 +1,5 @@
 import './NavLogo.scss'
-import logo from '../images/logo.png'
+import logo from '../navBarImages/logo.png'
 import { NavLink } from 'react-router-dom'
 import { tick } from '../../sounds/sounds'
 
