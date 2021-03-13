@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.ba3c8cc7.chunk.css",
-    "main.js": "/static/js/main.665e66e0.chunk.js",
-    "main.js.map": "/static/js/main.665e66e0.chunk.js.map",
+    "main.js": "/static/js/main.e7514fab.chunk.js",
+    "main.js.map": "/static/js/main.e7514fab.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.843d8f8c.js",
     "runtime-main.js.map": "/static/js/runtime-main.843d8f8c.js.map",
     "static/js/2.be6b12ea.chunk.js": "/static/js/2.be6b12ea.chunk.js",
@@ -56,8 +56,7 @@
     "static/media/furanoSkin.02ef4415.JPG": "/static/media/furanoSkin.02ef4415.JPG",
     "static/media/gabeWhitewater.803ea100.jpg": "/static/media/gabeWhitewater.803ea100.jpg",
     "static/media/geyserBasin.b0d83114.jpeg": "/static/media/geyserBasin.b0d83114.jpeg",
-    "static/media/github.b32ef956.png": "/static/media/github.b32ef956.png",
-    "static/media/gmail.23d2a9b0.png": "/static/media/gmail.23d2a9b0.png",
+    "static/media/github.16385cd6.png": "/static/media/github.16385cd6.png",
     "static/media/grahamBow.2878ed69.jpg": "/static/media/grahamBow.2878ed69.jpg",
     "static/media/grandFalls.70e22ec1.jpg": "/static/media/grandFalls.70e22ec1.jpg",
     "static/media/grifAfter.e7b09726.jpg": "/static/media/grifAfter.e7b09726.jpg",
@@ -69,7 +68,7 @@
     "static/media/hike.8982e4c2.JPG": "/static/media/hike.8982e4c2.JPG",
     "static/media/hillayMe.22bc8fbf.jpeg": "/static/media/hillayMe.22bc8fbf.jpeg",
     "static/media/ianFishing.6ecb0e44.jpeg": "/static/media/ianFishing.6ecb0e44.jpeg",
-    "static/media/instagram.010da4ce.png": "/static/media/instagram.010da4ce.png",
+    "static/media/instagram.60edc1fb.png": "/static/media/instagram.60edc1fb.png",
     "static/media/japanIcicle.7ec47ac7.jpeg": "/static/media/japanIcicle.7ec47ac7.jpeg",
     "static/media/japanVan.71bc0e6f.jpeg": "/static/media/japanVan.71bc0e6f.jpeg",
     "static/media/kateHungover.965a645a.jpeg": "/static/media/kateHungover.965a645a.jpeg",
@@ -79,7 +78,7 @@
     "static/media/lava.865d9a59.jpg": "/static/media/lava.865d9a59.jpg",
     "static/media/lewisLake.262662b4.jpeg": "/static/media/lewisLake.262662b4.jpeg",
     "static/media/lilChannel.c086931d.jpeg": "/static/media/lilChannel.c086931d.jpeg",
-    "static/media/linkedin.e65fd24a.png": "/static/media/linkedin.e65fd24a.png",
+    "static/media/linkedin.f1fcce0e.png": "/static/media/linkedin.f1fcce0e.png",
     "static/media/littleColorado.663610ec.JPG": "/static/media/littleColorado.663610ec.JPG",
     "static/media/logo.082e51bd.png": "/static/media/logo.082e51bd.png",
     "static/media/marsClassic.872986f7.jpg": "/static/media/marsClassic.872986f7.jpg",
@@ -150,6 +149,6 @@
     "static/js/runtime-main.843d8f8c.js",
     "static/js/2.be6b12ea.chunk.js",
     "static/css/main.ba3c8cc7.chunk.css",
-    "static/js/main.665e66e0.chunk.js"
+    "static/js/main.e7514fab.chunk.js"
   ]
 }
