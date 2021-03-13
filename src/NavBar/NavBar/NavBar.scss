@@ -43,7 +43,7 @@
 .nav-btn-container {
   display: flex;
   flex-wrap: wrap;
-  width: 25%;
+  width: 15%;
   height: 50%;
   align-self: center;
   justify-content: flex-end;
@@ -86,14 +86,14 @@
 
 @media only screen and (max-width: 1000px) {
   .nav-btn-container {
-    width: 30%;
+    width: 25%;
   }
 }
 
 @media only screen and (max-width: 900px) {
   .nav-btn-container {
     justify-content: center;
-    width: 35%;
+    width: 30%;
   }
 
   .section-title {
@@ -115,7 +115,7 @@
   }
 
   .nav-btn-container {
-    width: 40%;
+    width: 35%;
   }
   
   .nav-intro {
@@ -140,5 +140,14 @@
 
   .nav-btn {
     width: 80px;
+    font-size: 1em;
+    margin: 5% 0;
+  }
+}
+
+@media only screen and (max-width: 360px) {
+  .nav-btn {
+    width: 65px;
+    font-size: .70em;
   }
 }
