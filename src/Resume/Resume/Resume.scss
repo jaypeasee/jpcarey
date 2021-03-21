@@ -56,6 +56,9 @@
   @include yellow-button;
   padding: 10px;
   text-decoration: none;
+  &:hover {
+    transform: scale(1.03);
+  }
 }
 
 .pdf-btn-container-bottom {
