@@ -1,0 +1,23 @@
+@import '../../variables.scss';
+@import '../../mixins.scss';
+
+.resume-section {
+  @include column-center;
+  font-family: $signika;
+  width: 100%;
+}
+
+.resume-page {
+  background-color: $base;
+  width: 70%;
+  padding: 5%;
+  border-radius: 5px;
+}
+
+.resume-page h2 {
+  color: $navy;
+}
+
+.skills-section {
+  
+}
