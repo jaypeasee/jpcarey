@@ -16,3 +16,9 @@
   font-size: 2em;
   text-decoration: underline wavy;
 }
+
+@media only screen and (max-width: 700px) {
+  .adventure-library {
+    margin-bottom: 10%;
+  }
+}
