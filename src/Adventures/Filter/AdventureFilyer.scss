@@ -16,3 +16,16 @@
   font-size: 16px;
   outline: none;
 }
+
+@media only screen and (max-width: 1200px) {
+  .adventure-filter {
+    width: 45%;
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .adventure-filter {
+    width: 70%;
+    align-self: center;
+  }
+}

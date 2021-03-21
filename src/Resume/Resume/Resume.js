@@ -37,23 +37,23 @@ const Resume = () => {
   return (
     <section className="resume-section">
       <section className="resume-page">
-        <h2>EXPERIENCE</h2>
+        <h2 className="experience-title">EXPERIENCE</h2>
         {renderExperiences()}
-        <h2>FEATURED PROJECTS</h2>
+        <h2 className="projects-title">FEATURED PROJECTS</h2>
         {renderProjects()}
-        <h2>PROGRAMMING LANGUAGES</h2>
+        <h2 className="languages-title">PROGRAMMING LANGUAGES</h2>
         <section className="skills-section">
           {renderSkills('programmingLanguages')}
         </section>
-        <h2>FRAMEWORKS AND LIBRARIES</h2>
+        <h2 className="skills-title">FRAMEWORKS AND LIBRARIES</h2>
         <section className="skills-section">
           {renderSkills('frameworksLibraries')}
         </section>
-        <h2>OTHER SKILLS</h2>
+        <h2 className="skills-title">OTHER SKILLS</h2>
         <section className="skills-section">
           {renderSkills('otherSkills')}
         </section>
-        <h2>EDUCATION</h2>
+        <h2 className="education-title">EDUCATION</h2>
         {renderEducation()}
       </section>
     </section>

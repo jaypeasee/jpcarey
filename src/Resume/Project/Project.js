@@ -6,8 +6,8 @@ const Project = ({ project }) => {
     <section className="projects">
         <h3>{name}</h3>
       <div className="project-details">
-        <a href={repository}>Repository</a>
-        <a href={link}>Deployed Page</a>
+        <a href={repository} target="_blank">Repository</a>
+        <a href={link} target="_blank">Deployed Page</a>
       </div>
       <p>{description}</p>
     </section>

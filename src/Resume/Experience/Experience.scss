@@ -1,7 +1,15 @@
 @import '../../mixins.scss';
 @import '../../variables.scss';
 
+.experience {
+  margin-bottom: 3%;
+}
+
 .experience-details {
   display: flex;
   justify-content: space-between;
+}
+
+.company-name {
+  text-decoration: underline;
 }
