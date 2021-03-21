@@ -22,8 +22,11 @@ code {
     monospace;
 }
 
-// @media only screen and (max-width: 700px) {
-//   body {
-//     background: $navy;
-//   }
-// }
+@media only screen and (max-width: 700px) {
+  body {
+    background: url(./wool.jpg) repeat center center fixed;
+    background-size: contain;
+    margin-bottom: 10%;
+  }
+  
+}

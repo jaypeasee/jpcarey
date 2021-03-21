@@ -12,26 +12,25 @@ const Resume = () => {
 
   const renderExperiences = () => {
     return experienceData.map(experience => {
-      console.log(experience)
-      return <Experience experience={experience}/>
+      return <Experience experience={experience} key={experience.company}/>
     })
   }
 
   const renderProjects = () => {
     return projectData.map(project => {
-      return <Project project={project}/>
+      return <Project project={project} key={project.name}/>
     })
   }
 
   const renderSkills = (index) => {
     return skillsData[index].map(skill => {
-      return <Skill skill={skill}/>
+      return <Skill skill={skill} key={skill}/>
     })
   }
 
   const renderEducation = () => {
     return educationData.map(education => {
-      return <Education education={education}/>
+      return <Education education={education} key={education.school}/>
     })
   }
 
@@ -51,15 +50,15 @@ const Resume = () => {
         {renderExperiences()}
         <h2 className="projects-title">FEATURED PROJECTS</h2>
         {renderProjects()}
-        <h2 className="languages-title">PROGRAMMING LANGUAGES</h2>
+        <h2 className="languages-title">Programming Languages</h2>
         <section className="skills-section">
           {renderSkills('programmingLanguages')}
         </section>
-        <h2 className="skills-title">FRAMEWORKS AND LIBRARIES</h2>
+        <h2 className="skills-title">Frameworks and Libraries</h2>
         <section className="skills-section">
           {renderSkills('frameworksLibraries')}
         </section>
-        <h2 className="skills-title">OTHER SKILLS</h2>
+        <h2 className="skills-title">Other Skills</h2>
         <section className="skills-section">
           {renderSkills('otherSkills')}
         </section>

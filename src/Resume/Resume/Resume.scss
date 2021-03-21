@@ -76,5 +76,15 @@
 @media only screen and (max-width: 700px) {
   .resume-page {
     margin-top: 10%;
+    margin-bottom: 5%;
+  }
+  .pdf-download {
+    font-size: .75em;
+  }
+  .resume-page  {
+    width: 80%;
+  }
+  .projects-title, .education-title, .languages-title {
+    margin-top: 8%;
   }
 }
