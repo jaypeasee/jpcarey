@@ -6,6 +6,7 @@ import Skill from '../Skill/Skill'
 import Education from '../Education/Education'
 import resume from '../JPC_Dev_Resume.pdf'
 import { experienceData, educationData, projectData, skillsData } from '../resumeData'
+import { click, tick } from '../../sounds/sounds'
 
 const Resume = () => {
 
@@ -37,6 +38,15 @@ const Resume = () => {
   return (
     <section className="resume-section">
       <section className="resume-page">
+        <div className="pdf-btn-container-top">
+          <a 
+            href={resume} 
+            className="pdf-download" 
+            target="_blank"
+            onClick={() => click.play()}
+            onMouseOver={() => tick.play()}
+          >See PDF version</a>
+        </div>
         <h2 className="experience-title">EXPERIENCE</h2>
         {renderExperiences()}
         <h2 className="projects-title">FEATURED PROJECTS</h2>
@@ -55,6 +65,15 @@ const Resume = () => {
         </section>
         <h2 className="education-title">EDUCATION</h2>
         {renderEducation()}
+        <div className="pdf-btn-container-bottom">
+          <a 
+            href={resume} 
+            className="pdf-download" 
+            target="_blank"
+            onClick={() => click.play()}
+            onMouseOver={() => tick.play()}
+          >See PDF version</a>
+        </div>
       </section>
     </section>
   )

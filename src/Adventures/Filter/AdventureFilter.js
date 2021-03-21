@@ -1,4 +1,4 @@
-import "./AdventureFilyer.scss"
+import "./AdventureFilter.scss"
 import { adventureSearchTerms } from '../adventureData'
 import { click, tick } from '../../sounds/sounds'
 

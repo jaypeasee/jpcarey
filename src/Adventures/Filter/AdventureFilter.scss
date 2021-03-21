@@ -4,10 +4,15 @@
   width: 30%;
   align-self: flex-start;
   margin: 5%;
+  background-color: $base;
+  padding: 1%;
+  border-radius: 10px;
+  box-shadow: 4px 6px 10px black;
 }
 
 .adventure-filter h2 {
-  color: $navy
+  color: $navy;
+  margin-top: 0;
 }
 
 .adventure-filter select {
@@ -15,6 +20,10 @@
   padding: 2% 5%;
   font-size: 16px;
   outline: none;
+  margin-bottom: 3%;
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 @media only screen and (max-width: 1200px) {
