@@ -22,6 +22,5 @@
 
 ## Next Steps
 * Improved page speed performance in mobile
-* Get clear background image to show in mobile
 * Create a backend for GET requests on Adventure Data
 * Integrate with Spotify to show what song I played last
