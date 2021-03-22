@@ -3,9 +3,8 @@ import Project from '../Project/Project'
 import Experience from '../Experience/Experience'
 import Skills from '../Skills/Skills'
 import Education from '../Education/Education'
-import resume from '../JPC_Dev_Resume.pdf'
+import PdfBtn from '../PdfBtn/PdfBtn'
 import { experienceData, educationData, projectData, skillsData } from '../resumeData'
-import { click, tick } from '../../sounds/sounds'
 import startCase from 'lodash.startcase'
 
 
@@ -39,34 +38,15 @@ const Resume = () => {
   return (
     <section className="resume-section">
       <section className="resume-page">
-        <div className="pdf-btn-container-top">
-          <a 
-            href={resume} 
-            className="pdf-download" 
-            target="_blank"
-            onClick={() => click.play()}
-            onMouseOver={() => tick.play()}
-          >See PDF version</a>
-        </div>
+        <PdfBtn position="top"/>
         <h2 className="experience-title">EXPERIENCE</h2>
         {renderExperiences()}
         <h2 className="projects-title">FEATURED PROJECTS</h2>
         {renderProjects()}
         {renderSkillsSections()}
-        {/* <Skills skills="programmingLanguages" title="Programming Languages"/>
-        <Skills skills="frameworksLibraries" title="Frameworks and Libraries"/>
-        <Skills skills="otherSkills" title="Other Skills"/> */}
         <h2 className="education-title">EDUCATION</h2>
         {renderEducation()}
-        <div className="pdf-btn-container-bottom">
-          <a 
-            href={resume} 
-            className="pdf-download" 
-            target="_blank"
-            onClick={() => click.play()}
-            onMouseOver={() => tick.play()}
-          >See PDF version</a>
-        </div>
+        <PdfBtn position="bottom"/>
       </section>
     </section>
   )

@@ -1,5 +1,19 @@
-.skills-title {
+@import '../../variables.scss';
+
+.frameworksLibraries-title, .otherSkills-title {
   margin-bottom: .5%;
   margin-top: 2%;
   color: $navy;
+}
+
+.programmingLanguages-title {
+  margin-top: 5%;
+  margin-bottom: .5%;
+  color: $navy;
+}
+
+@media only screen and (max-width: 700px) {
+  .programmingLanguages-title {
+    margin-top: 8%;
+  }
 }
