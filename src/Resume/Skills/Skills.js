@@ -1,6 +1,6 @@
 import { skillsData } from '../resumeData'
 
-const Skills = ({ skills }) => {
+const Skills = ({ skills, title }) => {
 
   const renderSkills = (index) => {
     return skillsData[index].map(skill => {
@@ -10,6 +10,7 @@ const Skills = ({ skills }) => {
 
   return (
     <section>
+      <h2 className="skills-title">{title}</h2>
       {renderSkills(skills)}
     </section>
   )
