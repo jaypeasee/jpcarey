@@ -5,14 +5,14 @@ const selfDescriptions = [
   "public lands lover",
   "skier",
   "whitewater boater",
-  "dreadful swimmer",
+  "bad swimmer",
   "Bills fan",
   "news junkie",
-  "mountain biker",
   "Catan sheep farmer",
   "Harry Potter nerd",
   "cooking enthusiast",
   "canoe tripper",
+  "he/him/his"
 ]
 
 const navigationOptions = [

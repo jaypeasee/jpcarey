@@ -1,5 +1,5 @@
-@import '../variables.scss';
-@import '../mixins.scss';
+@import '../../variables.scss';
+@import '../../mixins.scss';
 
 .contact-section {
   @include column-center;
@@ -24,49 +24,14 @@
   font-size: 2em;
 }
 
-.contact-logo {
-  height: 50px;
-  margin-right: 2%;
-  cursor: pointer;
-}
-
-.icon-anchor-combo {
-  margin: 5%;
-  display: flex;
-  align-items: center;
-  flex-basis: 100px;
-}
-
-.icon-anchor-combo:hover{
-  transform: scale(1.02);
-  transition-duration: 0.5s;
-}
-
-.contact-link-txt {
-  color: $navy;
-  text-decoration: underline $navy;
-  font-size: 1.25em;
-}
-
 .contact-options {
   align-self: flex-start;
   margin: 0 10%;
 }
 
-
 @media only screen and (max-width: 1000px) {
   .contact-card {
       width: 70%;
-  }
-}
-
-@media only screen and (max-width: 800px) {
-  .contact-logo {
-      height: 30px;
-  }
-
-  .contact-link-txt {
-      font-size: 1.25em;
   }
 }
 
@@ -78,13 +43,5 @@
 
   .contact-card h2 {
     font-size: 1.25em;
-  }
-
-  .board-pin {
-    height: 25px;
-  }
-
-  .contact-link-txt {
-    font-size: 1em;
   }
 }

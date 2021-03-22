@@ -1,0 +1,39 @@
+@import '../../mixins.scss';
+
+.icon-anchor-combo {
+  margin: 5%;
+  display: flex;
+  align-items: center;
+  flex-basis: 100px;
+  &:hover {
+    @include btn-hover(1.02)
+  }
+}
+
+.contact-logo {
+  height: 50px;
+  margin-right: 2%;
+  cursor: pointer;
+}
+
+.contact-link-txt {
+  color: $navy;
+  text-decoration: underline $navy;
+  font-size: 1.25em;
+}
+
+@media only screen and (max-width: 800px) {
+  .contact-logo {
+      height: 30px;
+  }
+
+  .contact-link-txt {
+      font-size: 1.25em;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-link-txt {
+    font-size: 1em;
+  }
+}

@@ -1,9 +1,10 @@
+@import '../../mixins.scss';
+
 .nav-logo {
   height: 125px;
   align-self: center;
   &:hover {
-    transform: scale(1.1);
-    transition-duration: 0.5s;
+    @include btn-hover(1.1)
   }
 }
 

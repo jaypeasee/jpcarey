@@ -10,8 +10,7 @@
   box-shadow: 4px 5px 20px black;
   cursor: pointer;
   &:hover {
-    transform: scale(1.02);
-    transition-duration: 0.5s;
+    @include btn-hover(1.02)
   }
 }
 

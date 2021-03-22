@@ -2,7 +2,7 @@ import React, { useState } from 'react'
 import './App.scss';
 import NavBar from '../NavBar/NavBar/NavBar'
 import Home from '../Home/Home'
-import Contact from '../Contact/Contact'
+import Contact from '../Contact/Contact/Contact'
 import Resume from '../Resume/Resume/Resume'
 import Adventures from '../Adventures/Adventures/Adventures'
 import { Route, Switch } from 'react-router-dom'

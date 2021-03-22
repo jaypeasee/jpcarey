@@ -7,7 +7,6 @@ import PdfBtn from '../PdfBtn/PdfBtn'
 import { experienceData, educationData, projectData, skillsData } from '../resumeData'
 import startCase from 'lodash.startcase'
 
-
 const Resume = () => {
 
   const renderExperiences = () => {
