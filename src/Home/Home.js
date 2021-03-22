@@ -1,64 +1,41 @@
-import React, {Component} from 'react'
+import React, { useState, useEffect } from 'react'
 import './Home.scss'
 import { photosOfMe } from './homeImages/imgImports';
-import UIfx from 'uifx'
-import btnClick from '../sounds/btnClick.mp3'
-import btnTick from '../sounds/btnTick.mp3'
+import { click, tick } from '../sounds/sounds'
 
-class Home extends Component {
-  constructor() {
-    super()
-    this.state = {
-        allProfilePics: photosOfMe,
-        currentProfilePic: "",
-    }
-    this.click = new UIfx(btnClick, {
-        volume: .1
-    })
-    this.tick = new UIfx(btnTick, {
-        volume: .1
-    })
-  }
+const Home = () => {
+  
+  const [currentProfilePic, setCurrentProfilePic] = useState('')
+  const [allProfilePics, setAllProfilePics] = useState(photosOfMe)
+  
+  useEffect(() => {
+    updateRandomProfileImg()
+  }, [])
 
-  componentDidMount() {
-    this.updateRandomProfileImg()
-  }
-
-  updateRandomProfileImg = () => {
-    this.click.play();
-    if (!this.state.allProfilePics.length) {
-      this.resetImgList()
+  const updateRandomProfileImg = () => {
+    click.play()
+    if (!allProfilePics.length) {
+      setAllProfilePics(photosOfMe)
     } else {
-        const randomImg = this.state.allProfilePics
-          [Math.floor(Math.random() * this.state.allProfilePics.length)]
-        this.setState({
-          currentProfilePic: randomImg,
-          allProfilePics: this.state.allProfilePics.filter(img => {
-              return img !== randomImg
-        })
-      })
+        const randomImg = allProfilePics[Math.floor(Math.random() * allProfilePics.length)]
+        setCurrentProfilePic(randomImg)  
+        setAllProfilePics(allProfilePics.filter(img => {
+          return img !== randomImg
+        }))
     }
   }
 
-  resetImgList = () => {
-    this.setState({
-      allProfilePics: photosOfMe,
-    })
-  }
-
-  render() {
     return (
       <section className="profile-img-section">
         <img 
-          src={this.state.currentProfilePic}
+          src={currentProfilePic}
           alt="profile image of me"
           className="profile-img"
-          onClick={this.updateRandomProfileImg}
-          onMouseOver={() => this.tick.play()}
+          onClick={updateRandomProfileImg}
+          onMouseOver={() => tick.play()}
         />
       </section>
     )
-  }
 }
 
 export default Home
