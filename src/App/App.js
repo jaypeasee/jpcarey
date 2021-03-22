@@ -5,6 +5,7 @@ import Home from '../Home/Home'
 import Contact from '../Contact/Contact/Contact'
 import Resume from '../Resume/Resume/Resume'
 import Adventures from '../Adventures/Adventures/Adventures'
+import Error from '../Error/Error'
 import { Route, Switch } from 'react-router-dom'
 
 const App = () =>  {
@@ -57,6 +58,10 @@ const App = () =>  {
           exact
           path="/adventures"
           render={() => <Adventures />}
+        />
+        <Route 
+          path='/'
+          render={() => <Error/>}
         />
       </Switch>
     </React.Fragment>

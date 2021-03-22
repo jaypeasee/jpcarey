@@ -1,0 +1,55 @@
+@import '../mixins.scss';
+@import '../variables.scss';
+
+.error-section {
+  width: 100%;
+  @include column-center;
+}
+
+.error-card {
+  margin: 0;
+  width: 40%;
+  border-radius: 10px;
+  @include blue-on-white;
+  @include column-center;
+  font-family: $signika;
+  padding: 3%;
+  box-shadow: 3px 4px 20px black;
+}
+
+.error-card h1 {
+  margin-top: 0;
+}
+
+.back-to-home-btn {
+  @include yellow-button;
+  padding: 2%;
+  text-decoration: none;
+  &:hover {
+    @include btn-hover(1.02);
+  }
+}
+
+.error-img {
+  height: 300px;
+  margin-bottom: 8%;
+  box-shadow: 1px 2px 7px black;
+}
+
+@media only screen and (max-width: 800px) {
+  .error-card {
+    width: 60%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .error-card {
+    width: 70%;
+  }
+}
+
+@media only screen and (max-width: 330px) {
+  .error-card {
+    width: 80%;
+  }
+}
