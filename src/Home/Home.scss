@@ -1,35 +1,36 @@
 @import '../mixins.scss'; 
 
 .profile-img-section {
-    @include column-center;
-    width: 100vw;
-}
-
-.profile-img:hover {
-    transform: scale(1.01)
+  @include column-center;
+  width: 100vw;
 }
 
 .profile-img {
-    max-width: 70vw;
-    max-height: 50vh;
-    border: solid white 20px;
-    box-shadow: 5px 6px 16px black;
-    cursor: pointer;
-    margin: 1%;
+  max-width: 70vw;
+  max-height: 50vh;
+  border: solid white 20px;
+  box-shadow: 5px 6px 16px black;
+  cursor: pointer;
+  margin: 1%;
+  &:hover {
+    transform: scale(1.01);
+    transition-duration: 0.5s;
+  }
 }
 
 .profile-img:active {
-    transform: scale(1.05);
+  transform: scale(1.05);
+  transition-duration: 0.5s;
 }
 
 @media only screen and (max-width: 1100px) {
-    .profile-img {
-        margin: 3%;
-    }
+  .profile-img {
+    margin: 3%;
+  }
 }
 
 @media only screen and (max-width: 700px) {
-    .profile-img {
-        margin: 5%;
-    }
+  .profile-img {
+    margin: 5%;
+  }
 }

@@ -9,10 +9,10 @@
   padding: 1%;
   box-shadow: 4px 5px 20px black;
   cursor: pointer;
-}
-
-.adventure-cover:hover {
-  transform: scale(1.02);
+  &:hover {
+    transform: scale(1.02);
+    transition-duration: 0.5s;
+  }
 }
 
 .adventure-cover:hover .adventure-img-cover {

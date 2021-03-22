@@ -6,8 +6,7 @@
 }
 
 .experience-details {
-  display: flex;
-  justify-content: space-between;
+  @include row-between;
 }
 
 .company-name {

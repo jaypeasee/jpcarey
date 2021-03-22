@@ -38,7 +38,8 @@
 }
 
 .icon-anchor-combo:hover{
-  transform: scale(1.02)
+  transform: scale(1.02);
+  transition-duration: 0.5s;
 }
 
 .contact-link-txt {

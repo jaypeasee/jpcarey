@@ -18,15 +18,15 @@
   margin-top: 3%;
 }
 
-.skills-title {
-  margin-bottom: .5%;
-  margin-top: 2%;
-  color: $navy;
-}
-
 .languages-title {
   margin-top: 5%;
   margin-bottom: .5%;
+  color: $navy;
+}
+
+.skills-title {
+  margin-bottom: .5%;
+  margin-top: 2%;
   color: $navy;
 }
 
@@ -58,6 +58,7 @@
   text-decoration: none;
   &:hover {
     transform: scale(1.03);
+    transition-duration: 0.5s;
   }
 }
 

@@ -1,34 +1,39 @@
 @import './variables.scss';
 
 @mixin column-center {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 @mixin row-wrap-center {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 @mixin column {
-    display: flex;
-    flex-direction: column;
+  display: flex;
+  flex-direction: column;
+}
+
+@mixin row-between {
+  display: flex;
+  justify-content: space-between;
 }
 
 @mixin blue-on-white {
-    background-color: $base;
-    color: $navy;
+  background-color: $base;
+  color: $navy;
 }
 
 @mixin yellow-button {
-    border-radius: 20px;
-    font-family: $signika;
-    cursor: pointer;
-    outline: none;
-    background-color: $cream;
-    color: $navy;
-    border: $navy 1px solid;
-    box-shadow: 2px 2px 4px black;
+  border-radius: 20px;
+  font-family: $signika;
+  cursor: pointer;
+  outline: none;
+  background-color: $cream;
+  color: $navy;
+  border: $navy 1px solid;
+  box-shadow: 2px 2px 4px black;
 }

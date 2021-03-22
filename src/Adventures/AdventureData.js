@@ -83,7 +83,7 @@ const adventureDetails = [
     days: "37",
     exactDate: "20150705",
     roughDate: "July, 2015",
-    searchTerms: ["Canoe Trip", "Ontario", "Canada"]
+    searchTerms: ["Canoe Trip", "Ontario"]
   },
   {
     id: 6,
@@ -93,7 +93,7 @@ const adventureDetails = [
     days: "14",
     exactDate: "20140705",
     roughDate: "July, 2014",
-    searchTerms: ["Canoe Trip", "Quebec", "Canada"]
+    searchTerms: ["Canoe Trip", "Quebec"]
   },
   {
     id: 5,
@@ -108,7 +108,7 @@ const adventureDetails = [
   {
     id: 4,
     tripName: "Mistassibi River Canoe Trip",
-    location: "Dolbeau-Mistassini, Quebec, Canada",
+    location: "Dolbeau-Mistassini, Quebec",
     photos: mistassibiPics,
     days: "6",
     exactDate: "20120520",

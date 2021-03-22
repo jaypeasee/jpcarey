@@ -2,10 +2,10 @@ import React from 'react'
 import './Resume.scss'
 import Project from '../Project/Project'
 import Experience from '../Experience/Experience'
-import Skill from '../Skill/Skill'
+import Skills from '../Skills/Skills'
 import Education from '../Education/Education'
 import resume from '../JPC_Dev_Resume.pdf'
-import { experienceData, educationData, projectData, skillsData } from '../resumeData'
+import { experienceData, educationData, projectData } from '../resumeData'
 import { click, tick } from '../../sounds/sounds'
 
 const Resume = () => {
@@ -19,12 +19,6 @@ const Resume = () => {
   const renderProjects = () => {
     return projectData.map(project => {
       return <Project project={project} key={project.name}/>
-    })
-  }
-
-  const renderSkills = (index) => {
-    return skillsData[index].map(skill => {
-      return <Skill skill={skill} key={skill}/>
     })
   }
 
@@ -51,17 +45,11 @@ const Resume = () => {
         <h2 className="projects-title">FEATURED PROJECTS</h2>
         {renderProjects()}
         <h2 className="languages-title">Programming Languages</h2>
-        <section className="skills-section">
-          {renderSkills('programmingLanguages')}
-        </section>
+        <Skills skills="programmingLanguages"/>
         <h2 className="skills-title">Frameworks and Libraries</h2>
-        <section className="skills-section">
-          {renderSkills('frameworksLibraries')}
-        </section>
+        <Skills skills="frameworksLibraries"/>
         <h2 className="skills-title">Other Skills</h2>
-        <section className="skills-section">
-          {renderSkills('otherSkills')}
-        </section>
+        <Skills skills="otherSkills"/>
         <h2 className="education-title">EDUCATION</h2>
         {renderEducation()}
         <div className="pdf-btn-container-bottom">
