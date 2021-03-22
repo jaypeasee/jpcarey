@@ -21,7 +21,7 @@ const Adventures = () => {
     }
   }
 
-  const createAdventureCards = () => {
+  const AdventureCards = () => {
     return currentAdventures.map(adventure => {
       const {id, tripName, location, photos, days, exactDate, roughDate, searchTerms} = adventure
       return (
@@ -41,11 +41,9 @@ const Adventures = () => {
 
     return (
       <section className="photos-section">
-        <AdventureFilter 
-          filterAdventures={filterAdventures}
-        />
+        <AdventureFilter filterAdventures={filterAdventures}/>
         <section className="adventure-library">
-          {createAdventureCards()}
+          <AdventureCards/>
         </section>
       </section>
     )

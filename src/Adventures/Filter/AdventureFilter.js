@@ -9,7 +9,7 @@ const AdventureFilter = (props) => {
     props.filterAdventures(event.target.value)
   }
   
-  const renderSearchOptions = () => {
+  const SearchOptions = () => {
     return adventureSearchTerms.map(term => {
       return <option value={term} key={term}>{term}</option>
     })
@@ -24,7 +24,7 @@ const AdventureFilter = (props) => {
         onClick={() => click.play()}
       >
         <option value="">--</option>
-        {renderSearchOptions()}
+        <SearchOptions/>
       </select>
     </section>
   )

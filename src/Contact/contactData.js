@@ -1,7 +1,7 @@
-import instagram from './images/instagram.png'
-import linkedin from './images/linkedin.png'
-import github from './images/github.png'
-import gmail from './images/gmail.png'
+import instagram from './contactIcons/instagram.png'
+import linkedin from './contactIcons/linkedin.png'
+import github from './contactIcons/github.png'
+import gmail from './contactIcons/gmail.png'
 
 const contactTypes = [
   {

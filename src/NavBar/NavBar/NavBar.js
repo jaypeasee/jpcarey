@@ -25,7 +25,7 @@ const NavBar = (props) => {
     props.toggleNav(view)
   }
 
-  const renderNavButtons = () => {
+  const NavBtns = () => {
     const filteredOptions = navigationOptions.filter(option => {
       return !props[option.name.toLowerCase()]
     })
@@ -56,7 +56,7 @@ const NavBar = (props) => {
           <NavLogo className="nav-logo" handleNavClick={handleNavClick}/>
           <div className="nav-btn-container">
             <NavLogo className="mobile-nav-logo" handleNavClick={handleNavClick}/>
-            {renderNavButtons()}
+            <NavBtns/>
           </div>
         </div>
         <h2 className="section-title">{props.title.toUpperCase()}</h2>

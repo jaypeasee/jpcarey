@@ -9,25 +9,25 @@ import startCase from 'lodash.startcase'
 
 const Resume = () => {
 
-  const renderExperiences = () => {
+  const Experiences = () => {
     return experienceData.map(experience => {
       return <Experience experience={experience} key={experience.company}/>
     })
   }
 
-  const renderProjects = () => {
+  const Projects = () => {
     return projectData.map(project => {
       return <Project project={project} key={project.name}/>
     })
   }
 
-  const renderEducation = () => {
+  const EducationSection = () => {
     return educationData.map(education => {
       return <Education education={education} key={education.school}/>
     })
   }
 
-  const renderSkillsSections = () => {
+  const SkillsSections = () => {
     return Object.keys(skillsData).map(section => {
       const title = startCase(section)
       return <Skills skills={section} title={title}/>
@@ -39,12 +39,12 @@ const Resume = () => {
       <section className="resume-page">
         <PdfBtn position="top"/>
         <h2 className="experience-title">EXPERIENCE</h2>
-        {renderExperiences()}
+        <Experiences/>
         <h2 className="projects-title">FEATURED PROJECTS</h2>
-        {renderProjects()}
-        {renderSkillsSections()}
+        <Projects/>
+        <SkillsSections/>
         <h2 className="education-title">EDUCATION</h2>
-        {renderEducation()}
+        <EducationSection/>
         <PdfBtn position="bottom"/>
       </section>
     </section>

@@ -5,7 +5,7 @@ import { contactTypes } from '../contactData'
 
 const Contact = () => {
 
-  const renderContactButtons = () => {
+  const ContactBtns = () => {
     return contactTypes.map(type => {
       return <ContactBtn type={type}/>
     })
@@ -16,7 +16,7 @@ const Contact = () => {
       <section className="contact-card">
         <h2>Reach Out!</h2>
         <div className="contact-options">
-          {renderContactButtons()}
+          <ContactBtns/>
         </div>
       </section> 
     </section>
