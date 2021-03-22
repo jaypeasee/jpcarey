@@ -83,7 +83,7 @@ const adventureDetails = [
     days: "37",
     exactDate: "20150705",
     roughDate: "July, 2015",
-    searchTerms: ["Canoe Trip", "Ontario"]
+    searchTerms: ["Canoe Trip", "Ontario", "Canada"]
   },
   {
     id: 6,
@@ -93,7 +93,7 @@ const adventureDetails = [
     days: "14",
     exactDate: "20140705",
     roughDate: "July, 2014",
-    searchTerms: ["Canoe Trip", "Quebec"]
+    searchTerms: ["Canoe Trip", "Quebec", "Canada"]
   },
   {
     id: 5,
