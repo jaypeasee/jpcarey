@@ -13,7 +13,6 @@ const Home = () => {
   }, [])
 
   const updateRandomProfileImg = () => {
-    click.play()
     if (!allProfilePics.length) {
       setAllProfilePics(photosOfMe)
     } else {
@@ -31,7 +30,10 @@ const Home = () => {
           src={currentProfilePic}
           alt="profile image of me"
           className="profile-img"
-          onClick={updateRandomProfileImg}
+          onClick={() => {
+            updateRandomProfileImg()
+            click.play()
+          }}
           onMouseOver={() => tick.play()}
         />
       </section>
