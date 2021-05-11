@@ -12,7 +12,7 @@ const Adventures = () => {
   }, [])
 
   const filterAdventures = (searchTerm) => {
-    if (!searchTerm) {
+    if (searchTerm == '--') {
       setCurrentAdventures(adventureDetails)
     } else {
       setCurrentAdventures(adventureDetails.filter(adventure => {

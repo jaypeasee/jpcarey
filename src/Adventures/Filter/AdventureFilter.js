@@ -1,12 +1,20 @@
 import "./AdventureFilter.scss"
 import { adventureSearchTerms } from '../adventureData'
 import { click, tick } from '../../sounds/sounds'
+import React, { useState, useEffect } from 'react'
 
 const AdventureFilter = (props) => {
+
+  const [currentOption, setCurrentOption] = useState('')
+
+  useEffect(() => {
+    setCurrentOption('--')
+  }, [])
 
   const chooseOption = (event) => {
     click.play()
     props.filterAdventures(event.target.value)
+    setCurrentOption(event.target.value)
   }
   
   const SearchOptions = () => {
@@ -23,7 +31,7 @@ const AdventureFilter = (props) => {
         onMouseOver={() => tick.play()}
         onClick={() => click.play()}
       >
-        <option value="">--</option>
+        <option value={currentOption} key={currentOption}>{currentOption}</option>
         <SearchOptions/>
       </select>
     </section>

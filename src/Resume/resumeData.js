@@ -1,12 +1,5 @@
 const experienceData = [
   {
-    company: 'Turing School of Software and Design',
-    position: 'Front-End Engineering Student',
-    location: 'Remote',
-    tenure: 'June 2020 - March 2021',
-    description: 'Invested over 1,500 hours in a fully immersive, project-oriented front-end focused program. Built, tested and deployed over 15 dynamic web applications using a variety of tools and technologies. A Student Leadership Committee representative, and won 1st place in the school-wide Demo Competition.'
-  },
-  {
     company: 'Thesis',
     position: 'Conversion Rate Optimization Specialist',
     location: 'Brooklyn, NY',
@@ -23,6 +16,12 @@ const experienceData = [
 ]
 
 const educationData = [
+  {
+    school: 'Turing School of Software and Design',
+    location: 'Remote',
+    degree: 'Certificate in Front-End Software Engineering',
+    tenure: 'June 2020 - March 2021'
+  },
   {
     school: 'St. Lawrence University',
     location: 'Canton, NY',

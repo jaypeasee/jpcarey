@@ -148,6 +148,7 @@ const adventureDetails = [
 ]
 
 const adventureSearchTerms = [
+  "--",
   "Canoe Trip",
   "National Park",
   "Wyoming",
