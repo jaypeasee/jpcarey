@@ -1,4 +1,5 @@
 import {
+  middleForkPics,
   shoshonePics,
   commissaryPics, 
   hokkaidoPics, 
@@ -16,6 +17,16 @@ import {
 
 const adventureDetails = [
   {
+    id: 14,
+    tripName: "Middle Fork Salmon Raft Trip",
+    location: "Frank Church Wilderness, Idaho",
+    photos: middleForkPics,
+    days: "7",
+    exactDate: "20210610",
+    roughDate: "June, 2021",
+    searchTerms: ["Raft Trips", "Idaho"]
+  },
+  {
     id: 13,
     tripName: "Shoshone Canoe Trip",
     location: "Yellowstone National Park, Wyoming",
@@ -23,7 +34,7 @@ const adventureDetails = [
     days: "3",
     exactDate: "20201021",
     roughDate: "August, 2020",
-    searchTerms: ["Canoe Trip", "National Park", "Wyoming"]
+    searchTerms: ["Canoe Trips", "National Park", "Wyoming"]
   },
   {
     id: 12,
@@ -33,7 +44,7 @@ const adventureDetails = [
     days: "3",
     exactDate: "20200110",
     roughDate: "January, 2020",
-    searchTerms: ["Ski Trip", "Wyoming", "Idaho"]
+    searchTerms: ["Ski Trips", "Wyoming", "Idaho"]
   },
   {
     id: 11,
@@ -43,7 +54,7 @@ const adventureDetails = [
     days: "14",
     exactDate: "20190121",
     roughDate: "January, 2019",
-    searchTerms: ["Ski Trip"]
+    searchTerms: ["Ski Trips"]
   },
   {
     id: 10,
@@ -53,7 +64,7 @@ const adventureDetails = [
     days: "21",
     exactDate: "20180401",
     roughDate: "April, 2018",
-    searchTerms: ["Raft Trip", "National Park"]
+    searchTerms: ["Raft Trips", "National Park"]
   },
   {
     id: 9,
@@ -63,17 +74,17 @@ const adventureDetails = [
     days: "4",
     exactDate: "20180121",
     roughDate: "January, 2018",
-    searchTerms: ["Ski Trip", "Wyoming", "Idaho"]
+    searchTerms: ["Ski Trips", "Wyoming", "Idaho"]
   },
   {
     id: 8,
     tripName: "Main Salmon Raft Trip",
-    location: "Salmon-Challis National Forest, Idaho",
+    location: "Frank Church Wilderness, Idaho",
     photos: mainSalmonPics,
     days: "5",
     exactDate: "20160910",
     roughDate: "September, 2016",
-    searchTerms: ["Raft Trip", "Idaho"]
+    searchTerms: ["Raft Trips", "Idaho"]
   },
   {
     id: 7,
@@ -83,7 +94,7 @@ const adventureDetails = [
     days: "37",
     exactDate: "20150705",
     roughDate: "July, 2015",
-    searchTerms: ["Canoe Trip", "Ontario", "Canada"]
+    searchTerms: ["Canoe Trips", "Ontario", "Canada"]
   },
   {
     id: 6,
@@ -93,7 +104,7 @@ const adventureDetails = [
     days: "14",
     exactDate: "20140705",
     roughDate: "July, 2014",
-    searchTerms: ["Canoe Trip", "Quebec", "Canada"]
+    searchTerms: ["Canoe Trips", "Quebec", "Canada"]
   },
   {
     id: 5,
@@ -103,7 +114,7 @@ const adventureDetails = [
     days: "32",
     exactDate: "20130709",
     roughDate: "July, 2013",
-    searchTerms: ["Canoe Trip", "Ontario", "Canada"]
+    searchTerms: ["Canoe Trips", "Ontario", "Canada"]
   },
   {
     id: 4,
@@ -113,7 +124,7 @@ const adventureDetails = [
     days: "6",
     exactDate: "20120520",
     roughDate: "May, 2012",
-    searchTerms: ["Canoe Trip", "Quebec", "Canada"]
+    searchTerms: ["Canoe Trips", "Quebec", "Canada"]
   },
   {
     id: 3,
@@ -123,7 +134,7 @@ const adventureDetails = [
     days: "10",
     exactDate: "20110815",
     roughDate: "August, 2011",
-    searchTerms: ["Canoe Trip", "Ontario", "Canada"]
+    searchTerms: ["Canoe Trips", "Ontario", "Canada"]
   },
   {
     id: 2,
@@ -133,7 +144,7 @@ const adventureDetails = [
     days: "19",
     exactDate: "20110703",
     roughDate: "July, 2011",
-    searchTerms: ["Canoe Trip", "Ontario", "Canada"]
+    searchTerms: ["Canoe Trips", "Ontario", "Canada"]
   },
   {
     id: 1,
@@ -143,17 +154,17 @@ const adventureDetails = [
     days: "25",
     exactDate: "20080714",
     roughDate: "July, 2008",
-    searchTerms: ["Canoe Trip", "Quebec", "Canada"]
+    searchTerms: ["Canoe Trips", "Quebec", "Canada"]
   },
 ]
 
 const adventureSearchTerms = [
   "--",
-  "Canoe Trip",
+  "Canoe Trips",
   "National Park",
   "Wyoming",
-  "Ski Trip",
-  "Raft Trip",
+  "Ski Trips",
+  "Raft Trips",
   "Idaho",
   "Ontario",
   "Quebec",

@@ -1,3 +1,15 @@
+import landscape from './middleFork/landscape.jpg'
+import tappandRanch from './middleFork/tappanRanch.jpg'
+import pistol from './middleFork/pistol.JPG'
+import wall from './middleFork/wall.jpg'
+import overlook from './middleFork/overlook.JPG'
+import hikeDown from './middleFork/hikeDown.JPG'
+import boatsOnBeach from './middleFork/boatsOnBeach.JPG'
+import smallRapid from './middleFork/smallRapid.jpg'
+import deepWater from './middleFork/deepWater.jpg'
+import veilFalls from './middleFork/veilFalls.JPG'
+import launchDay from './middleFork/launchDay.JPG'
+
 import shoshoneOpening from './ynpShoshone/shoshoneOpening.jpeg'
 import geyserBasin from './ynpShoshone/geyserBasin.jpeg'
 import heartCauldron from './ynpShoshone/heartCauldron.jpeg'
@@ -116,6 +128,20 @@ import raftBeach from './mainSalmon/raftBeach.JPG'
 import salmonRapid from './mainSalmon/salmonRapid.JPG'
 import acidDay from './mainSalmon/acidDay.JPG'
 import comeDown from './mainSalmon/comeDown.JPG'
+
+const middleForkPics = [
+    landscape,
+    tappandRanch,
+    pistol,
+    wall,
+    overlook,
+    hikeDown,
+    boatsOnBeach,
+    smallRapid,
+    deepWater,
+    veilFalls,
+    launchDay
+]
 
 const shoshonePics = [
     shoshoneOpening, 
@@ -259,6 +285,7 @@ const mainSalmonPics = [
 ]
 
 export { 
+    middleForkPics,
     shoshonePics,
     commissaryPics, 
     hokkaidoPics, 
