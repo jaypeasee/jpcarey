@@ -1,10 +1,9 @@
 import './Resume.scss'
-import Project from '../Project/Project'
 import Experience from '../Experience/Experience'
 import Skills from '../Skills/Skills'
 import Education from '../Education/Education'
 import PdfBtn from '../PdfBtn/PdfBtn'
-import { experienceData, educationData, projectData, skillsData } from '../resumeData'
+import { experienceData, educationData, skillsData } from '../resumeData'
 import startCase from 'lodash.startcase'
 
 const Resume = () => {
