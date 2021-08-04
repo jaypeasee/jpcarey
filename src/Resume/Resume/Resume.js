@@ -15,12 +15,6 @@ const Resume = () => {
     })
   }
 
-  const Projects = () => {
-    return projectData.map(project => {
-      return <Project project={project} key={project.name}/>
-    })
-  }
-
   const EducationSection = () => {
     return educationData.map(education => {
       return <Education education={education} key={education.school}/>
@@ -40,8 +34,6 @@ const Resume = () => {
         <PdfBtn position="top"/>
         <h2 className="experience-title">EXPERIENCE</h2>
         <Experiences/>
-        <h2 className="projects-title">FEATURED PROJECTS</h2>
-        <Projects/>
         <SkillsSections/>
         <h2 className="education-title">EDUCATION</h2>
         <EducationSection/>

@@ -30,53 +30,35 @@ const educationData = [
   }
 ]
 
-const projectData = [
-  {
-    name: 'Pack Smart',
-    repository: 'https://github.com/Pack-Smart/pack-smart-fe',
-    link: 'https://packsmart.herokuapp.com/',
-    description: 'Customizable and interactive packing lists generated from user quiz submissions relevant to their upcoming trips. Users can save, view, edit, and delete past packing lists. Built with a backend team, and JavaScript, React, Redux, SCSS and tested using Cypress and Jest.'
-  },
-  {
-    name: 'National Parkfinder',
-    repository: 'https://github.com/jaypeasee/national-parkfinder',
-    link: 'https://national-parkfinder.herokuapp.com/',
-    description: 'A library for all U.S. National Parks with the functionality to add to/manage a bucket list and visited list. Built with the NPS API, TypeScript, React, and SCSS and tested using Jest.'
-  },
-  {
-    name: 'Sorting Hat Quiz',
-    repository: 'https://github.com/jaypeasee/sorting-hat-quiz',
-    link: 'https://pure-everglades-20792.herokuapp.com/',
-    description: 'A personality quiz to evaluate which Hogwarts House you belong in. Built with a Harry Potter API, JavaScript, React, SCSS and tested using Jest.'
-  }
-]
-
 const skillsData = {
   programmingLanguages: [
     'JavaScript,',
+    'Ruby on Rails,',
     'TypeScript,',
     'SCSS & CSS,',
     'HTML'
   ],
   frameworksLibraries: [
     'React,',
-    'Hooks,',
-    'Router,',
     'Redux,',
     'Cypress,',
+    'Material UI,',
     'React Testing Library,',
     'Jest,',
     'Mocha,',
     'Chai'
   ],
   otherSkills: [
-    'API network requests,',
     'Git version control,',
     'Github,',
+    'Gitlab,',
     'Heroku,',
     'Travis CI,',
-    'Google Analytics'
+    'Google Analytics,',
+    'LaunchDarkly,',
+    'Segment,',
+    'Amplitude',
   ]
 }
 
-export { experienceData, educationData, projectData, skillsData }
+export { experienceData, educationData, skillsData }
