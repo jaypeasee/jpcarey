@@ -1,5 +1,12 @@
 const experienceData = [
   {
+    company: 'Housecall Pro',
+    position: 'Software Engineer I',
+    location: 'Remote',
+    tenure: 'April 2021 - present',
+    description: 'Build reporting features and data visualizations for home-service professionals to easier access their most business critical KPIs, and show them how they can improve through the data Housecall Pro captures for them. Building these features using Ruby on Rails, and JavaScript with React. Represent the reporting team at Frontend Guild meetings where frontend architecture decisions are made.'
+  },
+  {
     company: 'Thesis',
     position: 'Conversion Rate Optimization Specialist',
     location: 'Brooklyn, NY',
@@ -34,17 +41,19 @@ const skillsData = {
   programmingLanguages: [
     'JavaScript,',
     'Ruby on Rails,',
+    'SQL,',
     'TypeScript,',
-    'SCSS & CSS,',
+    'CSS,',
     'HTML'
   ],
   frameworksLibraries: [
     'React,',
     'Redux,',
-    'Cypress,',
     'Material UI,',
-    'React Testing Library,',
+    'SASS,',
     'Jest,',
+    'React Testing Library,',
+    'Cypress,',
     'Mocha,',
     'Chai'
   ],
