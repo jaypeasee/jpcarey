@@ -1,3 +1,15 @@
+import warmSprings from './jacksonLake/warmSprings.JPG'
+import graceFishing from './jacksonLake/graceFishing.jpg'
+import desertRiver from './jacksonLake/desertRiver.jpg'
+import sandLookout from './jacksonLake/sandLookout.JPG'
+import lakeEntrance from './jacksonLake/lakeEntrance.jpg'
+import stillPaddle from './jacksonLake/stillPaddle.jpg'
+import babsRainbow from './jacksonLake/babsRainbow.jpg'
+import rainPaddle from './jacksonLake/rainPaddle.JPG'
+import moranSunset from './jacksonLake/moranSunset.JPG'
+import lorraineWave from './jacksonLake/lorraineWave.jpg'
+import graceSelfie from './jacksonLake/graceSelfie.JPG'
+
 import landscape from './middleFork/landscape.jpg'
 import tappandRanch from './middleFork/tappanRanch.jpg'
 import pistol from './middleFork/pistol.JPG'
@@ -128,6 +140,20 @@ import raftBeach from './mainSalmon/raftBeach.JPG'
 import salmonRapid from './mainSalmon/salmonRapid.JPG'
 import acidDay from './mainSalmon/acidDay.JPG'
 import comeDown from './mainSalmon/comeDown.JPG'
+
+const jacksonLakePics = [
+    warmSprings,
+    graceFishing,
+    desertRiver,
+    sandLookout,
+    lakeEntrance,
+    stillPaddle,
+    babsRainbow,
+    rainPaddle,
+    moranSunset,
+    lorraineWave,
+    graceSelfie
+]
 
 const middleForkPics = [
     landscape,
@@ -285,6 +311,7 @@ const mainSalmonPics = [
 ]
 
 export { 
+    jacksonLakePics,
     middleForkPics,
     shoshonePics,
     commissaryPics, 

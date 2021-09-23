@@ -1,4 +1,5 @@
 import {
+  jacksonLakePics,
   middleForkPics,
   shoshonePics,
   commissaryPics, 
@@ -17,6 +18,16 @@ import {
 
 const adventureDetails = [
   {
+    id: 15,
+    tripName: "Jackson Lake Canoe Trip",
+    location: "Grand Teton National Park, Wyoming",
+    photos: jacksonLakePics,
+    days: "3",
+    exactDate: "20210917",
+    roughDate: "September, 2021",
+    searchTerms: ["Canoe Trips", "Wyoming", "National Park"]
+  },
+  {
     id: 14,
     tripName: "Middle Fork Salmon Raft Trip",
     location: "Frank Church Wilderness, Idaho",
@@ -28,11 +39,11 @@ const adventureDetails = [
   },
   {
     id: 13,
-    tripName: "Shoshone Canoe Trip",
+    tripName: "Lewis-Shoshone Canoe Trip",
     location: "Yellowstone National Park, Wyoming",
     photos: shoshonePics,
     days: "3",
-    exactDate: "20201021",
+    exactDate: "20200821",
     roughDate: "August, 2020",
     searchTerms: ["Canoe Trips", "National Park", "Wyoming"]
   },

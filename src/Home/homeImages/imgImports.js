@@ -17,6 +17,7 @@ import windigoCar from './images/windigoCar.jpg'
 import japanVan from './images/japanVan.jpeg'
 import furanoSkin from './images/furanoSkin.JPG'
 import topoDuo from './images/topoDuo.JPG'
+import jacksonMood from './images/jacksonMood.JPG'
 
 const photosOfMe = [
     billsGame,
@@ -38,6 +39,7 @@ const photosOfMe = [
     japanVan,
     furanoSkin,
     topoDuo,
+    jacksonMood
 ]
 
 export { photosOfMe }
