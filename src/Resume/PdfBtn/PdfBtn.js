@@ -1,5 +1,5 @@
 import './PdfBtn.scss'
-import resume from '../JPC_Dev_Resume.pdf'
+import resume from '../jpc-dev-resume.pdf'
 import { click, tick } from '../../sounds/sounds'
 
 
