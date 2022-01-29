@@ -9,8 +9,7 @@ const selfDescriptions = [
   "Bills fan",
   "news junkie",
   "Catan sheep farmer",
-  "Harry Potter nerd",
-  "cooking enthusiast",
+  "amateur cook",
   "canoe tripper",
   "he/him/his"
 ]
