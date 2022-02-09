@@ -141,6 +141,22 @@ import salmonRapid from './mainSalmon/salmonRapid.JPG'
 import acidDay from './mainSalmon/acidDay.JPG'
 import comeDown from './mainSalmon/comeDown.JPG'
 
+import gangSkin from './plummerCanyon/gangSkin.jpg'
+import mountWow from './plummerCanyon/mountWow.jpg'
+import silasSkin from './plummerCanyon/silasSkin.jpg'
+import yurtGang from './plummerCanyon/yurtGang.JPG'
+import plummerMorning from './plummerCanyon/plummerMorning.jpg'
+import plummerSunset from './plummerCanyon/plummerSunset.jpg'
+
+const plummerCanyonPics = [
+    plummerSunset,
+    gangSkin,
+    mountWow,
+    silasSkin,
+    yurtGang,
+    plummerMorning
+]
+
 const jacksonLakePics = [
     warmSprings,
     graceFishing,
@@ -325,5 +341,6 @@ export {
     mistassibiPics,
     petPics,
     rupertPics,
-    mainSalmonPics
+    mainSalmonPics,
+    plummerCanyonPics
 }

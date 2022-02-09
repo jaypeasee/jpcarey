@@ -13,10 +13,21 @@ import {
   mistassibiPics,
   petPics,
   rupertPics,
-  mainSalmonPics
+  mainSalmonPics,
+  plummerCanyonPics
 } from './adventureImages/imgImports.js'
 
 const adventureDetails = [
+  {
+    id: 16,
+    tripName: "Plummer Canyon Yurt Trip",
+    location: "Bridger Teton National Forest, Wydaho",
+    photos: plummerCanyonPics,
+    days: "3",
+    exactDate: "20220204",
+    roughDate: "February, 2022",
+    searchTerms: ["Ski Trips", "Wyoming", "Idaho"]
+  },
   {
     id: 15,
     tripName: "Jackson Lake Canoe Trip",
