@@ -148,6 +148,24 @@ import yurtGang from './plummerCanyon/yurtGang.JPG'
 import plummerMorning from './plummerCanyon/plummerMorning.jpg'
 import plummerSunset from './plummerCanyon/plummerSunset.jpg'
 
+import cabinField from './jacksonPeak/cabinField.jpg'
+import nolanPeak from './jacksonPeak/nolanPeak.jpg'
+import valleySkin from './jacksonPeak/valleySkin.jpg'
+import cabinChop from './jacksonPeak/cabinChop.jpg'
+import karlHill from './jacksonPeak/karlHill.jpg'
+import tourCache from './jacksonPeak/tourCache.jpg'
+import gashView from './jacksonPeak/gashView.jpg'
+
+const jacksonPeakPics = [
+    cabinField,
+    nolanPeak,
+    valleySkin,
+    cabinChop,
+    karlHill,
+    tourCache,
+    gashView
+]
+
 const plummerCanyonPics = [
     plummerSunset,
     gangSkin,
@@ -342,5 +360,6 @@ export {
     petPics,
     rupertPics,
     mainSalmonPics,
-    plummerCanyonPics
+    plummerCanyonPics,
+    jacksonPeakPics
 }

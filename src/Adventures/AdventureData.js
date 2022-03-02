@@ -14,10 +14,21 @@ import {
   petPics,
   rupertPics,
   mainSalmonPics,
-  plummerCanyonPics
+  plummerCanyonPics,
+  jacksonPeakPics
 } from './adventureImages/imgImports.js'
 
 const adventureDetails = [
+  {
+    id: 17,
+    tripName: "Jackson Peak Ski Cabin Trip",
+    location: "Gros Ventre Wilderness, Wyoming",
+    photos: jacksonPeakPics,
+    days: "3",
+    exactDate: "20220226",
+    roughDate: "February, 2022",
+    searchTerms: ["Ski Trips", "Wyoming"]
+  },
   {
     id: 16,
     tripName: "Plummer Canyon Yurt Trip",
