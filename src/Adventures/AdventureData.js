@@ -15,7 +15,8 @@ import {
   rupertPics,
   mainSalmonPics,
   plummerCanyonPics,
-  jacksonPeakPics
+  jacksonPeakPics,
+  selwayPics,
 } from './adventureImages/imgImports.js'
 
 const adventureDetails = [
@@ -23,6 +24,7 @@ const adventureDetails = [
     id: 18,
     tripName: "Selway River Kayaking Trip",
     location: "Selway-Bitterroot Wilderness, Idaho",
+    photos: selwayPics,
     days: "4",
     exactDate: "20220531",
     roughDate: "June, 2022",
@@ -56,11 +58,11 @@ const adventureDetails = [
     days: "3",
     exactDate: "20210917",
     roughDate: "September, 2021",
-    searchTerms: ["Canoe Trips", "Wyoming", "National Park", "USA"]
+    searchTerms: ["Canoe Trips", "Wyoming", "National Parks", "USA"]
   },
   {
     id: 14,
-    tripName: "Middle Fork Salmon Raft Trip",
+    tripName: "Middle Fork Salmon River Trip",
     location: "Frank Church Wilderness, Idaho",
     photos: middleForkPics,
     days: "7",
@@ -76,7 +78,7 @@ const adventureDetails = [
     days: "3",
     exactDate: "20200821",
     roughDate: "August, 2020",
-    searchTerms: ["Canoe Trips", "National Park", "Wyoming", "USA"]
+    searchTerms: ["Canoe Trips", "National Parks", "Wyoming", "USA"]
   },
   {
     id: 12,
@@ -100,13 +102,13 @@ const adventureDetails = [
   },
   {
     id: 10,
-    tripName: "Grand Canyon Raft Trip",
+    tripName: "Grand Canyon River Trip",
     location: "Grand Canyon National Park, Arizona",
     photos: gcPics,
     days: "21",
     exactDate: "20180401",
     roughDate: "April, 2018",
-    searchTerms: ["River Trips", "National Park", "USA"]
+    searchTerms: ["River Trips", "National Parks", "USA"]
   },
   {
     id: 9,
@@ -120,7 +122,7 @@ const adventureDetails = [
   },
   {
     id: 8,
-    tripName: "Main Salmon Raft Trip",
+    tripName: "Main Salmon River Trip",
     location: "Frank Church Wilderness, Idaho",
     photos: mainSalmonPics,
     days: "5",
@@ -205,13 +207,13 @@ const adventureSearchTerms = [
   "Canada",
   "Canoe Trips",
   "Idaho",
-  "National Park",
+  "National Parks",
   "Ontario",
   "Quebec",
   "River Trips",
   "Ski Trips",
   "USA",
   "Wyoming",
-].sort()
+]
 
 export { adventureDetails, adventureSearchTerms }

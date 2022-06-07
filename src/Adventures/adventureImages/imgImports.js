@@ -156,6 +156,28 @@ import karlHill from './jacksonPeak/karlHill.jpg'
 import tourCache from './jacksonPeak/tourCache.jpg'
 import gashView from './jacksonPeak/gashView.jpg'
 
+import selwayAbove from './selwayRiver/selwayAbove.jpg'
+import mooseCreek from './selwayRiver/mooseCreek.jpg'
+import selwayAirstrip from './selwayRiver/selwayAirstrip.jpg'
+import littleNiagra from './selwayRiver/littleNiagra.jpg'
+import ladle from './selwayRiver/ladle.jpg'
+import selwayCrew from './selwayRiver/selwayCrew.jpg'
+import wolfCreek from './selwayRiver/wolfCreek.jpg'
+import selwayBeach from './selwayRiver/selwayBeach.jpg'
+import selwayFalls from './selwayRiver/selwayFalls.jpg'
+
+const selwayPics = [
+    selwayAbove,
+    mooseCreek,
+    selwayAirstrip,
+    littleNiagra,
+    ladle,
+    selwayCrew,
+    wolfCreek,
+    selwayBeach,
+    selwayFalls
+]
+
 const jacksonPeakPics = [
     cabinField,
     nolanPeak,
@@ -361,5 +383,6 @@ export {
     rupertPics,
     mainSalmonPics,
     plummerCanyonPics,
-    jacksonPeakPics
+    jacksonPeakPics,
+    selwayPics,
 }
