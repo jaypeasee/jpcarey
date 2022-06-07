@@ -20,6 +20,15 @@ import {
 
 const adventureDetails = [
   {
+    id: 18,
+    tripName: "Selway River Kayaking Trip",
+    location: "Selway-Bitterroot Wilderness, Idaho",
+    days: "4",
+    exactDate: "20220531",
+    roughDate: "June, 2022",
+    searchTerms: ["Idaho", "River Trips", "USA"]
+  },
+  {
     id: 17,
     tripName: "Jackson Peak Ski Cabin Trip",
     location: "Gros Ventre Wilderness, Wyoming",
@@ -27,7 +36,7 @@ const adventureDetails = [
     days: "3",
     exactDate: "20220226",
     roughDate: "February, 2022",
-    searchTerms: ["Ski Trips", "Wyoming"]
+    searchTerms: ["Ski Trips", "Wyoming", "USA"]
   },
   {
     id: 16,
@@ -37,7 +46,7 @@ const adventureDetails = [
     days: "3",
     exactDate: "20220204",
     roughDate: "February, 2022",
-    searchTerms: ["Ski Trips", "Wyoming", "Idaho"]
+    searchTerms: ["Ski Trips", "Wyoming", "Idaho", "USA"]
   },
   {
     id: 15,
@@ -47,7 +56,7 @@ const adventureDetails = [
     days: "3",
     exactDate: "20210917",
     roughDate: "September, 2021",
-    searchTerms: ["Canoe Trips", "Wyoming", "National Park"]
+    searchTerms: ["Canoe Trips", "Wyoming", "National Park", "USA"]
   },
   {
     id: 14,
@@ -57,7 +66,7 @@ const adventureDetails = [
     days: "7",
     exactDate: "20210610",
     roughDate: "June, 2021",
-    searchTerms: ["Raft Trips", "Idaho"]
+    searchTerms: ["River Trips", "Idaho", "USA"]
   },
   {
     id: 13,
@@ -67,7 +76,7 @@ const adventureDetails = [
     days: "3",
     exactDate: "20200821",
     roughDate: "August, 2020",
-    searchTerms: ["Canoe Trips", "National Park", "Wyoming"]
+    searchTerms: ["Canoe Trips", "National Park", "Wyoming", "USA"]
   },
   {
     id: 12,
@@ -77,7 +86,7 @@ const adventureDetails = [
     days: "3",
     exactDate: "20200110",
     roughDate: "January, 2020",
-    searchTerms: ["Ski Trips", "Wyoming", "Idaho"]
+    searchTerms: ["Ski Trips", "Wyoming", "Idaho", "USA"]
   },
   {
     id: 11,
@@ -97,7 +106,7 @@ const adventureDetails = [
     days: "21",
     exactDate: "20180401",
     roughDate: "April, 2018",
-    searchTerms: ["Raft Trips", "National Park"]
+    searchTerms: ["River Trips", "National Park", "USA"]
   },
   {
     id: 9,
@@ -107,7 +116,7 @@ const adventureDetails = [
     days: "4",
     exactDate: "20180121",
     roughDate: "January, 2018",
-    searchTerms: ["Ski Trips", "Wyoming", "Idaho"]
+    searchTerms: ["Ski Trips", "Wyoming", "Idaho", "USA"]
   },
   {
     id: 8,
@@ -117,7 +126,7 @@ const adventureDetails = [
     days: "5",
     exactDate: "20160910",
     roughDate: "September, 2016",
-    searchTerms: ["Raft Trips", "Idaho"]
+    searchTerms: ["Idaho", "River Trips", "USA"]
   },
   {
     id: 7,
@@ -127,7 +136,7 @@ const adventureDetails = [
     days: "37",
     exactDate: "20150705",
     roughDate: "July, 2015",
-    searchTerms: ["Canoe Trips", "Ontario", "Canada"]
+    searchTerms: ["Canoe Trips", "Ontario", "Canada", "River Trips"]
   },
   {
     id: 6,
@@ -137,7 +146,7 @@ const adventureDetails = [
     days: "14",
     exactDate: "20140705",
     roughDate: "July, 2014",
-    searchTerms: ["Canoe Trips", "Quebec", "Canada"]
+    searchTerms: ["Canoe Trips", "Quebec", "Canada", "River Trips"]
   },
   {
     id: 5,
@@ -147,7 +156,7 @@ const adventureDetails = [
     days: "32",
     exactDate: "20130709",
     roughDate: "July, 2013",
-    searchTerms: ["Canoe Trips", "Ontario", "Canada"]
+    searchTerms: ["Canoe Trips", "Ontario", "Canada", "River Trips"]
   },
   {
     id: 4,
@@ -157,7 +166,7 @@ const adventureDetails = [
     days: "6",
     exactDate: "20120520",
     roughDate: "May, 2012",
-    searchTerms: ["Canoe Trips", "Quebec", "Canada"]
+    searchTerms: ["Canoe Trips", "Quebec", "Canada", "River Trips"]
   },
   {
     id: 3,
@@ -167,7 +176,7 @@ const adventureDetails = [
     days: "10",
     exactDate: "20110815",
     roughDate: "August, 2011",
-    searchTerms: ["Canoe Trips", "Ontario", "Canada"]
+    searchTerms: ["Canoe Trips", "Ontario", "Canada", "River Trips"]
   },
   {
     id: 2,
@@ -177,7 +186,7 @@ const adventureDetails = [
     days: "19",
     exactDate: "20110703",
     roughDate: "July, 2011",
-    searchTerms: ["Canoe Trips", "Ontario", "Canada"]
+    searchTerms: ["Canoe Trips", "Ontario", "Canada", "River Trips"]
   },
   {
     id: 1,
@@ -187,21 +196,22 @@ const adventureDetails = [
     days: "25",
     exactDate: "20080714",
     roughDate: "July, 2008",
-    searchTerms: ["Canoe Trips", "Quebec", "Canada"]
+    searchTerms: ["Canoe Trips", "Quebec", "Canada", "River Trips"]
   },
 ]
 
 const adventureSearchTerms = [
   "--",
+  "Canada",
   "Canoe Trips",
-  "National Park",
-  "Wyoming",
-  "Ski Trips",
-  "Raft Trips",
   "Idaho",
+  "National Park",
   "Ontario",
   "Quebec",
-  "Canada"
+  "River Trips",
+  "Ski Trips",
+  "USA",
+  "Wyoming",
 ].sort()
 
 export { adventureDetails, adventureSearchTerms }
