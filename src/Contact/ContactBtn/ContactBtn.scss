@@ -5,9 +5,6 @@
   display: flex;
   align-items: center;
   flex-basis: 100px;
-  &:hover {
-    @include btn-hover(1.02)
-  }
 }
 
 .contact-logo {

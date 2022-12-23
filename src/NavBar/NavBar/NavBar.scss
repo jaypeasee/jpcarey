@@ -59,10 +59,6 @@
   text-decoration: none;
 }
 
-.nav-btn:hover {
-  @include btn-hover(1.03)
-}
-
 .nav-content {
   display: flex;
   justify-content: space-around;

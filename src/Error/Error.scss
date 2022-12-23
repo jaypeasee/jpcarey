@@ -25,9 +25,6 @@
   @include yellow-button;
   padding: 2%;
   text-decoration: none;
-  &:hover {
-    @include btn-hover(1.02);
-  }
 }
 
 .error-img {

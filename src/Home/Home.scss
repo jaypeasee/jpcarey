@@ -12,14 +12,8 @@
   box-shadow: 5px 6px 16px black;
   cursor: pointer;
   margin: 1%;
-  &:hover {
-    @include btn-hover(1.01)
-  }
 }
 
-.profile-img:active {
-  @include btn-hover(1.03)
-}
 
 @media only screen and (max-width: 1100px) {
   .profile-img {

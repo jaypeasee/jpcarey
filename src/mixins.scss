@@ -37,8 +37,3 @@
   border: $navy 1px solid;
   box-shadow: 2px 2px 4px black;
 }
-
-@mixin btn-hover($scale) {
-  transform: scale($scale);
-  transition-duration: 0.5s;
-}

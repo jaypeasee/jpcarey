@@ -3,9 +3,6 @@
 .nav-logo {
   height: 125px;
   align-self: center;
-  &:hover {
-    @include btn-hover(1.1)
-  }
 }
 
 .mobile-nav-logo {
