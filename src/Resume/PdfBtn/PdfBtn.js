@@ -1,6 +1,5 @@
 import './PdfBtn.scss'
 import resume from '../jpc-dev-resume.pdf'
-import { click, tick } from '../../sounds/sounds'
 
 
 const PdfBtn = ({ position }) => {
@@ -10,8 +9,6 @@ const PdfBtn = ({ position }) => {
         href={resume} 
         className="pdf-download" 
         target="_blank"
-        onClick={() => click.play()}
-        onMouseOver={() => tick.play()}
       >See PDF version</a>
     </div>
   )

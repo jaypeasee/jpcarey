@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './Home.scss'
 import { photosOfMe } from './homeImages/imgImports';
-import { click, tick } from '../sounds/sounds'
 
 const Home = () => {
   
@@ -32,9 +31,7 @@ const Home = () => {
           className="profile-img"
           onClick={() => {
             updateRandomProfileImg()
-            click.play()
           }}
-          onMouseOver={() => tick.play()}
         />
       </section>
     )

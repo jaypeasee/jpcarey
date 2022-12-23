@@ -1,7 +1,6 @@
 import React, { useState, useEffect } from 'react'
 import './NavBar.scss'
 import { NavLink } from 'react-router-dom'
-import { click, tick } from '../../sounds/sounds'
 import { selfDescriptions, navigationOptions } from '../navBarData'
 import NavLogo from '../Logo/NavLogo'
 
@@ -21,7 +20,6 @@ const NavBar = (props) => {
   }, [])
 
   const handleNavClick = (view) => {
-    click.play()
     props.toggleNav(view)
   }
 
@@ -37,7 +35,6 @@ const NavBar = (props) => {
           className="nav-btn-anchor"
           onClick={() => handleNavClick(option.name.toLowerCase())}
           className="nav-btn"
-          onMouseOver={() => tick.play()}
         >{option.name}</NavLink>
       )
     })

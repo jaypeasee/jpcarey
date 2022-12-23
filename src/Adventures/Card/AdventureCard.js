@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react'
 import './AdventureCard.scss'
 import moment from 'moment';
 import { comma } from 'number-magic'
-import { click } from '../../sounds/sounds';
 
 const AdventureCard = (props) => {
   const { tripName, location, days, exactDate, roughDate, photos } = props
@@ -18,7 +17,6 @@ const AdventureCard = (props) => {
   }
 
   const rotatePhoto = () => {
-    click.play()
     if (adventurePhotos.length === 1) {
       setAdventurePhotos(photos)
     } else {

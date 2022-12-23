@@ -1,7 +1,6 @@
 import './Error.scss'
 import wendyCone from './wendyCone.JPG'
 import { Link } from 'react-router-dom'
-import { tick } from '../sounds/sounds'
 
 const Error = () => {
   return (
@@ -16,7 +15,6 @@ const Error = () => {
         <Link 
           className="back-to-home-btn"
           to="/"
-          onMouseOver={() => tick.play()}
         >Back To Home</Link>
       </section>
     </section>
