@@ -11,8 +11,6 @@ const selfDescriptions = [
   "Catan sheep farmer",
   "amateur cook",
   "canoe tripper",
-  "picture taker",
-  "planner",
   "he/him/his",
 ]
 
