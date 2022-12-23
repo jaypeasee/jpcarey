@@ -30,7 +30,7 @@ const contactTypes = [
   },
   {
     link: "https://www.instagram.com/jaypeasee4/",
-    text: "Instagram",
+    text: "jaypeasee4",
     image: {
       alt: "Instagram Logo",
       src: instagram
