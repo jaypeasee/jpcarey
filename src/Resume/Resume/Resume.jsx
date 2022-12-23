@@ -1,8 +1,8 @@
 import './Resume.scss'
-import Experience from '../Experience/Experience'
-import Skills from '../Skills/Skills'
-import Education from '../Education/Education'
-import PdfBtn from '../PdfBtn/PdfBtn'
+import Experience from '../Experience/Experience.jsx'
+import Skills from '../Skills/Skills.jsx'
+import Education from '../Education/Education.jsx'
+import PdfBtn from '../PdfBtn/PdfBtn.jsx'
 import { experienceData, educationData, skillsData } from '../resumeData'
 import startCase from 'lodash.startcase'
 

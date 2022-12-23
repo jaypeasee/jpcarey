@@ -1,11 +1,11 @@
 import React, { useState } from 'react'
 import './App.scss';
-import NavBar from '../NavBar/NavBar/NavBar'
-import Home from '../Home/Home'
-import Contact from '../Contact/Contact/Contact'
-import Resume from '../Resume/Resume/Resume'
-import Adventures from '../Adventures/Adventures/Adventures'
-import Error from '../Error/Error'
+import NavBar from '../NavBar/NavBar/NavBar.jsx'
+import Home from '../Home/Home.jsx'
+import Contact from '../Contact/Contact/Contact.jsx'
+import Resume from '../Resume/Resume/Resume.jsx'
+import Adventures from '../Adventures/Adventures/Adventures.jsx'
+import Error from '../Error/Error.jsx'
 import { Route, Switch } from 'react-router-dom'
 
 const App = () =>  {

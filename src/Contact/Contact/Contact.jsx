@@ -1,6 +1,6 @@
 import React from 'react'
 import './Contact.scss'
-import ContactBtn from '../ContactBtn/ContactBtn'
+import ContactBtn from '../ContactBtn/ContactBtn.jsx'
 import { contactTypes } from '../contactData' 
 
 const Contact = () => {

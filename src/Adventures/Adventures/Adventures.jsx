@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import './Adventures.scss'
-import AdventureCard from '../Card/AdventureCard'
-import AdventureFilter from '../Filter/AdventureFilter'
+import AdventureCard from '../Card/AdventureCard.jsx'
+import AdventureFilter from '../Filter/AdventureFilter.jsx'
 import { adventureDetails } from '../adventureData'
 
 const Adventures = () => {
