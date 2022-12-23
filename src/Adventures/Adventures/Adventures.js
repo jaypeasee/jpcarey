@@ -23,13 +23,13 @@ const Adventures = () => {
 
   const AdventureCards = () => {
     return currentAdventures.map(adventure => {
-      const {id, tripName, location, photos, days, exactDate, roughDate, searchTerms} = adventure
+      const {id, tripName, location, photo, days, exactDate, roughDate, searchTerms} = adventure
       return (
         <AdventureCard 
           key={id}
           tripName={tripName}
           location={location}
-          photos={photos}
+          photo={photo}
           days={days}
           exactDate={exactDate}
           roughDate={roughDate}

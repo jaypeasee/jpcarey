@@ -4,7 +4,7 @@ import moment from 'moment';
 import { comma } from 'number-magic'
 
 const AdventureCard = (props) => {
-  const { tripName, location, days, exactDate, roughDate, photos } = props
+  const { tripName, location, days, exactDate, roughDate, photo } = props
   
   const calculateTimeDiff = (date) => {
     return `${comma(moment().diff(date, "days"))} days ago`
@@ -15,7 +15,7 @@ const AdventureCard = (props) => {
       className="adventure-cover"
     >
       <img 
-        src={photos[0]}
+        src={photo}
         alt={`Photo from ${tripName}`}
         className="adventure-img-cover"
       />
