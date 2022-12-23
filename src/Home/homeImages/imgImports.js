@@ -18,8 +18,12 @@ import japanVan from './images/japanVan.jpeg'
 import furanoSkin from './images/furanoSkin.JPG'
 import topoDuo from './images/topoDuo.JPG'
 import jacksonMood from './images/jacksonMood.JPG'
+import gcRow from './images/gcRow.JPG';
+import blacktailCanyon from './images/blacktailCanyon.JPG'
 
 const photosOfMe = [
+    blacktailCanyon,
+    gcRow,
     billsGame,
     familyPhoto,
     japanIcicle,
