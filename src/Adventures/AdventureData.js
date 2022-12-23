@@ -16,8 +16,19 @@ import mainSalmon16 from './adventureImages/mainSalmon16.JPG'
 import plummerCanyon from './adventureImages/plummerCanyon.jpg'
 import jacksonPeak from './adventureImages/jacksonPeak.jpg'
 import selwayRiver from './adventureImages/selwayRiver.jpg'
+import grandCanyon22 from './adventureImages/grandCanyon22.jpg';
 
 const adventureDetails = [
+  {
+    id: 19,
+    tripName: "Grand Canyon Raft Trip",
+    location: "Grand Canyon National Park, Arizona",
+    photo: grandCanyon22,
+    days: "18",
+    exactDate: "20221025",
+    roughDate: "November, 2022",
+    searchTerms: ["River Trips", "National Parks", "USA"]
+  },
   {
     id: 18,
     tripName: "Selway River Kayaking Trip",
