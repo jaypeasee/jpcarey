@@ -11,7 +11,9 @@ const selfDescriptions = [
   "Catan sheep farmer",
   "amateur cook",
   "canoe tripper",
-  "he/him/his"
+  "picture taker",
+  "planner",
+  "he/him/his",
 ]
 
 const navigationOptions = [
