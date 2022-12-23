@@ -53,12 +53,10 @@ const skillsData = {
     'Recharts'
   ],
   otherSkills: [
-    'Github,',
     'Gitlab,',
     'Google Analytics,',
-    'LaunchDarkly,',
     'Segment,',
-    'Amplitude',
+    'Amplitude,',
     'Sentry',
   ]
 }
