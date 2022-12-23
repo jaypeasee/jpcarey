@@ -1,28 +1,28 @@
-import warmSprings from './adventureImages/warmSprings.JPG'
-import landscape from './adventureImages/landscape.jpg'
-import shoshoneOpening from './adventureImages/shoshoneOpening.jpeg'
-import yurtMorning from './adventureImages/yurtMorning.jpeg'
-import sunsetSummit from './adventureImages/sunsetSummit.jpeg'
-import nankoweep from './adventureImages/nankoweep.JPG'
-import yurtOverlook from './adventureImages/yurtOverlook.jpg'
-import northernLights from './adventureImages/northernLights.jpg'
-import doubleRainbow from './adventureImages/doubleRainbow.jpg'
-import grandFalls from './adventureImages/grandFalls.jpg'
-import mooseSunset from './adventureImages/mooseSunset.jpg'
-import hecklauJack from './adventureImages/hecklauJack.jpg'
-import eustacheLake from './adventureImages/eustacheLake.jpg'
-import rupertRainbow from './adventureImages/rupertRainbow.jpg'
-import raftBeach from './adventureImages/raftBeach.JPG'
-import plummerSunset from './adventureImages/plummerSunset.jpg'
-import tourCache from './adventureImages/tourCache.jpg'
-import selwayAbove from './adventureImages/selwayAbove.jpg'
+import jacksonLake from './adventureImages/jacksonLake.JPG'
+import middleFork from './adventureImages/middleFork.jpg'
+import shoshoneLake from './adventureImages/shoshoneLake.jpeg'
+import commissaryRidge from './adventureImages/commissaryRidge.jpeg'
+import hokkaido from './adventureImages/hokkaido.jpeg'
+import grandCanyon18 from './adventureImages/grandCanyon18.JPG'
+import baldyKnoll from './adventureImages/baldyKnoll.jpg'
+import severnRiver from './adventureImages/severnRiver.jpg'
+import asheweigRiver from './adventureImages/asheweigRiver.jpg'
+import dumoineRiver from './adventureImages/dumoineRiver.jpg'
+import missinaibiRiver from './adventureImages/missinaibiRiver.jpg'
+import mistassibiRiver from './adventureImages/mistassibiRiver.jpg'
+import petawawaRiver from './adventureImages/petawawaRiver.jpg'
+import rupertRiver from './adventureImages/rupertRiver.jpg'
+import mainSalmon16 from './adventureImages/mainSalmon16.JPG'
+import plummerCanyon from './adventureImages/plummerCanyon.jpg'
+import jacksonPeak from './adventureImages/jacksonPeak.jpg'
+import selwayRiver from './adventureImages/selwayRiver.jpg'
 
 const adventureDetails = [
   {
     id: 18,
     tripName: "Selway River Kayaking Trip",
     location: "Selway-Bitterroot Wilderness, Idaho",
-    photo: selwayAbove,
+    photo: selwayRiver,
     days: "4",
     exactDate: "20220531",
     roughDate: "June, 2022",
@@ -32,7 +32,7 @@ const adventureDetails = [
     id: 17,
     tripName: "Jackson Peak Ski Cabin Trip",
     location: "Gros Ventre Wilderness, Wyoming",
-    photo: tourCache,
+    photo: jacksonPeak,
     days: "3",
     exactDate: "20220226",
     roughDate: "February, 2022",
@@ -42,7 +42,7 @@ const adventureDetails = [
     id: 16,
     tripName: "Plummer Canyon Yurt Trip",
     location: "Bridger Teton National Forest, Wydaho",
-    photo: plummerSunset,
+    photo: plummerCanyon,
     days: "3",
     exactDate: "20220204",
     roughDate: "February, 2022",
@@ -52,7 +52,7 @@ const adventureDetails = [
     id: 15,
     tripName: "Jackson Lake Canoe Trip",
     location: "Grand Teton National Park, Wyoming",
-    photo: warmSprings,
+    photo: jacksonLake,
     days: "3",
     exactDate: "20210917",
     roughDate: "September, 2021",
@@ -62,7 +62,7 @@ const adventureDetails = [
     id: 14,
     tripName: "Middle Fork Salmon River Trip",
     location: "Frank Church Wilderness, Idaho",
-    photo: landscape,
+    photo: middleFork,
     days: "7",
     exactDate: "20210610",
     roughDate: "June, 2021",
@@ -72,7 +72,7 @@ const adventureDetails = [
     id: 13,
     tripName: "Lewis-Shoshone Canoe Trip",
     location: "Yellowstone National Park, Wyoming",
-    photo: shoshoneOpening,
+    photo: shoshoneLake,
     days: "3",
     exactDate: "20200821",
     roughDate: "August, 2020",
@@ -82,7 +82,7 @@ const adventureDetails = [
     id: 12,
     tripName: "Commissary Ridge Yurt Trip",
     location: "Bridger Teton National Forest, Wydaho",
-    photo: yurtMorning,
+    photo: commissaryRidge,
     days: "3",
     exactDate: "20200110",
     roughDate: "January, 2020",
@@ -92,7 +92,7 @@ const adventureDetails = [
     id: 11,
     tripName: "Hokkaido Ski Trip",
     location: "Hokkaido, Japan",
-    photo: sunsetSummit,
+    photo: hokkaido,
     days: "14",
     exactDate: "20190121",
     roughDate: "January, 2019",
@@ -102,7 +102,7 @@ const adventureDetails = [
     id: 10,
     tripName: "Grand Canyon River Trip",
     location: "Grand Canyon National Park, Arizona",
-    photo: nankoweep,
+    photo: grandCanyon18,
     days: "21",
     exactDate: "20180401",
     roughDate: "April, 2018",
@@ -112,7 +112,7 @@ const adventureDetails = [
     id: 9,
     tripName: "Baldy Knoll Yurt Trip",
     location: "Bridger Teton National Forest, Wydaho",
-    photo: yurtOverlook,
+    photo: baldyKnoll,
     days: "4",
     exactDate: "20180121",
     roughDate: "January, 2018",
@@ -122,7 +122,7 @@ const adventureDetails = [
     id: 8,
     tripName: "Main Salmon River Trip",
     location: "Frank Church Wilderness, Idaho",
-    photo: raftBeach,
+    photo: mainSalmon16,
     days: "5",
     exactDate: "20160910",
     roughDate: "September, 2016",
@@ -132,7 +132,7 @@ const adventureDetails = [
     id: 7,
     tripName: "Severn River Canoe Trip",
     location: "Fort Severn, Ontario",
-    photo: northernLights,
+    photo: severnRiver,
     days: "37",
     exactDate: "20150705",
     roughDate: "July, 2015",
@@ -142,7 +142,7 @@ const adventureDetails = [
     id: 6,
     tripName: "Dumoine River Canoe Trip",
     location: "Laniel, Quebec",
-    photo: grandFalls,
+    photo: dumoineRiver,
     days: "14",
     exactDate: "20140705",
     roughDate: "July, 2014",
@@ -152,7 +152,7 @@ const adventureDetails = [
     id: 5,
     tripName: "Asheweig River Canoe Trip",
     location: "Peawanuck, Ontario",
-    photo: doubleRainbow,
+    photo: asheweigRiver,
     days: "32",
     exactDate: "20130709",
     roughDate: "July, 2013",
@@ -162,7 +162,7 @@ const adventureDetails = [
     id: 4,
     tripName: "Mistassibi River Canoe Trip",
     location: "Dolbeau-Mistassini, Quebec",
-    photo: hecklauJack,
+    photo: mistassibiRiver,
     days: "6",
     exactDate: "20120520",
     roughDate: "May, 2012",
@@ -172,7 +172,7 @@ const adventureDetails = [
     id: 3,
     tripName: "Petawawa River Canoe Trip",
     location: "Algonquin Park, Ontario",
-    photo: eustacheLake,
+    photo: petawawaRiver,
     days: "10",
     exactDate: "20110815",
     roughDate: "August, 2011",
@@ -182,7 +182,7 @@ const adventureDetails = [
     id: 2,
     tripName: "Missinaibi River Canoe Trip",
     location: "Moosonee, Ontario",
-    photo: mooseSunset,
+    photo: missinaibiRiver,
     days: "19",
     exactDate: "20110703",
     roughDate: "July, 2011",
@@ -192,7 +192,7 @@ const adventureDetails = [
     id: 1,
     tripName: "Rupert River Canoe Trip",
     location: "Waskaganish, Quebec",
-    photo: rupertRainbow,
+    photo: rupertRiver,
     days: "25",
     exactDate: "20080714",
     roughDate: "July, 2008",

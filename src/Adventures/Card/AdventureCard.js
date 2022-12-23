@@ -11,7 +11,7 @@ const AdventureCard = (props) => {
   }
   
   return (
-    <section 
+    <section
       className="adventure-cover"
     >
       <img 
