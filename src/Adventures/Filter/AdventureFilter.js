@@ -16,7 +16,8 @@ const AdventureFilter = (props) => {
   }
   
   const SearchOptions = () => {
-    return adventureSearchTerms.map(term => {
+    const filteredOptions = adventureSearchTerms.filter((term) => term !== currentOption)
+    return filteredOptions.map(term => {
       return <option value={term} key={term}>{term}</option>
     })
   }
