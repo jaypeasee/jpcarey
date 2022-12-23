@@ -8,19 +8,10 @@
   margin: 2%;
   padding: 1%;
   box-shadow: 4px 5px 20px black;
-  cursor: pointer;
-  &:hover {
-    @include btn-hover(1.02)
-  }
-}
-
-.adventure-cover:hover .adventure-img-cover {
-  opacity: 1;
 }
 
 .adventure-img-cover {
   width: 100%;
-  opacity: .8;
   height: 60%;
 }
 
