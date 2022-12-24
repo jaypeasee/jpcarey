@@ -50,14 +50,15 @@ const skillsData = {
     'Redux,',
     'React Testing Library,',
     'Material UI,',
-    'Recharts'
+    'Rspec'
   ],
   otherSkills: [
     'Gitlab,',
-    'Google Analytics,',
+    'Sentry,',
     'Segment,',
     'Amplitude,',
-    'Sentry',
+    'Google Analytics,',
+    'LaunchDarkly'
   ]
 }
 

@@ -21,7 +21,7 @@ import grandCanyon22 from './adventureImages/grandCanyon22.jpg';
 const adventureDetails = [
   {
     id: 19,
-    tripName: "Grand Canyon Rafting Trip",
+    tripName: "Grand Canyon Raft Trip",
     location: "Grand Canyon National Park, Arizona",
     photo: grandCanyon22,
     days: "18",
