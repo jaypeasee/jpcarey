@@ -45,7 +45,7 @@ const skillsData = {
     'CSS,',
     'HTML'
   ],
-  frameworksLibraries: [
+  frameworksAndLibraries: [
     'React,',
     'Redux,',
     'React Testing Library,',
