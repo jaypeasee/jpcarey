@@ -21,7 +21,7 @@ import grandCanyon22 from './adventureImages/grandCanyon22.jpg';
 const adventureDetails = [
   {
     id: 19,
-    tripName: "Grand Canyon Raft Trip",
+    tripName: "Grand Canyon Rafting Trip",
     location: "Grand Canyon National Park, Arizona",
     photo: grandCanyon22,
     days: "18",
@@ -71,7 +71,7 @@ const adventureDetails = [
   },
   {
     id: 14,
-    tripName: "Middle Fork Salmon River Trip",
+    tripName: "Middle Fork Salmon Raft Trip",
     location: "Frank Church Wilderness, Idaho",
     photo: middleFork,
     days: "7",
@@ -111,7 +111,7 @@ const adventureDetails = [
   },
   {
     id: 10,
-    tripName: "Grand Canyon River Trip",
+    tripName: "Grand Canyon Raft Trip",
     location: "Grand Canyon National Park, Arizona",
     photo: grandCanyon18,
     days: "21",
@@ -131,7 +131,7 @@ const adventureDetails = [
   },
   {
     id: 8,
-    tripName: "Main Salmon River Trip",
+    tripName: "Main Salmon Raft Trip",
     location: "Frank Church Wilderness, Idaho",
     photo: mainSalmon16,
     days: "5",
