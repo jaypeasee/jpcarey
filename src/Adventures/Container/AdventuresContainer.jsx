@@ -33,7 +33,6 @@ const Adventures = () => {
           days={days}
           exactDate={exactDate}
           roughDate={roughDate}
-          searchTerms={searchTerms}
         />
       )
     })
