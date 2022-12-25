@@ -17,10 +17,11 @@ import plummerCanyon from './adventureImages/plummerCanyon.jpg'
 import jacksonPeak from './adventureImages/jacksonPeak.jpg'
 import selwayRiver from './adventureImages/selwayRiver.jpg'
 import grandCanyon22 from './adventureImages/grandCanyon22.jpg';
+import mainSalmon17 from './adventureImages/mainSalmon17.JPG'
 
 const adventureDetails = [
   {
-    id: 19,
+    id: 20,
     tripName: "Grand Canyon Raft Trip",
     location: "Grand Canyon National Park, Arizona",
     photo: grandCanyon22,
@@ -30,7 +31,7 @@ const adventureDetails = [
     searchTerms: ["River Trips", "National Parks", "USA"]
   },
   {
-    id: 18,
+    id: 19,
     tripName: "Selway River Kayaking Trip",
     location: "Selway-Bitterroot Wilderness, Idaho",
     photo: selwayRiver,
@@ -40,7 +41,7 @@ const adventureDetails = [
     searchTerms: ["Idaho", "River Trips", "USA"]
   },
   {
-    id: 17,
+    id: 18,
     tripName: "Jackson Peak Ski Cabin Trip",
     location: "Gros Ventre Wilderness, Wyoming",
     photo: jacksonPeak,
@@ -50,7 +51,7 @@ const adventureDetails = [
     searchTerms: ["Ski Trips", "Wyoming", "USA"]
   },
   {
-    id: 16,
+    id: 17,
     tripName: "Plummer Canyon Yurt Trip",
     location: "Bridger Teton National Forest, Wydaho",
     photo: plummerCanyon,
@@ -60,7 +61,7 @@ const adventureDetails = [
     searchTerms: ["Ski Trips", "Wyoming", "Idaho", "USA"]
   },
   {
-    id: 15,
+    id: 17,
     tripName: "Jackson Lake Canoe Trip",
     location: "Grand Teton National Park, Wyoming",
     photo: jacksonLake,
@@ -70,7 +71,7 @@ const adventureDetails = [
     searchTerms: ["Canoe Trips", "Wyoming", "National Parks", "USA"]
   },
   {
-    id: 14,
+    id: 15,
     tripName: "Middle Fork Salmon Raft Trip",
     location: "Frank Church Wilderness, Idaho",
     photo: middleFork,
@@ -80,7 +81,7 @@ const adventureDetails = [
     searchTerms: ["River Trips", "Idaho", "USA"]
   },
   {
-    id: 13,
+    id: 14,
     tripName: "Lewis-Shoshone Canoe Trip",
     location: "Yellowstone National Park, Wyoming",
     photo: shoshoneLake,
@@ -90,7 +91,7 @@ const adventureDetails = [
     searchTerms: ["Canoe Trips", "National Parks", "Wyoming", "USA"]
   },
   {
-    id: 12,
+    id: 13,
     tripName: "Commissary Ridge Yurt Trip",
     location: "Bridger Teton National Forest, Wydaho",
     photo: commissaryRidge,
@@ -100,7 +101,7 @@ const adventureDetails = [
     searchTerms: ["Ski Trips", "Wyoming", "Idaho", "USA"]
   },
   {
-    id: 11,
+    id: 12,
     tripName: "Hokkaido Ski Trip",
     location: "Hokkaido, Japan",
     photo: hokkaido,
@@ -110,7 +111,7 @@ const adventureDetails = [
     searchTerms: ["Ski Trips"]
   },
   {
-    id: 10,
+    id: 11,
     tripName: "Grand Canyon Raft Trip",
     location: "Grand Canyon National Park, Arizona",
     photo: grandCanyon18,
@@ -120,7 +121,7 @@ const adventureDetails = [
     searchTerms: ["River Trips", "National Parks", "USA"]
   },
   {
-    id: 9,
+    id: 10,
     tripName: "Baldy Knoll Yurt Trip",
     location: "Bridger Teton National Forest, Wydaho",
     photo: baldyKnoll,
@@ -128,6 +129,14 @@ const adventureDetails = [
     exactDate: "20180121",
     roughDate: "January, 2018",
     searchTerms: ["Ski Trips", "Wyoming", "Idaho", "USA"]
+  },
+  {
+    id: 9,
+    tripName: "Main Salmon Raft Trip",
+    location: "Frank Church Wilderness, Idaho",
+    photo: mainSalmon17,
+    days: "4",
+    exactDate: "20170620",
   },
   {
     id: 8,
