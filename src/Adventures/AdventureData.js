@@ -19,7 +19,7 @@ import selwayRiver from './adventureImages/selwayRiver.jpg'
 import grandCanyon22 from './adventureImages/grandCanyon22.jpg';
 import mainSalmon17 from './adventureImages/mainSalmon17.JPG'
 
-const adventureDetails = [
+const allAdventures = [
   {
     id: 20,
     tripName: "Grand Canyon Raft Trip",
@@ -137,6 +137,8 @@ const adventureDetails = [
     photo: mainSalmon17,
     days: "4",
     exactDate: "20170620",
+    roughDate: "June, 2017",
+    searchTerms: ["Idaho", "River Trips", "USA"],
   },
   {
     id: 8,
@@ -234,4 +236,4 @@ const adventureSearchTerms = [
   "Wyoming",
 ]
 
-export { adventureDetails, adventureSearchTerms }
+export { allAdventures, adventureSearchTerms }

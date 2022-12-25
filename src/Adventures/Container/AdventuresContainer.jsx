@@ -2,20 +2,20 @@ import React, { useState, useEffect } from 'react'
 import './AdventuresContainer.scss'
 import AdventureCard from '../Card/AdventureCard.jsx'
 import AdventureFilter from '../Filter/AdventuresFilter.jsx'
-import { adventureDetails } from '../adventureData'
+import { allAdventures } from '../adventureData.js'
 
 const Adventures = () => {
   const [currentAdventures, setCurrentAdventures] = useState([])
 
   useEffect(() =>{
-    setCurrentAdventures(adventureDetails)
+    setCurrentAdventures(allAdventures)
   }, [])
 
   const filterAdventures = (searchTerm) => {
     if (searchTerm == '--') {
-      setCurrentAdventures(adventureDetails)
+      setCurrentAdventures(allAdventures)
     } else {
-      setCurrentAdventures(adventureDetails.filter(adventure => {
+      setCurrentAdventures(allAdventures.filter(adventure => {
         return adventure.searchTerms.includes(searchTerm)
       }))
     }

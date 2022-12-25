@@ -3,12 +3,8 @@ import { adventureSearchTerms } from '../adventureData'
 import React, { useState, useEffect } from 'react'
 
 const AdventureFilter = (props) => {
-
   const [currentOption, setCurrentOption] = useState('')
-
-  useEffect(() => {
-    setCurrentOption('--')
-  }, [])
+  useEffect(() => setCurrentOption('--'), [])
 
   const chooseOption = (event) => {
     props.filterAdventures(event.target.value)
