@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/static/css/main.8edae013.chunk.css",
-    "main.js": "/static/js/main.9414109d.chunk.js",
-    "main.js.map": "/static/js/main.9414109d.chunk.js.map",
+    "main.css": "/static/css/main.a0b94cdf.chunk.css",
+    "main.js": "/static/js/main.d8a87278.chunk.js",
+    "main.js.map": "/static/js/main.d8a87278.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.843d8f8c.js",
     "runtime-main.js.map": "/static/js/runtime-main.843d8f8c.js.map",
     "static/js/2.60a3cd9c.chunk.js": "/static/js/2.60a3cd9c.chunk.js",
     "static/js/2.60a3cd9c.chunk.js.map": "/static/js/2.60a3cd9c.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.8edae013.chunk.css.map": "/static/css/main.8edae013.chunk.css.map",
+    "static/css/main.a0b94cdf.chunk.css.map": "/static/css/main.a0b94cdf.chunk.css.map",
     "static/js/2.60a3cd9c.chunk.js.LICENSE.txt": "/static/js/2.60a3cd9c.chunk.js.LICENSE.txt",
     "static/media/asheweigRiver.80b5b23e.jpg": "/static/media/asheweigRiver.80b5b23e.jpg",
     "static/media/baldyKnoll.54e888b9.jpg": "/static/media/baldyKnoll.54e888b9.jpg",
@@ -38,6 +38,7 @@
     "static/media/linkedin.f1fcce0e.png": "/static/media/linkedin.f1fcce0e.png",
     "static/media/logo.082e51bd.png": "/static/media/logo.082e51bd.png",
     "static/media/mainSalmon16.ad6a17d8.JPG": "/static/media/mainSalmon16.ad6a17d8.JPG",
+    "static/media/mainSalmon17.f2b731c8.JPG": "/static/media/mainSalmon17.f2b731c8.JPG",
     "static/media/mexicoPelican.60c34100.jpeg": "/static/media/mexicoPelican.60c34100.jpeg",
     "static/media/middleFork.e631b67e.jpg": "/static/media/middleFork.e631b67e.jpg",
     "static/media/missinaibiRiver.913fe26a.jpg": "/static/media/missinaibiRiver.913fe26a.jpg",
@@ -63,7 +64,7 @@
   "entrypoints": [
     "static/js/runtime-main.843d8f8c.js",
     "static/js/2.60a3cd9c.chunk.js",
-    "static/css/main.8edae013.chunk.css",
-    "static/js/main.9414109d.chunk.js"
+    "static/css/main.a0b94cdf.chunk.css",
+    "static/js/main.d8a87278.chunk.js"
   ]
 }
