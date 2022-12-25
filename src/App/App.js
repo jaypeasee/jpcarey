@@ -4,7 +4,7 @@ import NavBar from '../NavBar/NavBar/NavBar.jsx'
 import Home from '../Home/Home.jsx'
 import Contact from '../Contact/Contact/Contact.jsx'
 import Resume from '../Resume/Resume/Resume.jsx'
-import Adventures from '../Adventures/Adventures/Adventures.jsx'
+import Adventures from '../Adventures/Container/AdventuresContainer.jsx'
 import Error from '../Error/Error.jsx'
 import { Route, Switch } from 'react-router-dom'
 

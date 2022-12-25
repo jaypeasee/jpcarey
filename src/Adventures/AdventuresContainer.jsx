@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from 'react'
-import './Adventures.scss'
-import AdventureCard from '../Card/AdventureCard.jsx'
-import AdventureFilter from '../Filter/AdventureFilter.jsx'
-import { adventureDetails } from '../adventureData'
+import './AdventuresContainer.scss'
+import AdventureCard from './AdventureCard.jsx'
+import AdventureFilter from './Filter/AdventuresFilter.jsx'
+import { adventureDetails } from './adventureData'
 
 const Adventures = () => {
   const [currentAdventures, setCurrentAdventures] = useState([])

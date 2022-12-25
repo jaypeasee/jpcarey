@@ -1,4 +1,4 @@
-import "./AdventureFilter.scss"
+import "./AdventuresFilter.scss"
 import { adventureSearchTerms } from '../adventureData'
 import React, { useState, useEffect } from 'react'
 
