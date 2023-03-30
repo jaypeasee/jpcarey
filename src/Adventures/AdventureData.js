@@ -18,8 +18,19 @@ import jacksonPeak from './adventureImages/jacksonPeak.jpg'
 import selwayRiver from './adventureImages/selwayRiver.jpg'
 import grandCanyon22 from './adventureImages/grandCanyon22.jpg';
 import mainSalmon17 from './adventureImages/mainSalmon17.JPG'
+import fishHook from './adventureImages/fishHook.jpg';
 
 const allAdventures = [
+  {
+    id: 21,
+    tripName: "Fish Hook Hut Trip",
+    location: "Sawtooth National Forest, Idaho",
+    photo: fishHook,
+    days: "4",
+    exactDate: "20230312",
+    roughDate: "March, 2023",
+    searchTerms: ["Ski Trips", "Idaho", "USA"]
+  },
   {
     id: 20,
     tripName: "Grand Canyon Raft Trip",
