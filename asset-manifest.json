@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a0b94cdf.chunk.css",
-    "main.js": "/static/js/main.d8a87278.chunk.js",
-    "main.js.map": "/static/js/main.d8a87278.chunk.js.map",
+    "main.js": "/static/js/main.2aef1e8f.chunk.js",
+    "main.js.map": "/static/js/main.2aef1e8f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.843d8f8c.js",
     "runtime-main.js.map": "/static/js/runtime-main.843d8f8c.js.map",
     "static/js/2.60a3cd9c.chunk.js": "/static/js/2.60a3cd9c.chunk.js",
@@ -20,6 +20,7 @@
     "static/media/dumoineRiver.70e22ec1.jpg": "/static/media/dumoineRiver.70e22ec1.jpg",
     "static/media/familyPhoto.c026d395.jpeg": "/static/media/familyPhoto.c026d395.jpeg",
     "static/media/feelGood.7a915b56.jpg": "/static/media/feelGood.7a915b56.jpg",
+    "static/media/fishHook.1963b2c8.jpg": "/static/media/fishHook.1963b2c8.jpg",
     "static/media/frontPage.bea98f1f.jpeg": "/static/media/frontPage.bea98f1f.jpeg",
     "static/media/ftowStradle.e187d3e1.jpg": "/static/media/ftowStradle.e187d3e1.jpg",
     "static/media/furanoSkin.02ef4415.JPG": "/static/media/furanoSkin.02ef4415.JPG",
@@ -65,6 +66,6 @@
     "static/js/runtime-main.843d8f8c.js",
     "static/js/2.60a3cd9c.chunk.js",
     "static/css/main.a0b94cdf.chunk.css",
-    "static/js/main.d8a87278.chunk.js"
+    "static/js/main.2aef1e8f.chunk.js"
   ]
 }
