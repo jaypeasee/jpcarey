@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a0b94cdf.chunk.css",
-    "main.js": "/static/js/main.2aef1e8f.chunk.js",
-    "main.js.map": "/static/js/main.2aef1e8f.chunk.js.map",
+    "main.js": "/static/js/main.a92c1f88.chunk.js",
+    "main.js.map": "/static/js/main.a92c1f88.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.843d8f8c.js",
     "runtime-main.js.map": "/static/js/runtime-main.843d8f8c.js.map",
     "static/js/2.60a3cd9c.chunk.js": "/static/js/2.60a3cd9c.chunk.js",
@@ -20,7 +20,7 @@
     "static/media/dumoineRiver.70e22ec1.jpg": "/static/media/dumoineRiver.70e22ec1.jpg",
     "static/media/familyPhoto.c026d395.jpeg": "/static/media/familyPhoto.c026d395.jpeg",
     "static/media/feelGood.7a915b56.jpg": "/static/media/feelGood.7a915b56.jpg",
-    "static/media/fishHook.1963b2c8.jpg": "/static/media/fishHook.1963b2c8.jpg",
+    "static/media/fishHook.f8c1bcfb.jpg": "/static/media/fishHook.f8c1bcfb.jpg",
     "static/media/frontPage.bea98f1f.jpeg": "/static/media/frontPage.bea98f1f.jpeg",
     "static/media/ftowStradle.e187d3e1.jpg": "/static/media/ftowStradle.e187d3e1.jpg",
     "static/media/furanoSkin.02ef4415.JPG": "/static/media/furanoSkin.02ef4415.JPG",
@@ -29,6 +29,7 @@
     "static/media/grandCanyon18.fc957211.JPG": "/static/media/grandCanyon18.fc957211.JPG",
     "static/media/grandCanyon22.ed4537f5.jpg": "/static/media/grandCanyon22.ed4537f5.jpg",
     "static/media/hokkaido.dabac35a.jpeg": "/static/media/hokkaido.dabac35a.jpeg",
+    "static/media/illinois.342f49ca.jpg": "/static/media/illinois.342f49ca.jpg",
     "static/media/instagram.60edc1fb.png": "/static/media/instagram.60edc1fb.png",
     "static/media/jacksonLake.fecd5116.JPG": "/static/media/jacksonLake.fecd5116.JPG",
     "static/media/jacksonMood.0f78bfb0.JPG": "/static/media/jacksonMood.0f78bfb0.JPG",
@@ -48,6 +49,7 @@
     "static/media/pathdinderCanoe.3dd90786.jpeg": "/static/media/pathdinderCanoe.3dd90786.jpeg",
     "static/media/petawawaRiver.8cd70b32.jpg": "/static/media/petawawaRiver.8cd70b32.jpg",
     "static/media/plummerCanyon.c98d09e9.jpg": "/static/media/plummerCanyon.c98d09e9.jpg",
+    "static/media/rogue.0c52e432.jpg": "/static/media/rogue.0c52e432.jpg",
     "static/media/rupertRiver.df55451b.jpg": "/static/media/rupertRiver.df55451b.jpg",
     "static/media/selwayRiver.f227383b.jpg": "/static/media/selwayRiver.f227383b.jpg",
     "static/media/severnMars.e3229aa6.jpg": "/static/media/severnMars.e3229aa6.jpg",
@@ -66,6 +68,6 @@
     "static/js/runtime-main.843d8f8c.js",
     "static/js/2.60a3cd9c.chunk.js",
     "static/css/main.a0b94cdf.chunk.css",
-    "static/js/main.2aef1e8f.chunk.js"
+    "static/js/main.a92c1f88.chunk.js"
   ]
 }
