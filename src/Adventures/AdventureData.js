@@ -262,6 +262,7 @@ const adventureSearchTerms = [
   "Idaho",
   "National Parks",
   "Ontario",
+  "Oregon",
   "Quebec",
   "River Trips",
   "Ski Trips",
