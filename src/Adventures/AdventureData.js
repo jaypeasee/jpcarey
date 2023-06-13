@@ -19,8 +19,30 @@ import selwayRiver from './adventureImages/selwayRiver.jpg'
 import grandCanyon22 from './adventureImages/grandCanyon22.jpg';
 import mainSalmon17 from './adventureImages/mainSalmon17.JPG'
 import fishHook from './adventureImages/fishHook.jpg';
+import illinois from './adventureImages/illinois.jpg';
+import rogue from './adventureImages/rogue.jpg';
 
 const allAdventures = [
+  {
+    id: 23,
+    tripName: "Rogue River Trip",
+    location: "Siskiyou National Forest, Oregon",
+    photo: rogue,
+    days: "4",
+    exactDate: "20230531",
+    roughDate: "June, 2023",
+    searchTerms: ["River Trips", "USA", "Oregon"]
+  },
+  {
+    id: 22,
+    tripName: "Illinois River Trip",
+    location: "Siskiyou National Forest, Oregon",
+    photo: illinois,
+    days: "3",
+    exactDate: "20230528",
+    roughDate: "May, 2023",
+    searchTerms: ["River Trips", "USA", "Oregon"]
+  },
   {
     id: 21,
     tripName: "Fish Hook Hut Trip",
