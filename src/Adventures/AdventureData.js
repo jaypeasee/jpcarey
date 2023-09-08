@@ -21,8 +21,19 @@ import mainSalmon17 from './adventureImages/mainSalmon17.JPG'
 import fishHook from './adventureImages/fishHook.jpg';
 import illinois from './adventureImages/illinois.jpg';
 import rogue from './adventureImages/rogue.jpg';
+import southeastArm from './adventureImages/southeastArm.jpg'
 
 const allAdventures = [
+  {
+    id: 24,
+    tripName: "Southeast Arm Canoe Trip",
+    location: "Yellowstone National Park",
+    photo: southeastArm,
+    days: "4",
+    exactDate: "20230902",
+    roughDate: "September, 2023",
+    searchTerms: ["Canoe Trips", "National Parks", "Wyoming", "USA"]
+  },
   {
     id: 23,
     tripName: "Rogue River Trip",
