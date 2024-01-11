@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a0b94cdf.chunk.css",
-    "main.js": "/static/js/main.14c8a643.chunk.js",
-    "main.js.map": "/static/js/main.14c8a643.chunk.js.map",
+    "main.js": "/static/js/main.dc75aec7.chunk.js",
+    "main.js.map": "/static/js/main.dc75aec7.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.843d8f8c.js",
     "runtime-main.js.map": "/static/js/runtime-main.843d8f8c.js.map",
     "static/js/2.60a3cd9c.chunk.js": "/static/js/2.60a3cd9c.chunk.js",
@@ -11,7 +11,8 @@
     "static/css/main.a0b94cdf.chunk.css.map": "/static/css/main.a0b94cdf.chunk.css.map",
     "static/js/2.60a3cd9c.chunk.js.LICENSE.txt": "/static/js/2.60a3cd9c.chunk.js.LICENSE.txt",
     "static/media/asheweigRiver.80b5b23e.jpg": "/static/media/asheweigRiver.80b5b23e.jpg",
-    "static/media/baldyKnoll.54e888b9.jpg": "/static/media/baldyKnoll.54e888b9.jpg",
+    "static/media/baldyKnoll2018.54e888b9.jpg": "/static/media/baldyKnoll2018.54e888b9.jpg",
+    "static/media/baldyKnoll2024.8f9fe4b4.jpg": "/static/media/baldyKnoll2024.8f9fe4b4.jpg",
     "static/media/bigKahuna.9ce1a93d.JPG": "/static/media/bigKahuna.9ce1a93d.JPG",
     "static/media/billsGame.b3a3cc58.jpeg": "/static/media/billsGame.b3a3cc58.jpeg",
     "static/media/blacktailCanyon.9a05a17b.JPG": "/static/media/blacktailCanyon.9a05a17b.JPG",
@@ -69,6 +70,6 @@
     "static/js/runtime-main.843d8f8c.js",
     "static/js/2.60a3cd9c.chunk.js",
     "static/css/main.a0b94cdf.chunk.css",
-    "static/js/main.14c8a643.chunk.js"
+    "static/js/main.dc75aec7.chunk.js"
   ]
 }
