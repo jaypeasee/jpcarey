@@ -4,7 +4,7 @@ import shoshoneLake from './adventureImages/shoshoneLake.jpeg'
 import commissaryRidge from './adventureImages/commissaryRidge.jpeg'
 import hokkaido from './adventureImages/hokkaido.jpeg'
 import grandCanyon18 from './adventureImages/grandCanyon18.JPG'
-import baldyKnoll from './adventureImages/baldyKnoll.jpg'
+import baldyKnoll2018 from './adventureImages/baldyKnoll2018.jpg'
 import severnRiver from './adventureImages/severnRiver.jpg'
 import asheweigRiver from './adventureImages/asheweigRiver.jpg'
 import dumoineRiver from './adventureImages/dumoineRiver.jpg'
@@ -22,8 +22,19 @@ import fishHook from './adventureImages/fishHook.jpg';
 import illinois from './adventureImages/illinois.jpg';
 import rogue from './adventureImages/rogue.jpg';
 import southeastArm from './adventureImages/southeastArm.jpg'
+import baldyKnoll2024 from './adventureImages/baldyKnoll2024.jpg';
 
 const allAdventures = [
+  {
+    id: 25,
+    tripName: "Baldy Knoll Yurt Trip",
+    location: "Bridger Teton National Forest, Wydaho",
+    photo: baldyKnoll2024,
+    days: "4",
+    exactDate: "20240105",
+    roughDate: "January, 2024",
+    searchTerms: ["Ski Trips", "Wyoming", "Idaho", "USA"]
+  },
   {
     id: 24,
     tripName: "Southeast Arm Canoe Trip",
@@ -168,7 +179,7 @@ const allAdventures = [
     id: 10,
     tripName: "Baldy Knoll Yurt Trip",
     location: "Bridger Teton National Forest, Wydaho",
-    photo: baldyKnoll,
+    photo: baldyKnoll2018,
     days: "4",
     exactDate: "20180121",
     roughDate: "January, 2018",
