@@ -1,15 +1,15 @@
 const selfDescriptions = [
-  "software developer",
+  "software engineer",
   "digital strategist",
   "dog dad",
-  "public lands lover",
+  "public lands advocate",
   "skier",
   "whitewater boater",
   "bad swimmer",
+  "book worm",
   "Bills fan",
   "news junkie",
   "Catan sheep farmer",
-  "amateur cook",
   "canoe tripper",
   "he/him/his",
 ]

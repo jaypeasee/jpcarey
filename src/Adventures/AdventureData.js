@@ -27,7 +27,7 @@ const allAdventures = [
   {
     id: 24,
     tripName: "Southeast Arm Canoe Trip",
-    location: "Yellowstone National Park",
+    location: "Yellowstone National Park, Wyoming",
     photo: southeastArm,
     days: "4",
     exactDate: "20230902",
