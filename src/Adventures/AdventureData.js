@@ -23,8 +23,30 @@ import illinois from './adventureImages/illinois.jpg';
 import rogue from './adventureImages/rogue.jpg';
 import southeastArm from './adventureImages/southeastArm.jpg'
 import baldyKnoll2024 from './adventureImages/baldyKnoll2024.jpg';
+import goodwin from './adventureImages/goodwin.jpeg'
+import maranon from './adventureImages/maranon.jpg'
 
 const allAdventures = [
+  {
+    id: 27,
+    tripName: "Marañón River Trip",
+    location: "Chagual to Puerto Malleta, Peru",
+    photo: maranon,
+    days: "12",
+    exactDate: "20240326",
+    roughDate: "April, 2024",
+    searchTerms: ["River Trips"]
+  },
+  {
+    id: 26,
+    tripName: "Jackson Peak Ski Cabin Trip",
+    location: "Gros Ventre Wilderness, Wyoming",
+    photo: goodwin,
+    days: "3",
+    exactDate: "20240224",
+    roughDate: "February, 2024",
+    searchTerms: ["Ski Trips", "Wyoming", "USA"]
+  },
   {
     id: 25,
     tripName: "Baldy Knoll Yurt Trip",
