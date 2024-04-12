@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a0b94cdf.chunk.css",
-    "main.js": "/static/js/main.dc75aec7.chunk.js",
-    "main.js.map": "/static/js/main.dc75aec7.chunk.js.map",
+    "main.js": "/static/js/main.8b75fd88.chunk.js",
+    "main.js.map": "/static/js/main.8b75fd88.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.843d8f8c.js",
     "runtime-main.js.map": "/static/js/runtime-main.843d8f8c.js.map",
     "static/js/2.60a3cd9c.chunk.js": "/static/js/2.60a3cd9c.chunk.js",
@@ -27,6 +27,7 @@
     "static/media/furanoSkin.02ef4415.JPG": "/static/media/furanoSkin.02ef4415.JPG",
     "static/media/gcRow.5e4124a1.JPG": "/static/media/gcRow.5e4124a1.JPG",
     "static/media/github.16385cd6.png": "/static/media/github.16385cd6.png",
+    "static/media/goodwin.78bd2227.jpeg": "/static/media/goodwin.78bd2227.jpeg",
     "static/media/grandCanyon18.fc957211.JPG": "/static/media/grandCanyon18.fc957211.JPG",
     "static/media/grandCanyon22.ed4537f5.jpg": "/static/media/grandCanyon22.ed4537f5.jpg",
     "static/media/hokkaido.dabac35a.jpeg": "/static/media/hokkaido.dabac35a.jpeg",
@@ -42,6 +43,7 @@
     "static/media/logo.082e51bd.png": "/static/media/logo.082e51bd.png",
     "static/media/mainSalmon16.ad6a17d8.JPG": "/static/media/mainSalmon16.ad6a17d8.JPG",
     "static/media/mainSalmon17.f2b731c8.JPG": "/static/media/mainSalmon17.f2b731c8.JPG",
+    "static/media/maranon.851da5ea.jpg": "/static/media/maranon.851da5ea.jpg",
     "static/media/mexicoPelican.60c34100.jpeg": "/static/media/mexicoPelican.60c34100.jpeg",
     "static/media/middleFork.e631b67e.jpg": "/static/media/middleFork.e631b67e.jpg",
     "static/media/missinaibiRiver.913fe26a.jpg": "/static/media/missinaibiRiver.913fe26a.jpg",
@@ -70,6 +72,6 @@
     "static/js/runtime-main.843d8f8c.js",
     "static/js/2.60a3cd9c.chunk.js",
     "static/css/main.a0b94cdf.chunk.css",
-    "static/js/main.dc75aec7.chunk.js"
+    "static/js/main.8b75fd88.chunk.js"
   ]
 }
