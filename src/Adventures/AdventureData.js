@@ -230,7 +230,7 @@ const allAdventures = [
   {
     id: 7,
     tripName: "Severn River Canoe Trip",
-    location: "Fort Severn, Ontario",
+    location: "Windigo Lake to Fort Severn, Ontario",
     photo: severnRiver,
     days: "37",
     exactDate: "20150705",
@@ -240,7 +240,7 @@ const allAdventures = [
   {
     id: 6,
     tripName: "Dumoine River Canoe Trip",
-    location: "Laniel, Quebec",
+    location: "Laniel to Driftwood Park, Quebec",
     photo: dumoineRiver,
     days: "14",
     exactDate: "20140705",
@@ -250,7 +250,7 @@ const allAdventures = [
   {
     id: 5,
     tripName: "Asheweig River Canoe Trip",
-    location: "Peawanuck, Ontario",
+    location: "Pipestone Landing to Peawanuck, Ontario",
     photo: asheweigRiver,
     days: "32",
     exactDate: "20130709",
@@ -270,7 +270,7 @@ const allAdventures = [
   {
     id: 3,
     tripName: "Petawawa River Canoe Trip",
-    location: "Algonquin Park, Ontario",
+    location: "Algonquin Provincial Park, Ontario",
     photo: petawawaRiver,
     days: "10",
     exactDate: "20110815",
@@ -280,7 +280,7 @@ const allAdventures = [
   {
     id: 2,
     tripName: "Missinaibi River Canoe Trip",
-    location: "Moosonee, Ontario",
+    location: "Missanabie to Moosonee, Ontario",
     photo: missinaibiRiver,
     days: "19",
     exactDate: "20110703",
@@ -290,7 +290,7 @@ const allAdventures = [
   {
     id: 1,
     tripName: "Rupert River Canoe Trip",
-    location: "Waskaganish, Quebec",
+    location: "Mistissini to Waskaganish, Quebec",
     photo: rupertRiver,
     days: "25",
     exactDate: "20080714",
