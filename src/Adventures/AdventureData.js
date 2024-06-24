@@ -25,8 +25,19 @@ import southeastArm from './adventureImages/southeastArm.jpg'
 import baldyKnoll2024 from './adventureImages/baldyKnoll2024.jpg';
 import goodwin from './adventureImages/goodwin.jpeg'
 import maranon from './adventureImages/maranon.jpg'
+import mainSalmon24 from './adventureImages/mainSalmon24.jpg'
 
 const allAdventures = [
+  {
+    id: 28,
+    tripName: "Main Salmon River Trip",
+    location: "Frank Church Wilderness, Idaho",
+    photo: mainSalmon24,
+    days: "5",
+    exactDate: "20240615",
+    roughDate: "June, 2024",
+    searchTerms: ["Idaho", "River Trips", "USA"],
+  },
   {
     id: 27,
     tripName: "Marañón River Trip",
