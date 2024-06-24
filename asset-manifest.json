@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a0b94cdf.chunk.css",
-    "main.js": "/static/js/main.8c7675d9.chunk.js",
-    "main.js.map": "/static/js/main.8c7675d9.chunk.js.map",
+    "main.js": "/static/js/main.eb14dc3e.chunk.js",
+    "main.js.map": "/static/js/main.eb14dc3e.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.843d8f8c.js",
     "runtime-main.js.map": "/static/js/runtime-main.843d8f8c.js.map",
     "static/js/2.60a3cd9c.chunk.js": "/static/js/2.60a3cd9c.chunk.js",
@@ -43,6 +43,7 @@
     "static/media/logo.082e51bd.png": "/static/media/logo.082e51bd.png",
     "static/media/mainSalmon16.ad6a17d8.JPG": "/static/media/mainSalmon16.ad6a17d8.JPG",
     "static/media/mainSalmon17.f2b731c8.JPG": "/static/media/mainSalmon17.f2b731c8.JPG",
+    "static/media/mainSalmon24.17410efa.jpg": "/static/media/mainSalmon24.17410efa.jpg",
     "static/media/maranon.851da5ea.jpg": "/static/media/maranon.851da5ea.jpg",
     "static/media/mexicoPelican.60c34100.jpeg": "/static/media/mexicoPelican.60c34100.jpeg",
     "static/media/middleFork.e631b67e.jpg": "/static/media/middleFork.e631b67e.jpg",
@@ -72,6 +73,6 @@
     "static/js/runtime-main.843d8f8c.js",
     "static/js/2.60a3cd9c.chunk.js",
     "static/css/main.a0b94cdf.chunk.css",
-    "static/js/main.8c7675d9.chunk.js"
+    "static/js/main.eb14dc3e.chunk.js"
   ]
 }
