@@ -26,8 +26,19 @@ import baldyKnoll2024 from './adventureImages/baldyKnoll2024.jpg';
 import goodwin from './adventureImages/goodwin.jpeg'
 import maranon from './adventureImages/maranon.jpg'
 import mainSalmon24 from './adventureImages/mainSalmon24.jpg'
+import southArm from './adventureImages/southArm.jpg'
 
 const allAdventures = [
+  {
+    id: 29,
+    tripName: "South Arm Canoe Trip",
+    location: "Yellowstone National Park",
+    photo: southArm,
+    days: "4",
+    exactDate: 20230831,
+    roughDate: "September, 2024",
+    searchTerms: ["Canoe Trips", "National Parks", "Wyoming", "USA"]
+  },
   {
     id: 28,
     tripName: "Main Salmon River Trip",
