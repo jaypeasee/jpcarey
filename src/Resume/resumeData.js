@@ -4,7 +4,7 @@ const experienceData = [
     position: 'Senior Software Engineer',
     location: 'Remote',
     tenure: 'April 2021 - present',
-    description: 'Build reporting features and data visualizations for home-service professionals to easier access their most business critical KPIs, and show them how they can improve through the data Housecall Pro captures for them. Building these features using Ruby on Rails, and TypeScript with React. Represent the reporting team at Frontend Guild meetings where frontend architecture decisions are made.'
+    description: 'Taking lead on the team\'s most critical initiatives and complex bugs, acting as the domain expert for cross-functional squads who leverage Reporting features, and mentoring junior and onboarding engineers to ensure their growth and success.'
   },
   {
     company: 'Thesis',
