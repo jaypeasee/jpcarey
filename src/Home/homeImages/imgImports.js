@@ -12,14 +12,14 @@ import severnRiver from './images/severnRiver.jpg'
 import bigKahuna from './images/bigKahuna.JPG'
 import ftowStradle from './images/ftowStradle.jpg'
 import feelGood from './images/feelGood.jpg'
-import severnMars from './images/severnMars.jpg'
-import windigoCar from './images/windigoCar.jpg'
 import japanVan from './images/japanVan.jpeg'
 import furanoSkin from './images/furanoSkin.JPG'
 import topoDuo from './images/topoDuo.JPG'
-import jacksonMood from './images/jacksonMood.JPG'
 import gcRow from './images/gcRow.JPG';
 import blacktailCanyon from './images/blacktailCanyon.JPG'
+import passSkin from './images/passSkin.jpg'
+import greenRiverLakes from './images/greenRiverLakes.jpg'
+
 
 const photosOfMe = [
     blacktailCanyon,
@@ -38,12 +38,11 @@ const photosOfMe = [
     bigKahuna,
     ftowStradle,
     feelGood,
-    severnMars,
-    windigoCar,
     japanVan,
     furanoSkin,
     topoDuo,
-    jacksonMood
+    passSkin,
+    greenRiverLakes
 ]
 
 export { photosOfMe }
