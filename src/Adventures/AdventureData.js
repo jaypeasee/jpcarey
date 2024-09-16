@@ -35,7 +35,7 @@ const allAdventures = [
     location: "Yellowstone National Park",
     photo: southArm,
     days: "4",
-    exactDate: 20230831,
+    exactDate: "20240831",
     roughDate: "September, 2024",
     searchTerms: ["Canoe Trips", "National Parks", "Wyoming", "USA"]
   },
