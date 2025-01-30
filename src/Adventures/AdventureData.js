@@ -38,7 +38,7 @@ const allAdventures = [
     days: '4',
     exactDate: "20250117",
     roughDate: 'January, 2025',
-    searchTerms: ['Ski trips', 'USA']
+    searchTerms: ['Ski Trips', 'USA']
   },
   {
     id: 29,
