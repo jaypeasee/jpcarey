@@ -27,8 +27,19 @@ import goodwin from './adventureImages/goodwin.jpeg'
 import maranon from './adventureImages/maranon.jpg'
 import mainSalmon24 from './adventureImages/mainSalmon24.jpg'
 import southArm from './adventureImages/southArm.jpg'
+import zimmer from './adventureImages/zimmer.jpg'
 
 const allAdventures = [
+  {
+    id: 30,
+    tripName: 'Mt. Zimmer Yurt Trip',
+    location: 'Absoraka-Beartooth Wilderness, Montana',
+    photo: zimmer,
+    days: '4',
+    exactDate: "20250117",
+    roughDate: 'January, 2025',
+    searchTerms: ['Ski trips', 'USA']
+  },
   {
     id: 29,
     tripName: "South Arm Canoe Trip",
