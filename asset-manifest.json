@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a0b94cdf.chunk.css",
-    "main.js": "/static/js/main.772f97b0.chunk.js",
-    "main.js.map": "/static/js/main.772f97b0.chunk.js.map",
+    "main.js": "/static/js/main.120cc57f.chunk.js",
+    "main.js.map": "/static/js/main.120cc57f.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.843d8f8c.js",
     "runtime-main.js.map": "/static/js/runtime-main.843d8f8c.js.map",
     "static/js/2.60a3cd9c.chunk.js": "/static/js/2.60a3cd9c.chunk.js",
@@ -67,12 +67,13 @@
     "static/media/wendyCone.317b2b50.JPG": "/static/media/wendyCone.317b2b50.JPG",
     "static/media/wendyTetons.3c4a9b31.jpeg": "/static/media/wendyTetons.3c4a9b31.jpeg",
     "static/media/index.scss": "/static/media/wool.8f6b79a9.jpg",
-    "static/media/yurtSkinning.55ac2842.jpeg": "/static/media/yurtSkinning.55ac2842.jpeg"
+    "static/media/yurtSkinning.55ac2842.jpeg": "/static/media/yurtSkinning.55ac2842.jpeg",
+    "static/media/zimmer.61ab06d2.jpg": "/static/media/zimmer.61ab06d2.jpg"
   },
   "entrypoints": [
     "static/js/runtime-main.843d8f8c.js",
     "static/js/2.60a3cd9c.chunk.js",
     "static/css/main.a0b94cdf.chunk.css",
-    "static/js/main.772f97b0.chunk.js"
+    "static/js/main.120cc57f.chunk.js"
   ]
 }
