@@ -28,8 +28,19 @@ import maranon from './adventureImages/maranon.jpg'
 import mainSalmon24 from './adventureImages/mainSalmon24.jpg'
 import southArm from './adventureImages/southArm.jpg'
 import zimmer from './adventureImages/zimmer.jpg'
+import pioneer from './adventureImages/pioneer.jpg'
 
 const allAdventures = [
+  {
+    id: 31,
+    tripName: 'Pioneer Yurt Trip',
+    location: 'Sawtooth National Forest, Idaho',
+    photo: pioneer,
+    days: '4',
+    exactDate: "20250312",
+    roughDate: 'March, 2025',
+    searchTerms: ['Ski Trips', 'Idaho', 'USA']
+  },
   {
     id: 30,
     tripName: 'Mt. Zimmer Yurt Trip',
