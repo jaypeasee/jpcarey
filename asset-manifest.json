@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/static/css/main.a0b94cdf.chunk.css",
-    "main.js": "/static/js/main.789e3245.chunk.js",
-    "main.js.map": "/static/js/main.789e3245.chunk.js.map",
+    "main.js": "/static/js/main.cede39b1.chunk.js",
+    "main.js.map": "/static/js/main.cede39b1.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.843d8f8c.js",
     "runtime-main.js.map": "/static/js/runtime-main.843d8f8c.js.map",
     "static/js/2.60a3cd9c.chunk.js": "/static/js/2.60a3cd9c.chunk.js",
@@ -53,6 +53,7 @@
     "static/media/passSkin.4a9769d2.jpg": "/static/media/passSkin.4a9769d2.jpg",
     "static/media/pathdinderCanoe.3dd90786.jpeg": "/static/media/pathdinderCanoe.3dd90786.jpeg",
     "static/media/petawawaRiver.8cd70b32.jpg": "/static/media/petawawaRiver.8cd70b32.jpg",
+    "static/media/pioneer.0f977077.jpg": "/static/media/pioneer.0f977077.jpg",
     "static/media/plummerCanyon.c98d09e9.jpg": "/static/media/plummerCanyon.c98d09e9.jpg",
     "static/media/rogue.0c52e432.jpg": "/static/media/rogue.0c52e432.jpg",
     "static/media/rupertRiver.df55451b.jpg": "/static/media/rupertRiver.df55451b.jpg",
@@ -74,6 +75,6 @@
     "static/js/runtime-main.843d8f8c.js",
     "static/js/2.60a3cd9c.chunk.js",
     "static/css/main.a0b94cdf.chunk.css",
-    "static/js/main.789e3245.chunk.js"
+    "static/js/main.cede39b1.chunk.js"
   ]
 }
