@@ -1,4 +1,3 @@
-import jacksonLake from './adventureImages/jacksonLake.JPG'
 import middleFork from './adventureImages/middleFork.jpg'
 import shoshoneLake from './adventureImages/shoshoneLake.jpeg'
 import commissaryRidge from './adventureImages/commissaryRidge.jpeg'
@@ -29,8 +28,19 @@ import mainSalmon24 from './adventureImages/mainSalmon24.jpg'
 import southArm from './adventureImages/southArm.jpg'
 import zimmer from './adventureImages/zimmer.jpg'
 import pioneer from './adventureImages/pioneer.jpg'
+import sanJuan from './adventureImages/sanJuan.JPG'
 
 const allAdventures = [
+  {
+    id: 32,
+    tripName: 'San Juan River Trip',
+    location: 'Bears Ears, Utah',
+    photo: sanJuan,
+    days: '5',
+    exactDate: '20250629',
+    roughDate: 'July, 2025',
+    searchTerms: ['Canoe Trips', 'River Trips', 'Southwest', 'USA']
+  },
   {
     id: 31,
     tripName: 'Pioneer Yurt Trip',
@@ -149,7 +159,7 @@ const allAdventures = [
     days: "18",
     exactDate: "20221025",
     roughDate: "November, 2022",
-    searchTerms: ["River Trips", "National Parks", "USA"]
+    searchTerms: ["River Trips", "National Parks", 'Southwest', "USA"]
   },
   {
     id: 19,
@@ -180,16 +190,6 @@ const allAdventures = [
     exactDate: "20220204",
     roughDate: "February, 2022",
     searchTerms: ["Ski Trips", "Wyoming", "Idaho", "USA"]
-  },
-  {
-    id: 17,
-    tripName: "Jackson Lake Canoe Trip",
-    location: "Grand Teton National Park, Wyoming",
-    photo: jacksonLake,
-    days: "3",
-    exactDate: "20210917",
-    roughDate: "September, 2021",
-    searchTerms: ["Canoe Trips", "Wyoming", "National Parks", "USA"]
   },
   {
     id: 15,
@@ -239,7 +239,7 @@ const allAdventures = [
     days: "21",
     exactDate: "20180401",
     roughDate: "April, 2018",
-    searchTerms: ["River Trips", "National Parks", "USA"]
+    searchTerms: ["River Trips", "National Parks", 'Southwest', "USA"]
   },
   {
     id: 10,
@@ -354,6 +354,7 @@ const adventureSearchTerms = [
   "Quebec",
   "River Trips",
   "Ski Trips",
+  "Southwest",
   "USA",
   "Wyoming",
 ]
